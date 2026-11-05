@@ -69,24 +69,31 @@ Trên 4 bộ hồ sơ ứng viên có từ khóa công nghệ tường minh (Jav
 * **Hệ thống Agent-RAG:** Precision@1 = 100.0% | Precision@3 = 100.0% | Precision@5 = 100.0%
 
 ### 3. Đánh giá trên Bộ kiểm thử diễn giải khái niệm (Paraphrase Benchmark - 6 CV) - Bảng 4
-Khi ứng viên mô tả năng lực bằng tiếng Việt tự nhiên mà **không dùng từ khóa thương hiệu cứng**:
+Khi ứng viên mô tả năng lực bằng tiếng Việt tự nhiên mà **không dùng từ khóa thương hiệu cứng**, kết quả được đối chiếu song song ở cả hai phiên bản đánh giá:
 
-| Chỉ số đánh giá | Baseline Từ khóa (TF-IDF) | Hệ Thống La Bàn Kỹ Năng (Agent-RAG) | Ý nghĩa khoa học |
+| Kịch bản đối soát | Baseline Từ khóa (TF-IDF) | Hệ Thống La Bàn Kỹ Năng (Agent-RAG) | Nhận xét đối soát khoa học |
 | :--- | :---: | :---: | :--- |
-| **Hit@1 (Top-1 Accuracy)** | 66.7% (4/6 CV) | **83.3%** (5/6 CV) | Agent-RAG có độ nhạy ngữ nghĩa cao hơn khi ứng viên diễn đạt tự nhiên |
-| **Hit@3 (Top-3 Success Rate)** | 66.7% (4/6 CV) | **100.0%** (6/6 CV) | 100% hồ sơ có việc làm đúng chuyên ngành trong Top 3 khuyến nghị |
-| **MRR (Mean Reciprocal Rank)** | 0.667 | **0.889** | Vị trí xuất hiện của công việc đúng chuyên môn cao hơn đáng kể |
+| **Bản 1: Đơn nhãn nghiêm ngặt (Strict)** | Hit@1 = 50.0% (3/6)<br>Hit@3 = 50.0% (3/6)<br>MRR = 0.542 | **Hit@1 = 83.3% (5/6)**<br>**Hit@3 = 100.0% (6/6)**<br>**MRR = 0.889** | Agent-RAG vượt trội (+33.3% Hit@1, +50.0% Hit@3, +0.347 MRR); TF-IDF trượt 3 CV (CV 1 xuống #4, CV 2 và 5 trượt khỏi Top 5) |
+| **Bản 2: Dung thứ liên ngành (Tolerant)** | Hit@1 = 66.7% (4/6)<br>Hit@3 = 66.7% (4/6)<br>MRR = 0.667 | **Hit@1 = 83.3% (5/6)**<br>**Hit@3 = 100.0% (6/6)**<br>**MRR = 0.889** | Dung thứ Fullstack cho CV 1 giúp TF-IDF tăng từ 50% lên 66.7%; Agent-RAG giữ vững 83.3% Hit@1 và 100% Hit@3 |
 
+* **Minh bạch cơ chế đánh giá:** Việc bổ sung dung thứ liên ngành thực chất giúp tăng điểm cho Baseline TF-IDF chứ hoàn toàn không nhằm tạo lợi thế nhân tạo cho Agent-RAG (Agent-RAG giữ nguyên 83.3% Hit@1 và 100% Hit@3 ở cả hai bản).
 * **Phân tích lỗi chi tiết:**
-  * TF-IDF trượt 2 CV (CV 2: Giao diện web -> Data Engineer; CV 5: Đường ống dữ liệu -> Fullstack) khỏi cả Top 1 và Top 3.
-  * Agent-RAG trượt 1 CV ở Top 1 (CV 1: Dịch vụ máy chủ -> Cloud Infrastructure Engineer do khoảng cách ngữ nghĩa gần giữa ảo hóa hạ tầng và Cloud), nhưng xuất hiện chính xác ở Top 3 (Hit@3 = 100%).
+  * TF-IDF trượt hoàn toàn CV 2 (Giao diện web -> Data Engineer) và CV 5 (Đường ống dữ liệu -> Junior Fullstack) khỏi Top 5 ở cả hai bản.
+  * Agent-RAG trượt Top 1 tại CV 1 (Dịch vụ máy chủ -> Cloud Infrastructure Engineer do khoảng cách ngữ nghĩa gần giữa ảo hóa hạ tầng và Cloud), nhưng xuất hiện chính xác ở vị trí thứ 3 (Hit@3 = 100.0%).
 
 ### 4. Đo lường hiệu năng thực thi (Profiling trên CPU tiêu chuẩn)
-* **Thời gian phản hồi toàn chuỗi (Warm-up Pipeline):** **~80–120ms** (trung bình ~100ms trên CPU tiêu chuẩn).
-  * Agent 1 (Bóc tách Regex & Domain Scoring): ~5–10ms
-  * Agent 2 (Transformer Encode 384D & FAISS Vector Search): ~20–30ms
-  * Agent 3 (Skill Gap Matrix & Re-ranking Top 5): ~20–40ms
-  * Agent 4 (Fact-Grounded Rule-Based Synthesis): < 1ms (đo đạc ~0.1ms)
+* **Cấu hình phần cứng:** CPU Intel64 Family 6 Model 141 (x86_64), Python 3.12 trên Windows.
+* **Độ trễ toàn chuỗi (End-to-End Pipeline - 50 lần lặp độc lập sau 5 lần warm-up):**
+  * Thời gian trung bình (Mean): **106.8 ± 9.5 ms**
+  * Trung vị (Median / p50): **106.5 ms**
+  * Phân vị 95 (p95): **121.8 ms**
+  * Khoảng biến thiên (Min — Max): **[88.1 ms — 127.2 ms]**
+* **Chi tiết từng tác tử AI chuyên trách:**
+  * Agent 1 (CV Profiler - Regex & Domain Scoring): **1.85 ± 0.46 ms**
+  * Agent 2 (Job Matcher - Dense Transformer 384D): **48.64 ± 12.35 ms** (bước tốn thời gian nhất)
+  * Agent 2 (FAISS IndexFlatIP Search trên 135 vector): **0.107 ± 0.040 ms**
+  * Agent 3 (Skill Gap Assessor & Re-ranking Top 5): **2.942 ± 0.528 ms**
+  * Agent 4 (Fact-Grounded Rule-Based Synthesis): **0.179 ± 0.068 ms** (< 1ms)
 
 ---
 
@@ -150,6 +157,7 @@ CareerLens-AI/
 ├── 01_CHAY_DEMO_LA_BAN_KY_NANG.bat                   # Script khởi động giao diện & server API
 ├── 03_CHAY_THUC_NGHIEM_DANH_GIA.bat                  # Script chạy thực nghiệm đối soát khoa học
 ├── evaluate.py                                        # Script thực nghiệm đối soát Bảng 2, 3, 4
+├── ket_qua_danh_gia.txt                               # Kết quả đo đạc khoa học chi tiết (Bảng 2, 3, 4 & độ trễ)
 ├── requirements.txt                                   # Danh sách thư viện Python
 ├── Hinh_KienTruc_AgentRAG.png                         # Sơ đồ kiến trúc 4 Tác tử (Hình 3)
 ├── Hinh_Dashboard_LaBanKyNang.png                     # Ảnh chụp màn hình giao diện (Hình 4)

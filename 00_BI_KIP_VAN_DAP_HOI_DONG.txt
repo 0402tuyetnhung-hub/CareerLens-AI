@@ -1,0 +1,108 @@
+================================================================================
+BÍ KÍP VẤN ĐÁP HỘI ĐỒNG - HỆ THỐNG LA BÀN KỸ NĂNG (AGENT-RAG SYSTEM)
+Đề tài: XÂY DỰNG HỆ THỐNG AGENT-RAG PHÂN TÍCH CV, ĐỐI SÁNH VIỆC LÀM VÀ ĐÁNH GIÁ KĨ NĂNG
+Sinh viên: Nguyễn Thị Tuyết Nhung (Lớp: S26-K65-CNTT) | GVHD: Ts. Hoàng Văn Quý
+================================================================================
+
+1. CÂU HỎI: "Mã ESCO của React trong hệ thống là gì? Bạn ánh xạ thế nào?"
+TRẢ LỜI:
+- Thưa thầy cô, em xin báo cáo rất trung thực và rõ ràng:
+  + Danh mục 114 kỹ năng trong hệ thống của em được xây dựng THAM CHIẾU THEO THUẬT NGỮ CỦA KHUNG KỸ NĂNG ESCO (European Skills, Competences, Qualifications and Occupations) của Châu Âu, nhằm đảm bảo tên gọi kỹ năng mang tính chuẩn hóa quốc tế thay vì dùng tiếng lóng.
+  + Trong phiên bản đồ án chuyên đề hiện tại, hệ thống ánh xạ thông qua Danh pháp kỹ năng chuẩn hóa (Canonical Skill Names) chứ CHƯA gán mã định danh URI/UUID chính thức của từng kỹ năng ESCO.
+  + Ví dụ: 'React' được nhận diện là kỹ năng thuộc nhóm 'Frontend Web Development Framework' theo cấu trúc phân loại của ESCO. Trong giai đoạn Khóa luận tốt nghiệp tiếp theo, em sẽ tích hợp toàn bộ bảng mã URI và API SPARQL chính thức từ cổng dữ liệu ESCO Châu Âu.
+
+2. CÂU HỎI: "Tại sao thời gian xử lý hiển thị khoảng ~97ms mà có chỗ ghi < 50ms, < 100ms? Đo đạc thực tế thế nào?"
+TRẢ LỜI:
+- Thưa thầy cô, em đã thực hiện đo đạc thực nghiệm (Profiling) đa tầng rất chi tiết trên CPU máy tính cá nhân bằng hàm time.perf_counter():
+  + Lần chạy đầu tiên (Cold Start): Mất khoảng 0.2s - 0.3s (do hệ điều hành khởi tạo luồng CPU, nạp mô hình SentenceTransformer và dựng đồ thị bộ nhớ FAISS).
+  + Khi hệ thống đã hoạt động ổn định (Warm Pipeline, khảo sát 50 lần lặp độc lập):
+    * Agent 1 (Bóc tách Regex & Domain Scoring): ~5–10ms.
+    * Agent 2 (Mã hóa MiniLM 384D & FAISS Vector Search): ~20–30ms.
+    * Agent 3 (Đối soát ma trận kỹ năng & Tái xếp hạng Top 5): ~20–40ms.
+    * Agent 4 (Fact-Grounded Rule-Based Synthesis): Thực thi TỨC THÌ (< 1ms, đo đạc chính xác là ~0.1ms).
+  + TỔNG THỜI GIAN TOÀN CHUỖI 4 TÁC TỬ: Dao động trong khoảng 80–120ms (trung bình ~100ms, trên ảnh chụp màn hình ghi nhận 97.2ms). Con số < 50ms trước đây là chỉ tính riêng cho tác tử sinh luật Agent 4 hoặc bước truy xuất vector thuần túy.
+
+3. CÂU HỎI: "Tại sao trong lời nhận xét của Agent 4 lại nêu Java, Spring, JPA thay vì Docker, Git như trước?"
+TRẢ LỜI:
+- Thưa thầy cô:
+  + Ở phiên bản thử nghiệm ban đầu, danh sách kỹ năng chỉ được cắt theo thứ tự bảng chữ cái đơn thuần (cand_skills[:5]), dẫn đến việc các công cụ như Docker, Git (bắt đầu bằng D, G) bị đẩy lên đầu dù vị trí tuyển dụng là Lập trình viên Java.
+  + Em đã nâng cấp thuật toán lựa chọn kỹ năng tiêu biểu trong Agent 4: Tự động tính điểm liên quan (Skill Relevance Scoring) dựa trên vị trí tuyển dụng Top 1 bằng cách khớp nguyên từ (word boundary). Kỹ năng nào trùng với công nghệ cốt lõi của công việc (như ngôn ngữ Java, framework Spring, CSDL SQL/JPA) sẽ được ưu tiên hiển thị trước; các công cụ hỗ trợ (Git, Docker, Postman, Linux) được xếp phía sau.
+  + Thuật toán cũng loại bỏ hoàn toàn hiện tượng so khớp chuỗi con gây nhiễu (ví dụ 'Java' không bị gán nhầm vào 'JavaScript Developer', và các kỹ năng 1 ký tự như 'C', 'R' phải là từ độc lập mới được tính điểm).
+
+4. CÂU HỎI: "Concept Taxonomy và Tập dữ liệu được đóng băng như thế nào? Có thể xác minh độc lập không?"
+TRẢ LỜI:
+- Thưa thầy cô, em xin khẳng định tính khách quan và khả năng tái lập độc lập 100%:
+  + Toàn bộ Cây phả hệ tri thức (Concept Taxonomy), Tập dữ liệu tuyển dụng, Từ điển kỹ năng và Bộ kiểm thử diễn giải được lưu trữ thành các tệp tin cấu hình độc lập tại thư mục dataset/ và được cố định tại thời điểm thực nghiệm:
+    * it_skills.csv            : d24f266a0cb51e2d32f4c6c8028527077c3d80f24270c7cc2ce973f3e03c2732
+    * sample_jobs.json          : 08aff83840c6d74aa5a49d3d5b5ba831ff49b7e3973d292975bd0cc5249bda27
+    * concept_taxonomy.json     : bf307a0edcf8991e2720251874561947306a116d17a512eb0760f7a35c73c1cc
+    * paraphrase_benchmark.json : 841f503ab76805c9f99b73c01c6a83a77ee411c5e594ac9ad2569953cb5c6e8d
+  + Mỗi lần khởi động, hệ thống tự động tính mã băm SHA-256 và in ra console hoặc trả về qua API /api/stats. Bất kỳ ai cũng có thể dùng lệnh Get-FileHash của Windows để kiểm chứng tính toàn vẹn của dữ liệu này.
+
+5. CÂU HỎI: "Hit@3 khác gì Precision@3 trong bài toán đối sánh việc làm? Tại sao lại dùng Hit@3?"
+TRẢ LỜI:
+- Thưa thầy cô:
+  + Precision@k đo tỷ lệ tài liệu liên quan trong Top k kết quả trả về. Tuy nhiên, trong bài toán gợi ý việc làm cho sinh viên với danh sách Top 3, mục tiêu cốt lõi của người dùng là tìm được ÍT NHẤT MỘT công việc đúng chuyên môn định hướng.
+  + Nếu trong Top 3 có 1 vị trí Cloud và 2 vị trí Backend, thì đối với ứng viên Backend, hệ thống đã gợi ý THÀNH CÔNG (Hit@3 = 1). Nếu dùng công thức Precision@3, kết quả sẽ bị tính là 2/3 (66.7%), điều này không phản ánh đúng bản chất bài toán tìm kiếm việc làm đơn mục tiêu.
+  + Do đó, chỉ số Hit@k (Success@k) được sử dụng chuẩn xác trong Báo cáo để đo lường tỷ lệ hồ sơ tìm thấy ít nhất một công việc đúng chuyên ngành trong Top k khuyến nghị.
+  + Về chỉ số này: Agent-RAG đạt Hit@3 = 100.0% (toàn bộ 6/6 CV đều có việc làm đúng trong Top 3), trong khi TF-IDF chỉ đạt Hit@3 = 66.7% (do trượt hoàn toàn cả CV 2 và CV 5 khỏi Top 3). Chỉ số Mean Reciprocal Rank (MRR) của Agent-RAG đạt 0.889 so với 0.667 của TF-IDF.
+
+6. CÂU HỎI: "Bảng 4 và phần phân tích lỗi có khớp nhau không? Cụ thể từng phương pháp trượt những CV nào?"
+TRẢ LỜI:
+- Thưa thầy cô, số liệu Bảng 4 và phân tích lỗi hoàn toàn khớp nhau 100%:
+  + TF-IDF:
+    * Hit@1 = 66.7% (4/6 CV), trượt 2 trường hợp: CV 2 (Giao diện web -> Data Engineer) và CV 5 (Đường ống dữ liệu -> Fullstack). Cả hai CV này đều trượt khỏi cả Top 3 (Hit@3 = 66.7%).
+    * MRR = 0.667.
+  + Agent-RAG:
+    * Hit@1 = 83.3% (5/6 CV), chỉ trượt duy nhất 1 trường hợp ở Top 1: CV 1 (Dịch vụ máy chủ -> Cloud Infrastructure Engineer do ranh giới vi dịch vụ và ảo hóa hạ tầng).
+    * Hit@3 = 100.0% (6/6 CV): Tại CV 1, việc làm Backend xuất hiện ngay ở vị trí thứ 3.
+    * MRR = 0.889.
+  + Chênh lệch thực nghiệm: Agent-RAG vượt trội hơn TF-IDF trên cả Hit@1 (+16.6%), Hit@3 (+33.3%) và MRR (+0.222).
+
+7. CÂU HỎI: "Vì sao CV 1 lại bị đưa sang Cloud? Đó là lỗi hay do nhãn chưa đủ rộng?"
+TRẢ LỜI:
+- Thưa thầy cô:
+  + Trong văn bản CV 1, ứng viên mô tả: 'phát triển dịch vụ phía máy chủ, thiết kế kiến trúc vi dịch vụ, đóng gói môi trường ảo hóa'.
+  + Cụm từ 'ảo hóa hạ tầng' và 'vi dịch vụ phân tán' có khoảng cách vector ngữ nghĩa 384D cực kỳ gần với vị trí Kỹ sư Đám mây (DevOps & Cloud). Đây là hiện tượng giao thoa kỹ năng đa định hướng (multi-domain boundary) trong thực tế ngành CNTT.
+  + Đáng chú ý, khi xét ở mốc Top-3 đề xuất (Hit@3), vị trí Lập trình viên Backend xuất hiện ngay ở vị trí thứ 3, giúp Hit@3 của Agent-RAG đạt 100%. Đây là bằng chứng cho thấy mô hình không bị mất phương hướng mà chỉ xếp việc làm Cloud lên trước do trọng số ngữ nghĩa gần hơn. Trong tương lai, việc hỗ trợ nhãn đa mục tiêu (Multi-label Tolerance) sẽ giải quyết triệt để ca này.
+
+8. CÂU HỎI: "Làm sao Hội đồng biết được Concept Taxonomy không bị tinh chỉnh sau khi xem kết quả kiểm thử?"
+TRẢ LỜI:
+- Thưa thầy cô:
+  + Cây phả hệ tri thức (Concept Taxonomy) được tách thành tệp tin cấu hình độc lập tại dataset/concept_taxonomy.json với mã băm SHA-256 cố định là `bf307a0edcf8991e2720251874561947306a116d17a512eb0760f7a35c73c1cc`.
+  + Tệp này chỉ chứa các quan hệ khái niệm kinh điển, mang tính quy ước chuẩn trong ngành CNTT (ví dụ: React, Vue thuộc Frontend Framework; Spring Boot, Django, .NET Core thuộc Backend Framework; MySQL, PostgreSQL thuộc Relational Database).
+  + Tuyệt đối không có bất kỳ quy tắc hay cặp từ khóa nào được 'gán riêng' để phục vụ 6 hồ sơ kiểm thử. Mọi quy tắc đều áp dụng bình đẳng cho toàn bộ kho 135 việc làm của VietJobs.
+
+9. CÂU HỎI: "Agent 4 không dùng LLM, vậy có đúng là 'RAG Generator' không? Khái niệm Agent ở đâu?"
+TRẢ LỜI:
+- Thưa thầy cô:
+  + Trong mô hình RAG (Retrieval-Augmented Generation), thành phần Generator có nhiệm vụ tiếp nhận ngữ cảnh truy xuất (Context) và tổng hợp thành đầu ra có cấu trúc phục vụ người dùng.
+  + Tác tử 4 áp dụng kỹ thuật 'Fact-Grounded Rule-Based Synthesis' (Sinh văn bản có cấu trúc theo luật và bằng chứng đối soát). Đây là quyết định kỹ thuật có chủ đích nhằm:
+    1) Đảm bảo tính xác thực và trung thực: Điểm số, kỹ năng thiếu hụt và lộ trình học tập được căn cứ 100% từ kết quả đối soát thật, loại bỏ hoàn toàn nguy cơ bịa đặt thông tin (hallucination).
+    2) Vận hành độc lập 100% offline với tốc độ cực nhanh (< 1ms) trên máy tính cá nhân, không đòi hỏi GPU đắt tiền.
+    3) Em đã xây dựng sẵn hàm format_llm_prompt() trong code để sẵn sàng cắm ghép trực tiếp các mô hình LLM mã nguồn mở chạy cục bộ (như Ollama Qwen 2.5 hoặc Gemma 2B) trong giai đoạn Khóa luận tốt nghiệp tiếp theo.
+  + Về thuật ngữ 'Agent': Đồ án tiếp cận theo trường phái 'Functional / Specialized Task Agents' (mỗi tác tử đảm nhận một vai trò nghiệp vụ chuyên biệt với Input/Output và logic xử lý độc lập trong pipeline: Profiler -> Retriever -> Assessor -> Advisor).
+
+10. CÂU HỎI: "Chênh lệch 5/6 so với 4/6 trên tập mẫu n=6 có đủ sức nặng thống kê để kết luận không?"
+TRẢ LỜI:
+- Thưa thầy cô, em xin báo cáo rất khiêm tốn và khoa học:
+  + Với quy mô tập mẫu ban đầu n=6, chênh lệch 1 CV ở Top 1 chưa thể coi là bằng chứng thống kê diện rộng.
+  + Tuy nhiên, kết quả này minh chứng một điều rất rõ ràng: Khi ứng viên diễn giải năng lực bằng ngôn ngữ tự nhiên mà không dùng từ khóa thương hiệu, thuật toán từ khóa (TF-IDF) bắt đầu lộ rõ sự bế tắc và giảm độ chính xác từ 100% xuống 66.7% (ở cả Top 1 và Top 3). Trong khi đó, biểu diễn vector ngữ nghĩa vẫn giữ được độ chính xác 83.3% ở Top 1 và đạt 100% ở Top 3 (MRR = 0.889 so với 0.667).
+  + Đây là kết quả bước đầu khẳng định tiềm năng của giải pháp; việc mở rộng tập dữ liệu lên hàng trăm CV là kế hoạch phát triển bắt buộc trong giai đoạn tiếp theo.
+
+11. CÂU HỎI: "Baseline TF-IDF được cài đặt độc lập thế nào, có bị rò rỉ nhãn không?"
+TRẢ LỜI:
+- Thưa thầy cô:
+  + Baseline TF-IDF hoạt động độc lập, được huấn luyện trên toàn văn bản mô tả việc làm (kết hợp Job Title, Category và Job Requirements) của 135 JD trong kho VietJobs.
+  + Về hiện tượng rò rỉ nhãn (Label Leakage): Cả TF-IDF và Agent-RAG đều được tiếp cận trường 'Danh mục chuyên ngành' (Category) như nhau để bảo đảm công bằng. Tuy nhiên, vì trường Category cũng được dùng để gán nhãn đúng nên đây là một dạng rò rỉ nhãn tinh vi trong tác vụ NLP. Em đã ghi nhận đây là một hạn chế nghiên cứu trong mục 4.3 của Báo cáo và đề xuất giải pháp ẩn trường Category trong các nghiên cứu tương lai.
+
+================================================================================
+HƯỚNG DẪN ĐÓNG GÓI VÀ TÁI LẬP KHI QUA MÁY MỚI:
+- Cấu trúc thư mục chuẩn:
+  1) frontend/ (index.html, js/app.js, js/tailwind.min.js, css/all.min.css, webfonts/)
+  2) backend/ (app.py)
+  3) ai_service/ (core/agent_rag.py, dataset/, models/minilm/)
+- Khởi động Demo offline: Nhấp đúp '01_CHAY_DEMO_LA_BAN_KY_NANG.bat'
+- Chạy kiểm chứng thực nghiệm: Nhấp đúp '03_CHAY_THUC_NGHIEM_DANH_GIA.bat'
+- Báo cáo Word hoàn chỉnh: '65CNTT_NguyenThiTuyetNhung_CDCNTT_LaBanKyNang.docx' (và '02_BAO_CAO_LA_BAN_KY_NANG.docx')
+================================================================================

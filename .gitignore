@@ -1,0 +1,23 @@
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+*.env
+
+# Large model binaries (>100MB, HuggingFace downloads automatically on first run)
+*.safetensors
+*.bin
+*.pt
+*.onnx
+
+# Temporary & historical archive
+_Luu_Tru_Lich_Su_Va_File_Cu/
+_repo_clone/
+temp_*/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db

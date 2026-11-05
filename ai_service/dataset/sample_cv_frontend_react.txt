@@ -1,0 +1,21 @@
+TRẦN THỊ HỒNG PHÚC
+Vị trí mục tiêu: Fresher / Junior ReactJS Frontend Developer
+Email: hongphuc.fe@gmail.com | Phone: 0988 776 655 | Portfolio: hongphuc.io
+
+HỌC VẤN
+Trường Đại học Thủy Lợi - Phân hiệu miền Nam
+Ngành: Công nghệ Thông tin (Khoá 65)
+
+MỤC TIÊU NGHỀ NGHIỆP
+Phát triển thành một Frontend Engineer chuyên nghiệp, có khả năng xây dựng các giao diện web trực quan, tối ưu trải nghiệm người dùng (UX) và hiệu năng tải trang cao.
+
+KỸ NĂNG CÔNG NGHỆ
+- Ngôn ngữ: JavaScript (ES6+), TypeScript, HTML5, CSS3
+- Framework & UI: ReactJS, NextJS, Redux Toolkit, Tailwind CSS, Bootstrap
+- Tích hợp: REST API, Axios, Postman
+- Công cụ: Git, GitHub, VS Code, Figma to Code
+
+DỰ ÁN CÁ NHÂN
+Dự án: Dashboard Quản lý Tài chính Sinh viên (React Finance Tracker)
+- Công nghệ: ReactJS, TypeScript, Tailwind CSS, Chart.js
+- Mô tả: Giao diện trực quan cho phép người dùng theo dõi thu chi hàng tháng, hiển thị biểu đồ phân tích và xuất báo cáo. Tích hợp REST API backend.

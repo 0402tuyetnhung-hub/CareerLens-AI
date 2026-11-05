@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Bàn Kỹ Năng - Hệ thống Agent-RAG Phân tích CV & Đánh giá Năng lực CNTT</title>
+    <!-- 100% Offline Local Assets: Tailwind CSS & Font Awesome -->
+    <script src="/js/tailwind.min.js"></script>
+    <link href="/css/all.min.css" rel="stylesheet">
+    <style>
+        /* 100% Offline Native System Fonts with large responsive scaling */
+        html { font-size: 18px; }
+        @media (min-width: 1400px) { html { font-size: 19.5px; } }
+        @media (min-width: 1800px) { html { font-size: 21px; } }
+
+        body { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #0b1120; color: #f8fafc; }
+        .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; }
+        .glass-panel { background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(20px); border: 1px solid rgba(51, 65, 85, 0.85); }
+        .glass-card { background: rgba(30, 41, 59, 0.85); border: 1px solid rgba(51, 65, 85, 0.75); }
+        .glass-card:hover { border-color: rgba(99, 102, 241, 0.75); }
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: #0f172a; }
+        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #475569; }
+        button:focus, input:focus, textarea:focus { outline: 2px solid #6366f1; }
+    </style>
+</head>
+<body class="bg-[#0b1120] text-slate-100 min-h-screen antialiased selection:bg-indigo-500 selection:text-white pb-12">
+
+    <!-- Top Sticky Header -->
+    <header class="border-b border-slate-800 bg-[#0f172a]/95 sticky top-0 z-50 backdrop-blur-xl shadow-xl">
+        <div class="w-full px-6 xl:px-10 py-4 flex flex-wrap justify-between items-center gap-4">
+            <div class="flex items-center space-x-4">
+                <div class="w-14 h-14 p-3 rounded-2xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-cyan-400 flex items-center justify-center shadow-lg shadow-indigo-500/30 flex-shrink-0">
+                    <i class="fa-solid fa-compass text-3xl text-white"></i>
+                </div>
+                <div>
+                    <div class="flex items-center gap-3">
+                        <h1 class="text-3xl font-black tracking-tight bg-gradient-to-r from-indigo-300 via-sky-300 to-emerald-300 bg-clip-text text-transparent">
+                            La Bàn Kỹ Năng
+                        </h1>
+                        <span class="px-3.5 py-1 rounded-full text-xs font-black bg-indigo-500/20 text-indigo-300 border border-indigo-500/40 tracking-wider">
+                            HỆ THỐNG AGENT-RAG
+                        </span>
+                    </div>
+                    <p class="text-sm text-slate-300 font-medium mt-0.5">Hệ Thống Phân Tích CV, Đối Sánh Việc Làm & Đánh Giá Kỹ Năng Cho Sinh Viên CNTT</p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-3.5 text-sm">
+                <div class="bg-indigo-950/80 border border-indigo-500/40 px-4 py-2.5 rounded-xl text-indigo-200 flex items-center gap-2.5 shadow-sm">
+                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                    <span>GVHD: <b class="text-white font-bold">Ts. Hoàng Văn Quý</b></span>
+                </div>
+                <div class="bg-slate-800/90 border border-slate-700 px-4 py-2.5 rounded-xl text-slate-200 shadow-sm">
+                    SVTH: <b class="text-white font-bold">Nguyễn Thị Tuyết Nhung</b> (S26-K65-CNTT)
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Top Key Metrics Banner (Full-Width) -->
+    <div class="w-full px-6 xl:px-10 pt-5 pb-3">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="glass-panel rounded-2xl p-4 flex items-center space-x-4 border-l-4 border-l-indigo-500 shadow-md">
+                <div class="w-13 h-13 rounded-xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center text-2xl flex-shrink-0">
+                    <i class="fa-solid fa-diagram-project"></i>
+                </div>
+                <div>
+                    <p class="text-xs font-bold text-slate-400 uppercase tracking-wider">Kiến Trúc AI</p>
+                    <p class="text-base font-black text-white mt-0.5">Multi-Agent RAG (4 Agents)</p>
+                </div>
+            </div>
+            <div class="glass-panel rounded-2xl p-4 flex items-center space-x-4 border-l-4 border-l-emerald-500 shadow-md">
+                <div class="w-13 h-13 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-2xl flex-shrink-0">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+                <div>
+                    <p class="text-xs font-bold text-slate-400 uppercase tracking-wider">Kho Tri Thức (VietJobs)</p>
+                    <p class="text-base font-black text-white mt-0.5">135+ Việc Làm IT Chuẩn Hóa</p>
+                </div>
+            </div>
+            <div class="glass-panel rounded-2xl p-4 flex items-center space-x-4 border-l-4 border-l-cyan-500 shadow-md">
+                <div class="w-13 h-13 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-2xl flex-shrink-0">
+                    <i class="fa-solid fa-tags"></i>
+                </div>
+                <div>
+                    <p class="text-xs font-bold text-slate-400 uppercase tracking-wider">Từ Điển Kỹ Năng (Tham chiếu ESCO)</p>
+                    <p class="text-base font-black text-white mt-0.5">114+ Kỹ Năng IT Định Danh</p>
+                </div>
+            </div>
+            <div class="glass-panel rounded-2xl p-4 flex items-center space-x-4 border-l-4 border-l-purple-500 shadow-md">
+                <div class="w-13 h-13 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center text-2xl flex-shrink-0">
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+                <div>
+                    <p class="text-xs font-bold text-slate-400 uppercase tracking-wider">Vector Search (FAISS)</p>
+                    <p class="text-base font-black text-white mt-0.5">Dense Vector (384 Chiều)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Workspace (2 Full-Width Columns) -->
+    <main class="w-full px-6 xl:px-10 py-3 grid grid-cols-1 lg:grid-cols-12 gap-7">
+        
+        <!-- Left Panel: Input & Controls (5 Cols) -->
+        <div class="lg:col-span-5 space-y-5">
+            
+            <!-- CV Input Card -->
+            <div class="glass-panel rounded-2xl p-6 shadow-xl">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-lg font-bold text-white flex items-center gap-2.5">
+                        <i class="fa-solid fa-id-card text-indigo-400 text-xl"></i> Hồ Sơ CV Ứng Viên
+                    </h2>
+                    <span class="text-xs font-bold bg-indigo-950/80 text-indigo-300 border border-indigo-500/40 px-3.5 py-1 rounded-full">
+                        PDF, DOCX, TXT
+                    </span>
+                </div>
+
+                <!-- Dedicated Upload Box for User -->
+                <div class="border-2 border-dashed border-indigo-500/60 hover:border-cyan-400 bg-indigo-950/30 hover:bg-indigo-950/50 rounded-2xl p-4 text-center cursor-pointer transition mb-4 group shadow-inner" onclick="document.getElementById('fileUploadInput').click()">
+                    <input type="file" id="fileUploadInput" accept=".pdf,.docx,.txt" class="hidden" onchange="handleFileUpload(event)">
+                    <div class="flex items-center justify-center gap-3.5">
+                        <div class="w-12 h-12 rounded-xl bg-indigo-500/20 group-hover:bg-cyan-500/20 text-indigo-400 group-hover:text-cyan-400 flex items-center justify-center text-xl transition flex-shrink-0">
+                            <i class="fa-solid fa-cloud-arrow-up"></i>
+                        </div>
+                        <div class="text-left">
+                            <p class="text-sm font-bold text-white group-hover:text-cyan-300 transition">Tải lên file CV của bạn (.PDF / .DOCX / .TXT)</p>
+                            <p class="text-xs text-slate-300 mt-0.5" id="fileNameLabel">Nhấn vào đây để chọn file CV từ máy tính</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sample CV Selector -->
+                <p class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-2.5">Chọn nhanh hồ sơ sinh viên mẫu để kiểm thử:</p>
+                <div class="grid grid-cols-2 gap-2.5 mb-4">
+                    <button type="button" onclick="selectSample('backend_java')" id="btn_backend_java" class="sample-btn p-3 rounded-xl border border-slate-700 bg-slate-800/80 hover:bg-slate-700/80 transition text-left flex items-center gap-3">
+                        <span class="w-3.5 h-3.5 rounded-full bg-emerald-400 flex-shrink-0 shadow-sm shadow-emerald-400/50"></span>
+                        <div class="overflow-hidden">
+                            <p class="text-sm font-bold text-white truncate">Java Backend</p>
+                            <p class="text-xs text-slate-300 truncate">Spring Boot, SQL, Redis</p>
+                        </div>
+                    </button>
+                    <button type="button" onclick="selectSample('frontend_react')" id="btn_frontend_react" class="sample-btn p-3 rounded-xl border border-slate-700 bg-slate-800/80 hover:bg-slate-700/80 transition text-left flex items-center gap-3">
+                        <span class="w-3.5 h-3.5 rounded-full bg-cyan-400 flex-shrink-0 shadow-sm shadow-cyan-400/50"></span>
+                        <div class="overflow-hidden">
+                            <p class="text-sm font-bold text-white truncate">ReactJS Frontend</p>
+                            <p class="text-xs text-slate-300 truncate">Tailwind, Redux, TS</p>
+                        </div>
+                    </button>
+                    <button type="button" onclick="selectSample('mobile_flutter')" id="btn_mobile_flutter" class="sample-btn p-3 rounded-xl border border-slate-700 bg-slate-800/80 hover:bg-slate-700/80 transition text-left flex items-center gap-3">
+                        <span class="w-3.5 h-3.5 rounded-full bg-purple-400 flex-shrink-0 shadow-sm shadow-purple-400/50"></span>
+                        <div class="overflow-hidden">
+                            <p class="text-sm font-bold text-white truncate">Flutter Mobile</p>
+                            <p class="text-xs text-slate-300 truncate">Dart, Firebase, REST</p>
+                        </div>
+                    </button>
+                    <button type="button" onclick="selectSample('data_ai')" id="btn_data_ai" class="sample-btn p-3 rounded-xl border border-slate-700 bg-slate-800/80 hover:bg-slate-700/80 transition text-left flex items-center gap-3">
+                        <span class="w-3.5 h-3.5 rounded-full bg-amber-400 flex-shrink-0 shadow-sm shadow-amber-400/50"></span>
+                        <div class="overflow-hidden">
+                            <p class="text-sm font-bold text-white truncate">AI & Data Science</p>
+                            <p class="text-xs text-slate-300 truncate">PyTorch, NLP, RAG</p>
+                        </div>
+                    </button>
+                </div>
+
+                <!-- Textarea for CV -->
+                <div class="relative">
+                    <textarea id="cvInput" rows="10" placeholder="Nội dung CV sinh viên..." class="w-full bg-[#0a0f1d] border border-slate-700 rounded-xl p-4 text-sm text-slate-100 focus:outline-none focus:border-indigo-500 font-mono leading-relaxed resize-none"></textarea>
+                </div>
+
+                <!-- Big Run Button -->
+                <button id="runBtn" onclick="runAnalysis()" class="mt-4 w-full py-4 bg-gradient-to-r from-indigo-600 via-indigo-500 to-cyan-500 hover:from-indigo-500 hover:to-cyan-400 text-white font-black rounded-xl shadow-xl shadow-indigo-500/30 flex items-center justify-center gap-2.5 transition transform active:scale-[0.98] text-base tracking-wide">
+                    <i class="fa-solid fa-play"></i> KÍCH HOẠT QUY TRÌNH AGENT-RAG
+                </button>
+            </div>
+
+            <!-- Agent Progress Tracker -->
+            <div class="glass-panel rounded-2xl p-6 shadow-xl">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="text-sm font-black text-slate-200 uppercase tracking-wider flex items-center gap-2.5">
+                        <i class="fa-solid fa-microchip text-cyan-400 text-base"></i> Tiến Trình Multi-Agent Workflow
+                    </h3>
+                    <span class="text-xs text-slate-400 font-mono">4 Agents in Pipeline</span>
+                </div>
+                <div class="space-y-3">
+                    <div id="step1" class="flex items-center justify-between p-3.5 rounded-xl bg-slate-900/70 border border-slate-800 transition">
+                        <div class="flex items-center gap-3.5">
+                            <span class="w-8 h-8 rounded-lg bg-indigo-500/20 text-indigo-400 flex items-center justify-center text-xs font-black flex-shrink-0">1</span>
+                            <div>
+                                <p class="text-sm font-bold text-white">Agent 1: CV Profiler Agent</p>
+                                <p class="text-xs text-slate-300">Bóc tách thực thể & nhận diện kỹ năng tham chiếu ESCO</p>
+                            </div>
+                        </div>
+                        <span class="status-badge text-xs font-bold text-slate-400">Chờ</span>
+                    </div>
+                    <div id="step2" class="flex items-center justify-between p-3.5 rounded-xl bg-slate-900/70 border border-slate-800 transition">
+                        <div class="flex items-center gap-3.5">
+                            <span class="w-8 h-8 rounded-lg bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-xs font-black flex-shrink-0">2</span>
+                            <div>
+                                <p class="text-sm font-bold text-white">Agent 2: Job Matcher (RAG Retriever)</p>
+                                <p class="text-xs text-slate-300">Nhúng Transformer 384D & FAISS Vector Search</p>
+                            </div>
+                        </div>
+                        <span class="status-badge text-xs font-bold text-slate-400">Chờ</span>
+                    </div>
+                    <div id="step3" class="flex items-center justify-between p-3.5 rounded-xl bg-slate-900/70 border border-slate-800 transition">
+                        <div class="flex items-center gap-3.5">
+                            <span class="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xs font-black flex-shrink-0">3</span>
+                            <div>
+                                <p class="text-sm font-bold text-white">Agent 3: Skill Gap Assessment</p>
+                                <p class="text-xs text-slate-300">Đo độ vênh ma trận kỹ năng & tính Fit Score</p>
+                            </div>
+                        </div>
+                        <span class="status-badge text-xs font-bold text-slate-400">Chờ</span>
+                    </div>
+                    <div id="step4" class="flex items-center justify-between p-3.5 rounded-xl bg-slate-900/70 border border-slate-800 transition">
+                        <div class="flex items-center gap-3.5">
+                            <span class="w-8 h-8 rounded-lg bg-purple-500/20 text-purple-400 flex items-center justify-center text-xs font-black flex-shrink-0">4</span>
+                            <div>
+                                <p class="text-sm font-bold text-white">Agent 4: Career Advisor (RAG Generator)</p>
+                                <p class="text-xs text-slate-300">Sinh nhận xét chuyên gia & lộ trình học 4 tuần</p>
+                            </div>
+                        </div>
+                        <span class="status-badge text-xs font-bold text-slate-400">Chờ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Panel: Comprehensive Output (7 Cols) -->
+        <div class="lg:col-span-7 space-y-5">
+            
+            <!-- Informative Waiting Dashboard -->
+            <div id="waitingPlaceholder" class="glass-panel rounded-2xl p-7 shadow-xl space-y-6 border border-indigo-500/30">
+                <div class="flex flex-wrap justify-between items-center gap-4 pb-4 border-b border-slate-800">
+                    <div>
+                        <div class="flex items-center gap-3">
+                            <span class="w-3.5 h-3.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                            <h3 class="text-2xl font-black text-white tracking-tight">Hồ Sơ Sẵn Sàng Đối Sánh</h3>
+                        </div>
+                        <p class="text-sm text-slate-300 mt-1 font-medium">Đã tự động nạp hồ sơ ứng viên mẫu ở khung bên trái. Bấm nút kích hoạt để đối soát toàn chuỗi 4 Agents.</p>
+                    </div>
+                    <button type="button" onclick="runAnalysis()" class="py-3 px-6 bg-gradient-to-r from-emerald-500 via-cyan-500 to-indigo-500 hover:from-emerald-400 hover:to-indigo-400 text-slate-950 font-black rounded-xl text-sm shadow-lg shadow-cyan-500/25 transition transform active:scale-95 flex items-center gap-2.5">
+                        <i class="fa-solid fa-play"></i> BẮT ĐẦU ĐỐI SOÁT NGAY
+                    </button>
+                </div>
+
+                <!-- 4 Specialized Agents Overview -->
+                <div>
+                    <p class="text-xs font-black text-indigo-400 uppercase tracking-wider mb-3 flex items-center gap-2">
+                        <i class="fa-solid fa-microchip"></i> Quy Trình Xử Lý Dữ Liệu 4 Tác Tử AI (Multi-Agent RAG Pipeline)
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+                        <div class="bg-slate-900/90 p-4 rounded-xl border border-slate-800/80 hover:border-indigo-500/40 transition">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="w-8 h-8 rounded-lg bg-indigo-500/20 text-indigo-400 flex items-center justify-center font-bold text-sm">1</span>
+                                <h4 class="text-sm font-bold text-white">Agent 1: CV Profiler Agent</h4>
+                            </div>
+                            <p class="text-xs text-slate-300 leading-relaxed">Bóc tách thực thể họ tên, email, SĐT. Quét nhận diện 114+ kỹ năng tham chiếu khung ESCO và phân loại chuyên ngành qua Argmax Domain Scoring.</p>
+                        </div>
+                        <div class="bg-slate-900/90 p-4 rounded-xl border border-slate-800/80 hover:border-cyan-500/40 transition">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="w-8 h-8 rounded-lg bg-cyan-500/20 text-cyan-400 flex items-center justify-center font-bold text-sm">2</span>
+                                <h4 class="text-sm font-bold text-white">Agent 2: Job Matcher (Retriever)</h4>
+                            </div>
+                            <p class="text-xs text-slate-300 leading-relaxed">Mã hóa ngữ nghĩa bằng SentenceTransformer 384D, quét chỉ mục FAISS IndexFlatIP truy xuất Top việc làm trong kho 135+ tin VietJobs.</p>
+                        </div>
+                        <div class="bg-slate-900/90 p-4 rounded-xl border border-slate-800/80 hover:border-emerald-500/40 transition">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-sm">3</span>
+                                <h4 class="text-sm font-bold text-white">Agent 3: Skill Gap Assessment</h4>
+                            </div>
+                            <p class="text-xs text-slate-300 leading-relaxed">So ma trận kỹ năng (Matched/Missing), áp dụng Phả hệ tri thức (Concept Taxonomy) và tái xếp hạng đa mục tiêu (60% Vector + 40% Kỹ năng).</p>
+                        </div>
+                        <div class="bg-slate-900/90 p-4 rounded-xl border border-slate-800/80 hover:border-purple-500/40 transition">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="w-8 h-8 rounded-lg bg-purple-500/20 text-purple-400 flex items-center justify-center font-bold text-sm">4</span>
+                                <h4 class="text-sm font-bold text-white">Agent 4: Career Advisor (Generator)</h4>
+                            </div>
+                            <p class="text-xs text-slate-300 leading-relaxed">Fact-Grounded Rule-Based Synthesis: Sinh nhận xét chuyên gia bám sát thực tế và thiết lập Lộ trình thích ứng 4 tuần cụ thể lấp đầy lỗ hổng.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Study Card: Đối Soát Ngữ Nghĩa vs Khớp Từ Khóa Cứng -->
+                <div class="p-5 rounded-xl bg-gradient-to-r from-slate-900 via-indigo-950/40 to-slate-900 border border-slate-800">
+                    <div class="flex items-center gap-2.5 mb-2.5 text-cyan-300">
+                        <i class="fa-solid fa-flask-vial text-base"></i>
+                        <h4 class="text-xs font-black uppercase tracking-wider">Thực Nghiệm Đối Soát Ngữ Nghĩa vs Đối Sánh Từ Khóa Cứng (Case Study)</h4>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+                        <div class="p-3.5 rounded-lg bg-rose-950/30 border border-rose-500/30">
+                            <span class="font-bold text-rose-300 flex items-center gap-1.5"><i class="fa-solid fa-xmark"></i> ATS Truyền Thống (Jobscan):</span>
+                            <p class="text-slate-300 mt-1 leading-relaxed">Trong ca thử nghiệm này, thuật toán ATS đếm từ khóa thô. Khi CV ghi "ReactJS/Vue" và JD yêu cầu "Frontend Framework", hệ thống ghi nhận thiếu kỹ năng do không trùng chuỗi ký tự.</p>
+                        </div>
+                        <div class="p-3.5 rounded-lg bg-emerald-950/30 border border-emerald-500/30">
+                            <span class="font-bold text-emerald-300 flex items-center gap-1.5"><i class="fa-solid fa-check"></i> La Bàn Kỹ Năng (Agent-RAG):</span>
+                            <p class="text-slate-300 mt-1 leading-relaxed">Đạt 88.2% Cosine ngữ nghĩa, kích hoạt Phả hệ tri thức nhận diện React thỏa mãn Frontend Framework -> Đạt chuẩn 92.9% Fit Score.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kết Quả Thực Nghiệm Đánh Giá (Bảng 3 & 4) -->
+                <div>
+                    <p class="text-xs font-black text-slate-400 uppercase tracking-wider mb-2.5 flex items-center gap-2">
+                        <i class="fa-solid fa-chart-line text-cyan-400"></i> Kết Quả Thực Nghiệm Đối Soát & Đánh Giá (Báo Cáo - Bảng 3 & 4)
+                    </p>
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
+                        <div class="bg-slate-900/80 p-3 rounded-xl border border-slate-800">
+                            <span class="text-xs text-slate-400 font-bold uppercase">Precision@1</span>
+                            <p class="text-lg font-black text-cyan-300 mt-0.5">100%</p>
+                            <span class="text-[11px] text-slate-400">4 CV Tiêu chuẩn (Bảng 3)</span>
+                        </div>
+                        <div class="bg-slate-900/80 p-3 rounded-xl border border-slate-800">
+                            <span class="text-xs text-slate-400 font-bold uppercase">Paraphrase P@1</span>
+                            <p class="text-lg font-black text-emerald-400 mt-0.5">83.3%</p>
+                            <span class="text-[11px] text-slate-400">5/6 CV Khái niệm (Bảng 4)</span>
+                        </div>
+                        <div class="bg-slate-900/80 p-3 rounded-xl border border-slate-800">
+                            <span class="text-xs text-slate-400 font-bold uppercase">Độ Trễ Xử Lý</span>
+                            <p class="text-lg font-black text-purple-300 mt-0.5">~100ms</p>
+                            <span class="text-[11px] text-slate-400">80–120ms (sau warm-up)</span>
+                        </div>
+                        <div class="bg-slate-900/80 p-3 rounded-xl border border-slate-800">
+                            <span class="text-xs text-slate-400 font-bold uppercase">Môi Trường</span>
+                            <p class="text-lg font-black text-amber-300 mt-0.5">100% Offline</p>
+                            <span class="text-[11px] text-slate-400">Mô hình cục bộ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results Container (Revealed after clicking Activate) -->
+            <div id="resultsContainer" class="space-y-5 hidden">
+                <!-- 1. Candidate Profile Card -->
+                <div class="glass-panel rounded-2xl p-6 border-l-4 border-l-indigo-500 shadow-xl">
+                    <div class="flex flex-wrap justify-between items-start gap-4 mb-4">
+                        <div>
+                            <div class="flex items-center gap-2.5">
+                                <span id="resDomain" class="text-xs font-black uppercase tracking-wider px-3.5 py-1 rounded-md bg-indigo-500/20 text-indigo-300 border border-indigo-500/40">
+                                    Backend Development
+                                </span>
+                                <span class="text-xs font-mono bg-purple-950/80 text-purple-300 border border-purple-500/40 px-3 py-1 rounded-full flex items-center gap-1.5">
+                                    <i class="fa-solid fa-bolt"></i> Thời gian xử lý: <b id="resElapsedMs">--</b> ms
+                                </span>
+                            </div>
+                            <h2 id="resName" class="text-3xl font-black text-white mt-2 tracking-tight">Họ Và Tên Ứng Viên</h2>
+                            <p id="resContact" class="text-sm text-slate-200 font-medium mt-0.5">email@example.com • 0912 345 678</p>
+                        </div>
+                        <div class="text-right bg-slate-900/90 px-5 py-3 rounded-2xl border border-slate-800 shadow-inner">
+                            <span class="text-xs text-slate-400 font-bold uppercase tracking-wider">Kỹ Năng Đạt Được</span>
+                            <p id="resSkillCount" class="text-4xl font-black text-emerald-400 mt-0.5">0</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-sm font-bold text-slate-200 mb-2.5 flex items-center gap-2">
+                            <i class="fa-solid fa-layer-group text-indigo-400"></i> Kỹ năng chuyên môn tham chiếu khung ESCO:
+                        </p>
+                        <div id="resSkillsTags" class="flex flex-wrap gap-2.5"></div>
+                    </div>
+                </div>
+
+                <!-- 2. AI Advisor Executive Summary & 4-Week Roadmap -->
+                <div class="glass-panel rounded-2xl p-6 bg-gradient-to-br from-slate-900 via-[#131b31] to-slate-900 border border-indigo-500/40 shadow-xl">
+                    <div class="flex items-center gap-2.5 mb-2.5 text-indigo-300">
+                        <i class="fa-solid fa-award text-indigo-400 text-xl"></i>
+                        <h3 class="text-sm font-black uppercase tracking-wider">Agent 4: Nhận Xét Cố Vấn & Lộ Trình Thích Ứng (RAG Generation)</h3>
+                    </div>
+                    <p id="advSummary" class="text-sm text-slate-100 leading-relaxed bg-slate-950/90 p-4 rounded-xl border border-slate-800 mb-5 shadow-inner font-medium"></p>
+                    
+                    <h4 class="text-xs font-black text-slate-200 uppercase tracking-wider mb-3 flex items-center gap-2">
+                        <i class="fa-solid fa-route text-cyan-400"></i> Lộ Trình 4 Tuần Cá Nhân Hóa Lấp Đầy Khoảng Cách Kỹ Năng:
+                    </h4>
+                    <div id="advRoadmap" class="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm"></div>
+                </div>
+
+                <!-- 3. Top Jobs Retrieved via FAISS Vector Search -->
+                <div class="glass-panel rounded-2xl p-6 shadow-xl">
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="text-base font-extrabold text-white flex items-center gap-2.5">
+                            <i class="fa-solid fa-briefcase text-emerald-400"></i> Top Việc Làm Phù Hợp Nhất (FAISS Vector Retrieval)
+                        </h3>
+                        <span class="text-xs text-slate-300 font-mono">135+ Tin Tuyển Dụng VietJobs IT</span>
+                    </div>
+                    <div id="jobsList" class="space-y-4"></div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- App JavaScript Logic -->
+    <script src="/js/app.js"></script>
+</body>
+</html>

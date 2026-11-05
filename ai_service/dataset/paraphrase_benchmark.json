@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "CV 1: Dịch vụ máy chủ & vi dịch vụ",
+    "text": "Lập trình viên phát triển dịch vụ phía máy chủ (server-side), thiết kế kiến trúc vi dịch vụ, quản trị cơ sở dữ liệu quan hệ, xây dựng giao diện lập trình ứng dụng, đóng gói môi trường ảo hóa.",
+    "target": "Backend Development",
+    "note": "Mô tả chuyên môn Backend. Khái niệm vi dịch vụ & ảo hóa hạ tầng có ranh giới gần với Cloud/DevOps."
+  },
+  {
+    "id": 2,
+    "title": "CV 2: Giao diện web & ứng dụng đơn trang",
+    "text": "Kỹ sư chuyên thiết kế và lập trình giao diện người dùng trên nền tảng web, quản lý luồng dữ liệu trạng thái cho ứng dụng đơn trang, tạo kiểu giao diện linh hoạt.",
+    "target": "Frontend Development",
+    "note": "Mô tả chuyên môn Frontend không dùng từ khóa React/Vue."
+  },
+  {
+    "id": 3,
+    "title": "CV 3: Ứng dụng di động đa nền tảng",
+    "text": "Lập trình viên phát triển ứng dụng di động đa nền tảng từ một bộ mã nguồn duy nhất, xây dựng giao diện thích ứng cho cả hệ điều hành Android và iOS.",
+    "target": "Mobile Development",
+    "note": "Mô tả chuyên môn Mobile không dùng từ khóa Flutter/React Native."
+  },
+  {
+    "id": 4,
+    "title": "CV 4: Học sâu & Thị giác máy tính",
+    "text": "Nghiên cứu và huấn luyện các mô hình học sâu, thị giác máy tính, phân loại hình ảnh, xử lý ngôn ngữ tự nhiên và hệ thống gợi ý.",
+    "target": "AI / Data Science",
+    "note": "Mô tả chuyên môn AI không dùng từ khóa PyTorch/TensorFlow."
+  },
+  {
+    "id": 5,
+    "title": "CV 5: Đường ống dữ liệu lớn & Báo cáo",
+    "text": "Thiết kế đường ống trích xuất và biến đổi luồng dữ liệu lớn thời gian thực, lưu trữ phân tán và trực quan hóa báo cáo phân tích kinh doanh.",
+    "target": "AI / Data Science",
+    "note": "Mô tả chuyên môn Data Engineering (thuộc danh mục AI / Data Science)."
+  },
+  {
+    "id": 6,
+    "title": "CV 6: Tự động hóa hạ tầng & Đám mây",
+    "text": "Tự động hóa quy trình tích hợp và phát hành phần mềm liên tục, điều phối các cụm chứa vi dịch vụ, quản trị hạ tầng trên nền tảng điện toán đám mây.",
+    "target": "DevOps & Cloud",
+    "note": "Mô tả chuyên môn DevOps không dùng từ khóa Docker/Kubernetes/AWS."
+  }
+]

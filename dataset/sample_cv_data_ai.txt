@@ -1,0 +1,18 @@
+HOÀNG ĐỨC THẮNG
+Vị trí mục tiêu: AI / Machine Learning Engineer Intern / Fresher
+Email: ducthang.ai@gmail.com | Phone: 0977 445 566
+
+HỌC VẤN
+Trường Đại học Thủy Lợi - Ngành Công nghệ Thông tin
+GPA: 3.5/4.0
+
+KỸ NĂNG CÔNG NGHỆ
+- Ngôn ngữ lập trình: Python, C++, SQL
+- AI / Data Framework: PyTorch, Scikit-learn, Pandas, NumPy, Hugging Face Transformers
+- Lĩnh vực nghiên cứu: Xử lý ngôn ngữ tự nhiên (NLP), Vector Search (FAISS), RAG (Retrieval-Augmented Generation)
+- Công cụ: Git, Linux, Docker, Jupyter Notebook
+
+DỰ ÁN NGHIÊN CỨU
+Xây dựng mô hình Semantic Search và Question Answering trên văn bản kỹ thuật
+- Công nghệ: Python, Sentence-BERT, FAISS, PyTorch
+- Thử nghiệm đánh giá độ tương đồng Cosine và thời gian truy xuất vector.

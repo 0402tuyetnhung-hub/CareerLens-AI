@@ -1,0 +1,19 @@
+LÊ MINH QUÂN
+Vị trí mục tiêu: Junior Mobile App Developer (Flutter / Dart)
+Email: minhquan.mobile@gmail.com | Phone: 0903 112 233
+
+HỌC VẤN
+Cử nhân Công nghệ Thông tin - Trường Đại học Thủy Lợi (2022 - 2026)
+
+KỸ NĂNG NỔI BẬT
+- Ngôn ngữ: Dart, Java, C++
+- Nền tảng: Flutter (Android & iOS)
+- State Management: Provider, Bloc
+- Backend as a Service: Firebase (Authentication, Firestore, Cloud Messaging)
+- API & Network: RESTful API, Dio, JSON parsing
+- Version Control: Git, GitHub Actions cơ bản
+
+DỰ ÁN THỰC TẾ
+Ứng dụng Đặt Lịch Học & Nhắc Nhở Thông Minh (ThuyLoi Student Companion)
+- Nền tảng: Flutter, Dart, Firebase
+- Kết quả: Đạt giải Nhì cuộc thi Sáng tạo Công nghệ cấp Khoa.

@@ -1,0 +1,81 @@
+{
+  "Frontend Framework": [
+    "React",
+    "ReactJS",
+    "Vue",
+    "VueJS",
+    "Angular",
+    "Next.js",
+    "Nuxt.js",
+    "Svelte"
+  ],
+  "Backend Framework": [
+    "Spring Boot",
+    "Spring",
+    "Django",
+    "FastAPI",
+    "ExpressJS",
+    "NestJS",
+    ".NET Core",
+    ".NET",
+    "ASP.NET",
+    "Laravel"
+  ],
+  "Relational Database": [
+    "MySQL",
+    "PostgreSQL",
+    "SQL Server",
+    "Oracle",
+    "SQLite",
+    "SQL"
+  ],
+  "Database Management": [
+    "MySQL",
+    "PostgreSQL",
+    "SQL Server",
+    "Oracle",
+    "SQLite",
+    "MongoDB",
+    "Redis",
+    "SQL"
+  ],
+  "NoSQL Database": [
+    "MongoDB",
+    "Redis",
+    "Cassandra",
+    "Elasticsearch"
+  ],
+  "Mobile Framework": [
+    "Flutter",
+    "React Native",
+    "Android SDK",
+    "Swift",
+    "iOS Development"
+  ],
+  "Cloud Services": [
+    "AWS",
+    "Google Cloud (GCP)",
+    "Microsoft Azure",
+    "Azure",
+    "Firebase"
+  ],
+  "Containerization": [
+    "Docker",
+    "Kubernetes",
+    "Podman"
+  ],
+  "Version Control": [
+    "Git",
+    "GitHub",
+    "GitLab"
+  ],
+  "Data Science & AI": [
+    "PyTorch",
+    "TensorFlow",
+    "Scikit-Learn",
+    "Machine Learning",
+    "Deep Learning",
+    "Pandas",
+    "NumPy"
+  ]
+}

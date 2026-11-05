@@ -1,0 +1,26 @@
+NGUYỄN VĂN AN
+Vị trí mục tiêu: Fresher / Junior Java Backend Developer
+Email: vanan.dev@gmail.com | Phone: 0912 345 678 | GitHub: github.com/vanan-dev
+
+HỌC VẤN
+Trường Đại học Thủy Lợi - Phân hiệu miền Nam (2022 - 2026)
+Chuyên ngành: Công nghệ Thông tin - GPA: 3.2/4.0
+
+TÓM TẮT NĂNG LỰC
+- Nắm vững lập trình hướng đối tượng (OOP) và ngôn ngữ Java.
+- Có kinh nghiệm phát triển Web backend với Spring Boot, Spring Data JPA.
+- Thành thạo thiết kế cơ sở dữ liệu quan hệ với PostgreSQL và MySQL, viết truy vấn SQL.
+- Có hiểu biết về kiến trúc RESTful API, xác thực bảo mật JWT.
+- Sử dụng thành thạo Git trong quản lý mã nguồn, biết đóng gói ứng dụng với Docker.
+
+KỸ NĂNG CHUYÊN MÔN
+- Ngôn ngữ: Java, SQL, Python cơ bản
+- Framework & Thư viện: Spring Boot, Hibernate, JPA
+- Cơ sở dữ liệu & Cache: PostgreSQL, MySQL, Redis
+- Công cụ & Môi trường: Git, Docker, Postman, Linux
+
+DỰ ÁN TIÊU BIỂU
+1. Hệ thống Quản lý Bán hàng Thương mại Điện tử (E-Commerce Backend)
+- Công nghệ: Java, Spring Boot, PostgreSQL, Redis, Docker
+- Vai trò: Backend Developer
+- Mô tả: Xây dựng hệ thống REST API phục vụ quản lý sản phẩm, giỏ hàng và thanh toán. Sử dụng Redis để lưu session và caching dữ liệu danh mục giúp giảm thời gian truy vấn 40%.

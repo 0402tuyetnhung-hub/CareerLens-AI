@@ -1,0 +1,115 @@
+skill_name,normalized_name,category,parent_concept,esco_id
+Java,java,Programming Language,Programming Language,esco:ict-java
+Python,python,Programming Language,Programming Language,esco:ict-python
+JavaScript,javascript,Programming Language,Programming Language,esco:ict-javascript
+TypeScript,typescript,Programming Language,Programming Language,esco:ict-typescript
+C#,c#,Programming Language,Programming Language,esco:ict-c
+C++,c++,Programming Language,Programming Language,esco:ict-c
+C,c,Programming Language,Programming Language,esco:ict-c
+PHP,php,Programming Language,Programming Language,esco:ict-php
+Golang,golang,Programming Language,Programming Language,esco:ict-golang
+Go,golang,Programming Language,Programming Language,esco:ict-golang
+Kotlin,kotlin,Programming Language,Programming Language,esco:ict-kotlin
+Swift,swift,Programming Language,Mobile Framework,esco:ict-swift
+Dart,dart,Programming Language,Programming Language,esco:ict-dart
+Ruby,ruby,Programming Language,Programming Language,esco:ict-ruby
+Rust,rust,Programming Language,Programming Language,esco:ict-rust
+Scala,scala,Programming Language,Programming Language,esco:ict-scala
+R,r,Programming Language,Programming Language,esco:ict-r
+SQL,sql,Database Query Language,Database Query Language,esco:ict-sql
+HTML5,html5,Frontend Markup,Frontend Markup,esco:ict-html5
+CSS3,css3,Frontend Styling,Frontend Styling,esco:ict-css3
+Spring Boot,spring boot,Backend Framework,Backend Framework,esco:ict-spring-boot
+Spring,spring boot,Backend Framework,Backend Framework,esco:ict-spring-boot
+Django,django,Backend Framework,Backend Framework,esco:ict-django
+FastAPI,fastapi,Backend Framework,Backend Framework,esco:ict-fastapi
+Flask,flask,Backend Framework,Backend Framework,esco:ict-flask
+ExpressJS,expressjs,Backend Framework,Backend Framework,esco:ict-expressjs
+Express,expressjs,Backend Framework,Backend Framework,esco:ict-expressjs
+NestJS,nestjs,Backend Framework,Backend Framework,esco:ict-nestjs
+.NET Core,.net core,Backend Framework,Backend Framework,esco:ict-net-core
+ASP.NET,.net core,Backend Framework,Backend Framework,esco:ict-net-core
+Laravel,laravel,Backend Framework,Backend Framework,esco:ict-laravel
+NodeJS,nodejs,Backend Runtime,Backend Runtime,esco:ict-nodejs
+Node.js,nodejs,Backend Runtime,Backend Runtime,esco:ict-nodejs
+Hibernate,hibernate,ORM / Backend Tool,ORM / Backend Tool,esco:ict-hibernate
+JPA,jpa,ORM / Backend Tool,ORM / Backend Tool,esco:ict-jpa
+Entity Framework,entity framework,ORM / Backend Tool,ORM / Backend Tool,esco:ict-entity-framework
+ReactJS,reactjs,Frontend Framework,Frontend Framework,esco:ict-reactjs
+React,reactjs,Frontend Framework,Frontend Framework,esco:ict-reactjs
+VueJS,vuejs,Frontend Framework,Frontend Framework,esco:ict-vuejs
+Vue,vuejs,Frontend Framework,Frontend Framework,esco:ict-vuejs
+Angular,angular,Frontend Framework,Frontend Framework,esco:ict-angular
+NextJS,nextjs,Frontend Framework,Frontend Framework,esco:ict-nextjs
+Next.js,nextjs,Frontend Framework,Frontend Framework,esco:ict-nextjs
+Tailwind CSS,tailwind,Frontend Styling,Frontend Styling,esco:ict-tailwind
+Tailwind,tailwind,Frontend Styling,Frontend Styling,esco:ict-tailwind
+Bootstrap,bootstrap,Frontend Styling,Frontend Framework,esco:ict-bootstrap
+Redux,redux,State Management,State Management,esco:ict-redux
+Flutter,flutter,Mobile Framework,Mobile Framework,esco:ict-flutter
+React Native,react native,Mobile Framework,Mobile Framework,esco:ict-react-native
+Android SDK,android sdk,Mobile Development,Mobile Framework,esco:ict-android-sdk
+iOS SDK,ios sdk,Mobile Development,Mobile Development,esco:ict-ios-sdk
+PostgreSQL,postgresql,Database,Database Management,esco:ict-postgresql
+MySQL,mysql,Database,Database Management,esco:ict-mysql
+MongoDB,mongodb,Database,Database Management,esco:ict-mongodb
+Redis,redis,Cache / Database,Database Management,esco:ict-redis
+Oracle,oracle,Database,Database Management,esco:ict-oracle
+SQL Server,sql server,Database,Database Management,esco:ict-sql-server
+Cassandra,cassandra,Database,Database Management,esco:ict-cassandra
+Elasticsearch,elasticsearch,Search Engine / Database,Database Management,esco:ict-elasticsearch
+Firebase,firebase,BaaS / Database,Cloud Services,esco:ict-firebase
+SQLite,sqlite,Database,Database Management,esco:ict-sqlite
+Neo4j,neo4j,Graph Database,Graph Database,esco:ict-neo4j
+AWS,aws,Cloud Platform,Cloud Services,esco:ict-aws
+Azure,azure,Cloud Platform,Cloud Services,esco:ict-azure
+Google Cloud,gcp,Cloud Platform,Cloud Services,esco:ict-gcp
+GCP,gcp,Cloud Platform,Cloud Services,esco:ict-gcp
+Docker,docker,DevOps & Container,Containerization,esco:ict-docker
+Kubernetes,kubernetes,DevOps & Orchestration,Containerization,esco:ict-kubernetes
+K8s,kubernetes,DevOps & Orchestration,Containerization,esco:ict-kubernetes
+CI/CD,ci/cd,DevOps Practice,DevOps Practice,esco:ict-ci-cd
+Jenkins,jenkins,DevOps Tool,DevOps Tool,esco:ict-jenkins
+GitHub Actions,github actions,DevOps Tool,DevOps Tool,esco:ict-github-actions
+GitLab CI,gitlab ci,DevOps Tool,DevOps Tool,esco:ict-gitlab-ci
+Terraform,terraform,Infrastructure as Code,Infrastructure as Code,esco:ict-terraform
+Ansible,ansible,DevOps Tool,DevOps Tool,esco:ict-ansible
+Linux,linux,Operating System,Operating System,esco:ict-linux
+Ubuntu,ubuntu,Operating System,Operating System,esco:ict-ubuntu
+Nginx,nginx,Web Server,Web Server,esco:ict-nginx
+Machine Learning,machine learning,Data Science / AI,Data Science & AI,esco:ict-machine-learning
+Deep Learning,deep learning,Data Science / AI,Data Science & AI,esco:ict-deep-learning
+NLP,nlp,Data Science / AI,Data Science / AI,esco:ict-nlp
+Computer Vision,computer vision,Data Science / AI,Data Science / AI,esco:ict-computer-vision
+PyTorch,pytorch,AI Framework,Data Science & AI,esco:ict-pytorch
+TensorFlow,tensorflow,AI Framework,Data Science & AI,esco:ict-tensorflow
+Scikit-learn,scikit-learn,AI Framework,Data Science & AI,esco:ict-scikit-learn
+Pandas,pandas,Data Analysis,Data Science & AI,esco:ict-pandas
+NumPy,numpy,Data Analysis,Data Science & AI,esco:ict-numpy
+Hadoop,hadoop,Big Data,Big Data,esco:ict-hadoop
+Spark,spark,Big Data,Big Data,esco:ict-spark
+Kafka,kafka,Event Streaming,Event Streaming,esco:ict-kafka
+Power BI,power bi,Business Intelligence,Business Intelligence,esco:ict-power-bi
+Tableau,tableau,Business Intelligence,Business Intelligence,esco:ict-tableau
+RAG,rag,Generative AI,Generative AI,esco:ict-rag
+LLM,llm,Generative AI,Generative AI,esco:ict-llm
+LangChain,langchain,Generative AI,Generative AI,esco:ict-langchain
+FAISS,faiss,Vector Search,Vector Search,esco:ict-faiss
+Selenium,selenium,Testing & QA,Testing & QA,esco:ict-selenium
+JUnit,junit,Testing & QA,Testing & QA,esco:ict-junit
+PyTest,pytest,Testing & QA,Testing & QA,esco:ict-pytest
+Postman,postman,API Testing,API Testing,esco:ict-postman
+JMeter,jmeter,Performance Testing,Performance Testing,esco:ict-jmeter
+Manual Testing,manual testing,Testing & QA,Testing & QA,esco:ict-manual-testing
+Automation Testing,automation testing,Testing & QA,Testing & QA,esco:ict-automation-testing
+REST API,rest api,API Architecture,API Architecture,esco:ict-rest-api
+RESTful API,rest api,API Architecture,API Architecture,esco:ict-rest-api
+GraphQL,graphql,API Architecture,API Architecture,esco:ict-graphql
+gRPC,grpc,API Architecture,API Architecture,esco:ict-grpc
+Microservices,microservices,Software Architecture,Software Architecture,esco:ict-microservices
+Design Patterns,design patterns,Software Architecture,Software Architecture,esco:ict-design-patterns
+OOP,oop,Programming Paradigm,Programming Paradigm,esco:ict-oop
+Agile,agile,Methodology,Methodology,esco:ict-agile
+Scrum,scrum,Methodology,Methodology,esco:ict-scrum
+Git,git,Version Control,Version Control,esco:ict-git
+Jira,jira,Project Management,Project Management,esco:ict-jira

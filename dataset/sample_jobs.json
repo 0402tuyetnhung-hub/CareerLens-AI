@@ -1,0 +1,3021 @@
+[
+  {
+    "job_id": "JOB_0001",
+    "job_title": "Java Backend Developer Fresher/Junior",
+    "company": "One Mount Group",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Backend Development",
+    "experience_required": "0 - 1 năm kinh nghiệm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "OOP",
+      "Java",
+      "Spring Boot",
+      "Git"
+    ],
+    "soft_skills": [
+      "Làm việc nhóm",
+      "Tư duy logic",
+      "Giải quyết vấn đề"
+    ],
+    "requirements_text": "Tốt nghiệp chuyên ngành CNTT hoặc liên quan. Thành thạo ngôn ngữ Java core, OOP. Có kiến thức hoặc kinh nghiệm dự án với framework Spring Boot, Spring Data JPA. Hiểu biết về cơ sở dữ liệu quan hệ như PostgreSQL, MySQL, viết câu lệnh SQL tối ưu. Biết sử dụng Git, hiểu về RESTful API. Ưu tiên ứng viên biết cơ bản về Docker và Microservices."
+  },
+  {
+    "job_id": "JOB_0002",
+    "job_title": "Lập Trình Viên Java (Spring Boot)",
+    "company": "Tiki Corporation",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Backend Development",
+    "experience_required": "0 - 1 năm kinh nghiệm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Java",
+      "OOP",
+      "Docker",
+      "PostgreSQL"
+    ],
+    "soft_skills": [
+      "Làm việc nhóm",
+      "Tư duy logic",
+      "Giải quyết vấn đề"
+    ],
+    "requirements_text": "Tốt nghiệp chuyên ngành CNTT hoặc liên quan. Thành thạo ngôn ngữ Java core, OOP. Có kiến thức hoặc kinh nghiệm dự án với framework Spring Boot, Spring Data JPA. Hiểu biết về cơ sở dữ liệu quan hệ như PostgreSQL, MySQL, viết câu lệnh SQL tối ưu. Biết sử dụng Git, hiểu về RESTful API. Ưu tiên ứng viên biết cơ bản về Docker và Microservices."
+  },
+  {
+    "job_id": "JOB_0003",
+    "job_title": "Junior Java Software Engineer",
+    "company": "Bosch Global Software",
+    "location": "Hà Nội",
+    "category": "Backend Development",
+    "experience_required": "0 - 1 năm kinh nghiệm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "REST API",
+      "Docker",
+      "Git",
+      "OOP"
+    ],
+    "soft_skills": [
+      "Làm việc nhóm",
+      "Tư duy logic",
+      "Giải quyết vấn đề"
+    ],
+    "requirements_text": "Tốt nghiệp chuyên ngành CNTT hoặc liên quan. Thành thạo ngôn ngữ Java core, OOP. Có kiến thức hoặc kinh nghiệm dự án với framework Spring Boot, Spring Data JPA. Hiểu biết về cơ sở dữ liệu quan hệ như PostgreSQL, MySQL, viết câu lệnh SQL tối ưu. Biết sử dụng Git, hiểu về RESTful API. Ưu tiên ứng viên biết cơ bản về Docker và Microservices."
+  },
+  {
+    "job_id": "JOB_0004",
+    "job_title": "Backend Java Developer",
+    "company": "Samsung R&D Institute Vietnam",
+    "location": "Đà Nẵng",
+    "category": "Backend Development",
+    "experience_required": "0 - 1 năm kinh nghiệm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Spring Boot",
+      "OOP",
+      "PostgreSQL",
+      "REST API",
+      "Docker",
+      "Git"
+    ],
+    "soft_skills": [
+      "Làm việc nhóm",
+      "Tư duy logic",
+      "Giải quyết vấn đề"
+    ],
+    "requirements_text": "Tốt nghiệp chuyên ngành CNTT hoặc liên quan. Thành thạo ngôn ngữ Java core, OOP. Có kiến thức hoặc kinh nghiệm dự án với framework Spring Boot, Spring Data JPA. Hiểu biết về cơ sở dữ liệu quan hệ như PostgreSQL, MySQL, viết câu lệnh SQL tối ưu. Biết sử dụng Git, hiểu về RESTful API. Ưu tiên ứng viên biết cơ bản về Docker và Microservices."
+  },
+  {
+    "job_id": "JOB_0005",
+    "job_title": "Java Backend Developer Fresher/Junior",
+    "company": "Techcombank Digital",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Backend Development",
+    "experience_required": "0 - 1 năm kinh nghiệm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "PostgreSQL",
+      "Spring Boot",
+      "REST API",
+      "OOP",
+      "Java",
+      "Docker"
+    ],
+    "soft_skills": [
+      "Làm việc nhóm",
+      "Tư duy logic",
+      "Giải quyết vấn đề"
+    ],
+    "requirements_text": "Tốt nghiệp chuyên ngành CNTT hoặc liên quan. Thành thạo ngôn ngữ Java core, OOP. Có kiến thức hoặc kinh nghiệm dự án với framework Spring Boot, Spring Data JPA. Hiểu biết về cơ sở dữ liệu quan hệ như PostgreSQL, MySQL, viết câu lệnh SQL tối ưu. Biết sử dụng Git, hiểu về RESTful API. Ưu tiên ứng viên biết cơ bản về Docker và Microservices."
+  },
+  {
+    "job_id": "JOB_0006",
+    "job_title": "Lập Trình Viên Java (Spring Boot)",
+    "company": "FPT Software",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Backend Development",
+    "experience_required": "0 - 1 năm kinh nghiệm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Spring Boot",
+      "PostgreSQL",
+      "Java",
+      "Git",
+      "Docker"
+    ],
+    "soft_skills": [
+      "Làm việc nhóm",
+      "Tư duy logic",
+      "Giải quyết vấn đề"
+    ],
+    "requirements_text": "Tốt nghiệp chuyên ngành CNTT hoặc liên quan. Thành thạo ngôn ngữ Java core, OOP. Có kiến thức hoặc kinh nghiệm dự án với framework Spring Boot, Spring Data JPA. Hiểu biết về cơ sở dữ liệu quan hệ như PostgreSQL, MySQL, viết câu lệnh SQL tối ưu. Biết sử dụng Git, hiểu về RESTful API. Ưu tiên ứng viên biết cơ bản về Docker và Microservices."
+  },
+  {
+    "job_id": "JOB_0007",
+    "job_title": "Junior Java Software Engineer",
+    "company": "VNPT Information Technology",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Backend Development",
+    "experience_required": "0 - 1 năm kinh nghiệm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "REST API",
+      "Docker",
+      "PostgreSQL",
+      "Java",
+      "Git",
+      "Spring Boot",
+      "OOP"
+    ],
+    "soft_skills": [
+      "Làm việc nhóm",
+      "Tư duy logic",
+      "Giải quyết vấn đề"
+    ],
+    "requirements_text": "Tốt nghiệp chuyên ngành CNTT hoặc liên quan. Thành thạo ngôn ngữ Java core, OOP. Có kiến thức hoặc kinh nghiệm dự án với framework Spring Boot, Spring Data JPA. Hiểu biết về cơ sở dữ liệu quan hệ như PostgreSQL, MySQL, viết câu lệnh SQL tối ưu. Biết sử dụng Git, hiểu về RESTful API. Ưu tiên ứng viên biết cơ bản về Docker và Microservices."
+  },
+  {
+    "job_id": "JOB_0008",
+    "job_title": "Backend Java Developer",
+    "company": "Shopee Vietnam",
+    "location": "Hà Nội",
+    "category": "Backend Development",
+    "experience_required": "0 - 1 năm kinh nghiệm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Docker",
+      "REST API",
+      "PostgreSQL",
+      "Git",
+      "OOP",
+      "Spring Boot"
+    ],
+    "soft_skills": [
+      "Làm việc nhóm",
+      "Tư duy logic",
+      "Giải quyết vấn đề"
+    ],
+    "requirements_text": "Tốt nghiệp chuyên ngành CNTT hoặc liên quan. Thành thạo ngôn ngữ Java core, OOP. Có kiến thức hoặc kinh nghiệm dự án với framework Spring Boot, Spring Data JPA. Hiểu biết về cơ sở dữ liệu quan hệ như PostgreSQL, MySQL, viết câu lệnh SQL tối ưu. Biết sử dụng Git, hiểu về RESTful API. Ưu tiên ứng viên biết cơ bản về Docker và Microservices."
+  },
+  {
+    "job_id": "JOB_0009",
+    "job_title": "Java Backend Developer Fresher/Junior",
+    "company": "DXC Technology",
+    "location": "Đà Nẵng",
+    "category": "Backend Development",
+    "experience_required": "0 - 1 năm kinh nghiệm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "REST API",
+      "Docker",
+      "Git",
+      "OOP"
+    ],
+    "soft_skills": [
+      "Làm việc nhóm",
+      "Tư duy logic",
+      "Giải quyết vấn đề"
+    ],
+    "requirements_text": "Tốt nghiệp chuyên ngành CNTT hoặc liên quan. Thành thạo ngôn ngữ Java core, OOP. Có kiến thức hoặc kinh nghiệm dự án với framework Spring Boot, Spring Data JPA. Hiểu biết về cơ sở dữ liệu quan hệ như PostgreSQL, MySQL, viết câu lệnh SQL tối ưu. Biết sử dụng Git, hiểu về RESTful API. Ưu tiên ứng viên biết cơ bản về Docker và Microservices."
+  },
+  {
+    "job_id": "JOB_0010",
+    "job_title": "Python Backend Developer",
+    "company": "Tiki Corporation",
+    "location": "Hà Nội",
+    "category": "Backend Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Redis",
+      "Python",
+      "PostgreSQL",
+      "FastAPI",
+      "Docker",
+      "Git"
+    ],
+    "soft_skills": [
+      "Khả năng tự học",
+      "Đọc hiểu tài liệu tiếng Anh"
+    ],
+    "requirements_text": "Thành thạo lập trình Python, nắm vững cấu trúc dữ liệu và giải thuật. Có kinh nghiệm xây dựng REST API bằng FastAPI hoặc Django/Flask. Sử dụng thành thạo PostgreSQL, Redis cache. Hiểu biết về container hóa với Docker, quản lý mã nguồn bằng Git. Có tinh thần trách nhiệm cao, sẵn sàng học hỏi công nghệ mới."
+  },
+  {
+    "job_id": "JOB_0011",
+    "job_title": "Lập Trình Viên Python / FastAPI",
+    "company": "Bosch Global Software",
+    "location": "Đà Nẵng",
+    "category": "Backend Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Khả năng tự học",
+      "Đọc hiểu tài liệu tiếng Anh"
+    ],
+    "requirements_text": "Thành thạo lập trình Python, nắm vững cấu trúc dữ liệu và giải thuật. Có kinh nghiệm xây dựng REST API bằng FastAPI hoặc Django/Flask. Sử dụng thành thạo PostgreSQL, Redis cache. Hiểu biết về container hóa với Docker, quản lý mã nguồn bằng Git. Có tinh thần trách nhiệm cao, sẵn sàng học hỏi công nghệ mới."
+  },
+  {
+    "job_id": "JOB_0012",
+    "job_title": "Python Software Engineer",
+    "company": "Samsung R&D Institute Vietnam",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Backend Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Khả năng tự học",
+      "Đọc hiểu tài liệu tiếng Anh"
+    ],
+    "requirements_text": "Thành thạo lập trình Python, nắm vững cấu trúc dữ liệu và giải thuật. Có kinh nghiệm xây dựng REST API bằng FastAPI hoặc Django/Flask. Sử dụng thành thạo PostgreSQL, Redis cache. Hiểu biết về container hóa với Docker, quản lý mã nguồn bằng Git. Có tinh thần trách nhiệm cao, sẵn sàng học hỏi công nghệ mới."
+  },
+  {
+    "job_id": "JOB_0013",
+    "job_title": "Junior Python Developer",
+    "company": "Techcombank Digital",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Backend Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "REST API",
+      "Git",
+      "Docker",
+      "PostgreSQL",
+      "FastAPI",
+      "Python"
+    ],
+    "soft_skills": [
+      "Khả năng tự học",
+      "Đọc hiểu tài liệu tiếng Anh"
+    ],
+    "requirements_text": "Thành thạo lập trình Python, nắm vững cấu trúc dữ liệu và giải thuật. Có kinh nghiệm xây dựng REST API bằng FastAPI hoặc Django/Flask. Sử dụng thành thạo PostgreSQL, Redis cache. Hiểu biết về container hóa với Docker, quản lý mã nguồn bằng Git. Có tinh thần trách nhiệm cao, sẵn sàng học hỏi công nghệ mới."
+  },
+  {
+    "job_id": "JOB_0014",
+    "job_title": "Python Backend Developer",
+    "company": "FPT Software",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Backend Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "FastAPI",
+      "Redis",
+      "Python",
+      "Git"
+    ],
+    "soft_skills": [
+      "Khả năng tự học",
+      "Đọc hiểu tài liệu tiếng Anh"
+    ],
+    "requirements_text": "Thành thạo lập trình Python, nắm vững cấu trúc dữ liệu và giải thuật. Có kinh nghiệm xây dựng REST API bằng FastAPI hoặc Django/Flask. Sử dụng thành thạo PostgreSQL, Redis cache. Hiểu biết về container hóa với Docker, quản lý mã nguồn bằng Git. Có tinh thần trách nhiệm cao, sẵn sàng học hỏi công nghệ mới."
+  },
+  {
+    "job_id": "JOB_0015",
+    "job_title": "Lập Trình Viên Python / FastAPI",
+    "company": "VNPT Information Technology",
+    "location": "Hà Nội",
+    "category": "Backend Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "REST API",
+      "Docker",
+      "Redis",
+      "PostgreSQL",
+      "Python",
+      "FastAPI",
+      "Git"
+    ],
+    "soft_skills": [
+      "Khả năng tự học",
+      "Đọc hiểu tài liệu tiếng Anh"
+    ],
+    "requirements_text": "Thành thạo lập trình Python, nắm vững cấu trúc dữ liệu và giải thuật. Có kinh nghiệm xây dựng REST API bằng FastAPI hoặc Django/Flask. Sử dụng thành thạo PostgreSQL, Redis cache. Hiểu biết về container hóa với Docker, quản lý mã nguồn bằng Git. Có tinh thần trách nhiệm cao, sẵn sàng học hỏi công nghệ mới."
+  },
+  {
+    "job_id": "JOB_0016",
+    "job_title": "Python Software Engineer",
+    "company": "Shopee Vietnam",
+    "location": "Đà Nẵng",
+    "category": "Backend Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Khả năng tự học",
+      "Đọc hiểu tài liệu tiếng Anh"
+    ],
+    "requirements_text": "Thành thạo lập trình Python, nắm vững cấu trúc dữ liệu và giải thuật. Có kinh nghiệm xây dựng REST API bằng FastAPI hoặc Django/Flask. Sử dụng thành thạo PostgreSQL, Redis cache. Hiểu biết về container hóa với Docker, quản lý mã nguồn bằng Git. Có tinh thần trách nhiệm cao, sẵn sàng học hỏi công nghệ mới."
+  },
+  {
+    "job_id": "JOB_0017",
+    "job_title": "Junior Python Developer",
+    "company": "DXC Technology",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Backend Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Khả năng tự học",
+      "Đọc hiểu tài liệu tiếng Anh"
+    ],
+    "requirements_text": "Thành thạo lập trình Python, nắm vững cấu trúc dữ liệu và giải thuật. Có kinh nghiệm xây dựng REST API bằng FastAPI hoặc Django/Flask. Sử dụng thành thạo PostgreSQL, Redis cache. Hiểu biết về container hóa với Docker, quản lý mã nguồn bằng Git. Có tinh thần trách nhiệm cao, sẵn sàng học hỏi công nghệ mới."
+  },
+  {
+    "job_id": "JOB_0018",
+    "job_title": "Python Backend Developer",
+    "company": "TMA Solutions",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Backend Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Redis",
+      "Docker",
+      "Python",
+      "PostgreSQL",
+      "FastAPI",
+      "REST API"
+    ],
+    "soft_skills": [
+      "Khả năng tự học",
+      "Đọc hiểu tài liệu tiếng Anh"
+    ],
+    "requirements_text": "Thành thạo lập trình Python, nắm vững cấu trúc dữ liệu và giải thuật. Có kinh nghiệm xây dựng REST API bằng FastAPI hoặc Django/Flask. Sử dụng thành thạo PostgreSQL, Redis cache. Hiểu biết về container hóa với Docker, quản lý mã nguồn bằng Git. Có tinh thần trách nhiệm cao, sẵn sàng học hỏi công nghệ mới."
+  },
+  {
+    "job_id": "JOB_0019",
+    "job_title": "Node.js Backend Developer",
+    "company": "Bosch Global Software",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Backend Development",
+    "experience_required": "0 - 2 năm kinh nghiệm",
+    "salary": "11 - 19 triệu VNĐ",
+    "technical_skills": [
+      "REST API",
+      "Redis",
+      "JavaScript",
+      "TypeScript",
+      "NodeJS",
+      "ExpressJS"
+    ],
+    "soft_skills": [
+      "Giao tiếp tốt",
+      "Quản lý thời gian"
+    ],
+    "requirements_text": "Nắm vững JavaScript/TypeScript hiện đại (ES6+). Có kinh nghiệm làm việc với Node.js, ExpressJS hoặc NestJS. Sử dụng thành thạo cơ sở dữ liệu MongoDB hoặc PostgreSQL. Có kiến thức về kiến trúc Microservices, caching với Redis, xác thực JWT. Kỹ năng sử dụng Git thành thạo."
+  },
+  {
+    "job_id": "JOB_0020",
+    "job_title": "Lập Trình Viên NodeJS / NestJS",
+    "company": "Samsung R&D Institute Vietnam",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Backend Development",
+    "experience_required": "0 - 2 năm kinh nghiệm",
+    "salary": "11 - 19 triệu VNĐ",
+    "technical_skills": [
+      "JavaScript",
+      "REST API",
+      "ExpressJS",
+      "NodeJS",
+      "Git"
+    ],
+    "soft_skills": [
+      "Giao tiếp tốt",
+      "Quản lý thời gian"
+    ],
+    "requirements_text": "Nắm vững JavaScript/TypeScript hiện đại (ES6+). Có kinh nghiệm làm việc với Node.js, ExpressJS hoặc NestJS. Sử dụng thành thạo cơ sở dữ liệu MongoDB hoặc PostgreSQL. Có kiến thức về kiến trúc Microservices, caching với Redis, xác thực JWT. Kỹ năng sử dụng Git thành thạo."
+  },
+  {
+    "job_id": "JOB_0021",
+    "job_title": "Junior Backend Developer (NodeJS)",
+    "company": "Techcombank Digital",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Backend Development",
+    "experience_required": "0 - 2 năm kinh nghiệm",
+    "salary": "11 - 19 triệu VNĐ",
+    "technical_skills": [
+      "JavaScript",
+      "TypeScript",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "Redis",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Giao tiếp tốt",
+      "Quản lý thời gian"
+    ],
+    "requirements_text": "Nắm vững JavaScript/TypeScript hiện đại (ES6+). Có kinh nghiệm làm việc với Node.js, ExpressJS hoặc NestJS. Sử dụng thành thạo cơ sở dữ liệu MongoDB hoặc PostgreSQL. Có kiến thức về kiến trúc Microservices, caching với Redis, xác thực JWT. Kỹ năng sử dụng Git thành thạo."
+  },
+  {
+    "job_id": "JOB_0022",
+    "job_title": "Node.js Backend Developer",
+    "company": "FPT Software",
+    "location": "Hà Nội",
+    "category": "Backend Development",
+    "experience_required": "0 - 2 năm kinh nghiệm",
+    "salary": "11 - 19 triệu VNĐ",
+    "technical_skills": [
+      "TypeScript",
+      "REST API",
+      "MongoDB",
+      "Git",
+      "ExpressJS"
+    ],
+    "soft_skills": [
+      "Giao tiếp tốt",
+      "Quản lý thời gian"
+    ],
+    "requirements_text": "Nắm vững JavaScript/TypeScript hiện đại (ES6+). Có kinh nghiệm làm việc với Node.js, ExpressJS hoặc NestJS. Sử dụng thành thạo cơ sở dữ liệu MongoDB hoặc PostgreSQL. Có kiến thức về kiến trúc Microservices, caching với Redis, xác thực JWT. Kỹ năng sử dụng Git thành thạo."
+  },
+  {
+    "job_id": "JOB_0023",
+    "job_title": "Lập Trình Viên NodeJS / NestJS",
+    "company": "VNPT Information Technology",
+    "location": "Đà Nẵng",
+    "category": "Backend Development",
+    "experience_required": "0 - 2 năm kinh nghiệm",
+    "salary": "11 - 19 triệu VNĐ",
+    "technical_skills": [
+      "JavaScript",
+      "TypeScript",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "Redis",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Giao tiếp tốt",
+      "Quản lý thời gian"
+    ],
+    "requirements_text": "Nắm vững JavaScript/TypeScript hiện đại (ES6+). Có kinh nghiệm làm việc với Node.js, ExpressJS hoặc NestJS. Sử dụng thành thạo cơ sở dữ liệu MongoDB hoặc PostgreSQL. Có kiến thức về kiến trúc Microservices, caching với Redis, xác thực JWT. Kỹ năng sử dụng Git thành thạo."
+  },
+  {
+    "job_id": "JOB_0024",
+    "job_title": "Junior Backend Developer (NodeJS)",
+    "company": "Shopee Vietnam",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Backend Development",
+    "experience_required": "0 - 2 năm kinh nghiệm",
+    "salary": "11 - 19 triệu VNĐ",
+    "technical_skills": [
+      "JavaScript",
+      "TypeScript",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "Redis",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Giao tiếp tốt",
+      "Quản lý thời gian"
+    ],
+    "requirements_text": "Nắm vững JavaScript/TypeScript hiện đại (ES6+). Có kinh nghiệm làm việc với Node.js, ExpressJS hoặc NestJS. Sử dụng thành thạo cơ sở dữ liệu MongoDB hoặc PostgreSQL. Có kiến thức về kiến trúc Microservices, caching với Redis, xác thực JWT. Kỹ năng sử dụng Git thành thạo."
+  },
+  {
+    "job_id": "JOB_0025",
+    "job_title": "Node.js Backend Developer",
+    "company": "DXC Technology",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Backend Development",
+    "experience_required": "0 - 2 năm kinh nghiệm",
+    "salary": "11 - 19 triệu VNĐ",
+    "technical_skills": [
+      "JavaScript",
+      "TypeScript",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "Redis",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Giao tiếp tốt",
+      "Quản lý thời gian"
+    ],
+    "requirements_text": "Nắm vững JavaScript/TypeScript hiện đại (ES6+). Có kinh nghiệm làm việc với Node.js, ExpressJS hoặc NestJS. Sử dụng thành thạo cơ sở dữ liệu MongoDB hoặc PostgreSQL. Có kiến thức về kiến trúc Microservices, caching với Redis, xác thực JWT. Kỹ năng sử dụng Git thành thạo."
+  },
+  {
+    "job_id": "JOB_0026",
+    "job_title": "Lập Trình Viên NodeJS / NestJS",
+    "company": "TMA Solutions",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Backend Development",
+    "experience_required": "0 - 2 năm kinh nghiệm",
+    "salary": "11 - 19 triệu VNĐ",
+    "technical_skills": [
+      "REST API",
+      "TypeScript",
+      "Redis",
+      "NodeJS"
+    ],
+    "soft_skills": [
+      "Giao tiếp tốt",
+      "Quản lý thời gian"
+    ],
+    "requirements_text": "Nắm vững JavaScript/TypeScript hiện đại (ES6+). Có kinh nghiệm làm việc với Node.js, ExpressJS hoặc NestJS. Sử dụng thành thạo cơ sở dữ liệu MongoDB hoặc PostgreSQL. Có kiến thức về kiến trúc Microservices, caching với Redis, xác thực JWT. Kỹ năng sử dụng Git thành thạo."
+  },
+  {
+    "job_id": "JOB_0027",
+    "job_title": "Junior Backend Developer (NodeJS)",
+    "company": "MB Bank Digital Hub",
+    "location": "Hà Nội",
+    "category": "Backend Development",
+    "experience_required": "0 - 2 năm kinh nghiệm",
+    "salary": "11 - 19 triệu VNĐ",
+    "technical_skills": [
+      "REST API",
+      "JavaScript",
+      "Git",
+      "NodeJS",
+      "Redis",
+      "ExpressJS"
+    ],
+    "soft_skills": [
+      "Giao tiếp tốt",
+      "Quản lý thời gian"
+    ],
+    "requirements_text": "Nắm vững JavaScript/TypeScript hiện đại (ES6+). Có kinh nghiệm làm việc với Node.js, ExpressJS hoặc NestJS. Sử dụng thành thạo cơ sở dữ liệu MongoDB hoặc PostgreSQL. Có kiến thức về kiến trúc Microservices, caching với Redis, xác thực JWT. Kỹ năng sử dụng Git thành thạo."
+  },
+  {
+    "job_id": "JOB_0028",
+    "job_title": ".NET Software Developer",
+    "company": "Samsung R&D Institute Vietnam",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Backend Development",
+    "experience_required": "0 - 2 năm kinh nghiệm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      ".NET Core",
+      "REST API",
+      "Entity Framework",
+      "Git",
+      "C#"
+    ],
+    "soft_skills": [
+      "Chủ động",
+      "Làm việc nhóm"
+    ],
+    "requirements_text": "Có nền tảng lập trình hướng đối tượng (OOP) vững chắc với ngôn ngữ C#. Có kinh nghiệm làm việc với ASP.NET Core, Entity Framework Core. Hiểu biết chuyên sâu về MS SQL Server, thiết kế bảng và viết stored procedure. Xây dựng và kiểm thử RESTful API."
+  },
+  {
+    "job_id": "JOB_0029",
+    "job_title": "Lập Trình Viên C# / .NET Core",
+    "company": "Techcombank Digital",
+    "location": "Hà Nội",
+    "category": "Backend Development",
+    "experience_required": "0 - 2 năm kinh nghiệm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "C#",
+      ".NET Core",
+      "SQL Server",
+      "Entity Framework",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Chủ động",
+      "Làm việc nhóm"
+    ],
+    "requirements_text": "Có nền tảng lập trình hướng đối tượng (OOP) vững chắc với ngôn ngữ C#. Có kinh nghiệm làm việc với ASP.NET Core, Entity Framework Core. Hiểu biết chuyên sâu về MS SQL Server, thiết kế bảng và viết stored procedure. Xây dựng và kiểm thử RESTful API."
+  },
+  {
+    "job_id": "JOB_0030",
+    "job_title": "Junior .NET Engineer",
+    "company": "FPT Software",
+    "location": "Đà Nẵng",
+    "category": "Backend Development",
+    "experience_required": "0 - 2 năm kinh nghiệm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Entity Framework",
+      "Git",
+      "SQL Server",
+      "REST API",
+      ".NET Core"
+    ],
+    "soft_skills": [
+      "Chủ động",
+      "Làm việc nhóm"
+    ],
+    "requirements_text": "Có nền tảng lập trình hướng đối tượng (OOP) vững chắc với ngôn ngữ C#. Có kinh nghiệm làm việc với ASP.NET Core, Entity Framework Core. Hiểu biết chuyên sâu về MS SQL Server, thiết kế bảng và viết stored procedure. Xây dựng và kiểm thử RESTful API."
+  },
+  {
+    "job_id": "JOB_0031",
+    "job_title": ".NET Software Developer",
+    "company": "VNPT Information Technology",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Backend Development",
+    "experience_required": "0 - 2 năm kinh nghiệm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "SQL Server",
+      "C#",
+      ".NET Core",
+      "REST API"
+    ],
+    "soft_skills": [
+      "Chủ động",
+      "Làm việc nhóm"
+    ],
+    "requirements_text": "Có nền tảng lập trình hướng đối tượng (OOP) vững chắc với ngôn ngữ C#. Có kinh nghiệm làm việc với ASP.NET Core, Entity Framework Core. Hiểu biết chuyên sâu về MS SQL Server, thiết kế bảng và viết stored procedure. Xây dựng và kiểm thử RESTful API."
+  },
+  {
+    "job_id": "JOB_0032",
+    "job_title": "Lập Trình Viên C# / .NET Core",
+    "company": "Shopee Vietnam",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Backend Development",
+    "experience_required": "0 - 2 năm kinh nghiệm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "C#",
+      ".NET Core",
+      "SQL Server",
+      "Entity Framework",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Chủ động",
+      "Làm việc nhóm"
+    ],
+    "requirements_text": "Có nền tảng lập trình hướng đối tượng (OOP) vững chắc với ngôn ngữ C#. Có kinh nghiệm làm việc với ASP.NET Core, Entity Framework Core. Hiểu biết chuyên sâu về MS SQL Server, thiết kế bảng và viết stored procedure. Xây dựng và kiểm thử RESTful API."
+  },
+  {
+    "job_id": "JOB_0033",
+    "job_title": "Junior .NET Engineer",
+    "company": "DXC Technology",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Backend Development",
+    "experience_required": "0 - 2 năm kinh nghiệm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Git",
+      "C#",
+      ".NET Core",
+      "Entity Framework",
+      "SQL Server"
+    ],
+    "soft_skills": [
+      "Chủ động",
+      "Làm việc nhóm"
+    ],
+    "requirements_text": "Có nền tảng lập trình hướng đối tượng (OOP) vững chắc với ngôn ngữ C#. Có kinh nghiệm làm việc với ASP.NET Core, Entity Framework Core. Hiểu biết chuyên sâu về MS SQL Server, thiết kế bảng và viết stored procedure. Xây dựng và kiểm thử RESTful API."
+  },
+  {
+    "job_id": "JOB_0034",
+    "job_title": ".NET Software Developer",
+    "company": "TMA Solutions",
+    "location": "Hà Nội",
+    "category": "Backend Development",
+    "experience_required": "0 - 2 năm kinh nghiệm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "C#",
+      ".NET Core",
+      "SQL Server",
+      "Entity Framework",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Chủ động",
+      "Làm việc nhóm"
+    ],
+    "requirements_text": "Có nền tảng lập trình hướng đối tượng (OOP) vững chắc với ngôn ngữ C#. Có kinh nghiệm làm việc với ASP.NET Core, Entity Framework Core. Hiểu biết chuyên sâu về MS SQL Server, thiết kế bảng và viết stored procedure. Xây dựng và kiểm thử RESTful API."
+  },
+  {
+    "job_id": "JOB_0035",
+    "job_title": "Lập Trình Viên C# / .NET Core",
+    "company": "MB Bank Digital Hub",
+    "location": "Đà Nẵng",
+    "category": "Backend Development",
+    "experience_required": "0 - 2 năm kinh nghiệm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "C#",
+      ".NET Core",
+      "SQL Server",
+      "Entity Framework",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Chủ động",
+      "Làm việc nhóm"
+    ],
+    "requirements_text": "Có nền tảng lập trình hướng đối tượng (OOP) vững chắc với ngôn ngữ C#. Có kinh nghiệm làm việc với ASP.NET Core, Entity Framework Core. Hiểu biết chuyên sâu về MS SQL Server, thiết kế bảng và viết stored procedure. Xây dựng và kiểm thử RESTful API."
+  },
+  {
+    "job_id": "JOB_0036",
+    "job_title": "Junior .NET Engineer",
+    "company": "VNG Corporation",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Backend Development",
+    "experience_required": "0 - 2 năm kinh nghiệm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "C#",
+      ".NET Core",
+      "SQL Server",
+      "Entity Framework",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Chủ động",
+      "Làm việc nhóm"
+    ],
+    "requirements_text": "Có nền tảng lập trình hướng đối tượng (OOP) vững chắc với ngôn ngữ C#. Có kinh nghiệm làm việc với ASP.NET Core, Entity Framework Core. Hiểu biết chuyên sâu về MS SQL Server, thiết kế bảng và viết stored procedure. Xây dựng và kiểm thử RESTful API."
+  },
+  {
+    "job_id": "JOB_0037",
+    "job_title": "Golang Developer",
+    "company": "Techcombank Digital",
+    "location": "Đà Nẵng",
+    "category": "Backend Development",
+    "experience_required": "1 - 2 năm kinh nghiệm",
+    "salary": "15 - 25 triệu VNĐ",
+    "technical_skills": [
+      "Golang",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "gRPC",
+      "Microservices",
+      "Git"
+    ],
+    "soft_skills": [
+      "Tư duy thuật toán",
+      "Độc lập giải quyết vấn đề"
+    ],
+    "requirements_text": "Có kinh nghiệm lập trình Backend với Golang. Nắm vững concurrency trong Go (goroutine, channel). Hiểu biết về gRPC, RESTful API và kiến trúc Microservices. Làm việc với các cơ sở dữ liệu PostgreSQL, Redis, Kafka."
+  },
+  {
+    "job_id": "JOB_0038",
+    "job_title": "Lập trình viên Go/Golang Backend",
+    "company": "FPT Software",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Backend Development",
+    "experience_required": "1 - 2 năm kinh nghiệm",
+    "salary": "15 - 25 triệu VNĐ",
+    "technical_skills": [
+      "Docker",
+      "Golang",
+      "gRPC",
+      "Git",
+      "PostgreSQL",
+      "Microservices"
+    ],
+    "soft_skills": [
+      "Tư duy thuật toán",
+      "Độc lập giải quyết vấn đề"
+    ],
+    "requirements_text": "Có kinh nghiệm lập trình Backend với Golang. Nắm vững concurrency trong Go (goroutine, channel). Hiểu biết về gRPC, RESTful API và kiến trúc Microservices. Làm việc với các cơ sở dữ liệu PostgreSQL, Redis, Kafka."
+  },
+  {
+    "job_id": "JOB_0039",
+    "job_title": "Junior Golang Engineer",
+    "company": "VNPT Information Technology",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Backend Development",
+    "experience_required": "1 - 2 năm kinh nghiệm",
+    "salary": "15 - 25 triệu VNĐ",
+    "technical_skills": [
+      "PostgreSQL",
+      "Docker",
+      "Redis",
+      "gRPC"
+    ],
+    "soft_skills": [
+      "Tư duy thuật toán",
+      "Độc lập giải quyết vấn đề"
+    ],
+    "requirements_text": "Có kinh nghiệm lập trình Backend với Golang. Nắm vững concurrency trong Go (goroutine, channel). Hiểu biết về gRPC, RESTful API và kiến trúc Microservices. Làm việc với các cơ sở dữ liệu PostgreSQL, Redis, Kafka."
+  },
+  {
+    "job_id": "JOB_0040",
+    "job_title": "Golang Developer",
+    "company": "Shopee Vietnam",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Backend Development",
+    "experience_required": "1 - 2 năm kinh nghiệm",
+    "salary": "15 - 25 triệu VNĐ",
+    "technical_skills": [
+      "Golang",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "gRPC",
+      "Microservices",
+      "Git"
+    ],
+    "soft_skills": [
+      "Tư duy thuật toán",
+      "Độc lập giải quyết vấn đề"
+    ],
+    "requirements_text": "Có kinh nghiệm lập trình Backend với Golang. Nắm vững concurrency trong Go (goroutine, channel). Hiểu biết về gRPC, RESTful API và kiến trúc Microservices. Làm việc với các cơ sở dữ liệu PostgreSQL, Redis, Kafka."
+  },
+  {
+    "job_id": "JOB_0041",
+    "job_title": "Lập trình viên Go/Golang Backend",
+    "company": "DXC Technology",
+    "location": "Hà Nội",
+    "category": "Backend Development",
+    "experience_required": "1 - 2 năm kinh nghiệm",
+    "salary": "15 - 25 triệu VNĐ",
+    "technical_skills": [
+      "Microservices",
+      "Redis",
+      "Golang",
+      "Docker",
+      "PostgreSQL",
+      "Git"
+    ],
+    "soft_skills": [
+      "Tư duy thuật toán",
+      "Độc lập giải quyết vấn đề"
+    ],
+    "requirements_text": "Có kinh nghiệm lập trình Backend với Golang. Nắm vững concurrency trong Go (goroutine, channel). Hiểu biết về gRPC, RESTful API và kiến trúc Microservices. Làm việc với các cơ sở dữ liệu PostgreSQL, Redis, Kafka."
+  },
+  {
+    "job_id": "JOB_0042",
+    "job_title": "Junior Golang Engineer",
+    "company": "TMA Solutions",
+    "location": "Đà Nẵng",
+    "category": "Backend Development",
+    "experience_required": "1 - 2 năm kinh nghiệm",
+    "salary": "15 - 25 triệu VNĐ",
+    "technical_skills": [
+      "Golang",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "gRPC",
+      "Microservices",
+      "Git"
+    ],
+    "soft_skills": [
+      "Tư duy thuật toán",
+      "Độc lập giải quyết vấn đề"
+    ],
+    "requirements_text": "Có kinh nghiệm lập trình Backend với Golang. Nắm vững concurrency trong Go (goroutine, channel). Hiểu biết về gRPC, RESTful API và kiến trúc Microservices. Làm việc với các cơ sở dữ liệu PostgreSQL, Redis, Kafka."
+  },
+  {
+    "job_id": "JOB_0043",
+    "job_title": "Golang Developer",
+    "company": "MB Bank Digital Hub",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Backend Development",
+    "experience_required": "1 - 2 năm kinh nghiệm",
+    "salary": "15 - 25 triệu VNĐ",
+    "technical_skills": [
+      "gRPC",
+      "Git",
+      "PostgreSQL",
+      "Redis",
+      "Microservices",
+      "Docker",
+      "Golang"
+    ],
+    "soft_skills": [
+      "Tư duy thuật toán",
+      "Độc lập giải quyết vấn đề"
+    ],
+    "requirements_text": "Có kinh nghiệm lập trình Backend với Golang. Nắm vững concurrency trong Go (goroutine, channel). Hiểu biết về gRPC, RESTful API và kiến trúc Microservices. Làm việc với các cơ sở dữ liệu PostgreSQL, Redis, Kafka."
+  },
+  {
+    "job_id": "JOB_0044",
+    "job_title": "Lập trình viên Go/Golang Backend",
+    "company": "VNG Corporation",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Backend Development",
+    "experience_required": "1 - 2 năm kinh nghiệm",
+    "salary": "15 - 25 triệu VNĐ",
+    "technical_skills": [
+      "Golang",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "gRPC",
+      "Microservices",
+      "Git"
+    ],
+    "soft_skills": [
+      "Tư duy thuật toán",
+      "Độc lập giải quyết vấn đề"
+    ],
+    "requirements_text": "Có kinh nghiệm lập trình Backend với Golang. Nắm vững concurrency trong Go (goroutine, channel). Hiểu biết về gRPC, RESTful API và kiến trúc Microservices. Làm việc với các cơ sở dữ liệu PostgreSQL, Redis, Kafka."
+  },
+  {
+    "job_id": "JOB_0045",
+    "job_title": "Junior Golang Engineer",
+    "company": "MoMo (M-Service)",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Backend Development",
+    "experience_required": "1 - 2 năm kinh nghiệm",
+    "salary": "15 - 25 triệu VNĐ",
+    "technical_skills": [
+      "Microservices",
+      "Redis",
+      "Docker",
+      "Golang"
+    ],
+    "soft_skills": [
+      "Tư duy thuật toán",
+      "Độc lập giải quyết vấn đề"
+    ],
+    "requirements_text": "Có kinh nghiệm lập trình Backend với Golang. Nắm vững concurrency trong Go (goroutine, channel). Hiểu biết về gRPC, RESTful API và kiến trúc Microservices. Làm việc với các cơ sở dữ liệu PostgreSQL, Redis, Kafka."
+  },
+  {
+    "job_id": "JOB_0046",
+    "job_title": "Frontend Developer (ReactJS)",
+    "company": "FPT Software",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Frontend Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "JavaScript",
+      "TypeScript",
+      "ReactJS",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Redux",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Tỉ mỉ",
+      "Cảm quan UI/UX tốt"
+    ],
+    "requirements_text": "Thành thạo HTML5, CSS3, JavaScript (ES6+), TypeScript. Kinh nghiệm thực chiến với ReactJS (Hooks, Functional Components, Context API hoặc Redux). Thành thạo cắt giao diện responsive bằng Tailwind CSS hoặc Bootstrap. Có kinh nghiệm tích hợp RESTful API từ Backend. Sử dụng tốt Git."
+  },
+  {
+    "job_id": "JOB_0047",
+    "job_title": "Lập Trình Viên ReactJS",
+    "company": "VNPT Information Technology",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Frontend Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "JavaScript",
+      "TypeScript",
+      "ReactJS",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Redux",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Tỉ mỉ",
+      "Cảm quan UI/UX tốt"
+    ],
+    "requirements_text": "Thành thạo HTML5, CSS3, JavaScript (ES6+), TypeScript. Kinh nghiệm thực chiến với ReactJS (Hooks, Functional Components, Context API hoặc Redux). Thành thạo cắt giao diện responsive bằng Tailwind CSS hoặc Bootstrap. Có kinh nghiệm tích hợp RESTful API từ Backend. Sử dụng tốt Git."
+  },
+  {
+    "job_id": "JOB_0048",
+    "job_title": "Junior ReactJS Developer",
+    "company": "Shopee Vietnam",
+    "location": "Hà Nội",
+    "category": "Frontend Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Git",
+      "Redux",
+      "ReactJS",
+      "REST API",
+      "Tailwind CSS"
+    ],
+    "soft_skills": [
+      "Tỉ mỉ",
+      "Cảm quan UI/UX tốt"
+    ],
+    "requirements_text": "Thành thạo HTML5, CSS3, JavaScript (ES6+), TypeScript. Kinh nghiệm thực chiến với ReactJS (Hooks, Functional Components, Context API hoặc Redux). Thành thạo cắt giao diện responsive bằng Tailwind CSS hoặc Bootstrap. Có kinh nghiệm tích hợp RESTful API từ Backend. Sử dụng tốt Git."
+  },
+  {
+    "job_id": "JOB_0049",
+    "job_title": "Web Frontend Engineer (React)",
+    "company": "DXC Technology",
+    "location": "Đà Nẵng",
+    "category": "Frontend Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "JavaScript",
+      "TypeScript",
+      "ReactJS",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Redux",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Tỉ mỉ",
+      "Cảm quan UI/UX tốt"
+    ],
+    "requirements_text": "Thành thạo HTML5, CSS3, JavaScript (ES6+), TypeScript. Kinh nghiệm thực chiến với ReactJS (Hooks, Functional Components, Context API hoặc Redux). Thành thạo cắt giao diện responsive bằng Tailwind CSS hoặc Bootstrap. Có kinh nghiệm tích hợp RESTful API từ Backend. Sử dụng tốt Git."
+  },
+  {
+    "job_id": "JOB_0050",
+    "job_title": "Frontend Developer (ReactJS)",
+    "company": "TMA Solutions",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Frontend Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "JavaScript",
+      "TypeScript",
+      "ReactJS",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Redux",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Tỉ mỉ",
+      "Cảm quan UI/UX tốt"
+    ],
+    "requirements_text": "Thành thạo HTML5, CSS3, JavaScript (ES6+), TypeScript. Kinh nghiệm thực chiến với ReactJS (Hooks, Functional Components, Context API hoặc Redux). Thành thạo cắt giao diện responsive bằng Tailwind CSS hoặc Bootstrap. Có kinh nghiệm tích hợp RESTful API từ Backend. Sử dụng tốt Git."
+  },
+  {
+    "job_id": "JOB_0051",
+    "job_title": "Lập Trình Viên ReactJS",
+    "company": "MB Bank Digital Hub",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Frontend Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Git",
+      "CSS3",
+      "HTML5",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "soft_skills": [
+      "Tỉ mỉ",
+      "Cảm quan UI/UX tốt"
+    ],
+    "requirements_text": "Thành thạo HTML5, CSS3, JavaScript (ES6+), TypeScript. Kinh nghiệm thực chiến với ReactJS (Hooks, Functional Components, Context API hoặc Redux). Thành thạo cắt giao diện responsive bằng Tailwind CSS hoặc Bootstrap. Có kinh nghiệm tích hợp RESTful API từ Backend. Sử dụng tốt Git."
+  },
+  {
+    "job_id": "JOB_0052",
+    "job_title": "Junior ReactJS Developer",
+    "company": "VNG Corporation",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Frontend Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Redux",
+      "Git",
+      "CSS3",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    "soft_skills": [
+      "Tỉ mỉ",
+      "Cảm quan UI/UX tốt"
+    ],
+    "requirements_text": "Thành thạo HTML5, CSS3, JavaScript (ES6+), TypeScript. Kinh nghiệm thực chiến với ReactJS (Hooks, Functional Components, Context API hoặc Redux). Thành thạo cắt giao diện responsive bằng Tailwind CSS hoặc Bootstrap. Có kinh nghiệm tích hợp RESTful API từ Backend. Sử dụng tốt Git."
+  },
+  {
+    "job_id": "JOB_0053",
+    "job_title": "Web Frontend Engineer (React)",
+    "company": "MoMo (M-Service)",
+    "location": "Hà Nội",
+    "category": "Frontend Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Tailwind CSS",
+      "Git",
+      "REST API",
+      "CSS3",
+      "HTML5",
+      "Redux",
+      "ReactJS",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "soft_skills": [
+      "Tỉ mỉ",
+      "Cảm quan UI/UX tốt"
+    ],
+    "requirements_text": "Thành thạo HTML5, CSS3, JavaScript (ES6+), TypeScript. Kinh nghiệm thực chiến với ReactJS (Hooks, Functional Components, Context API hoặc Redux). Thành thạo cắt giao diện responsive bằng Tailwind CSS hoặc Bootstrap. Có kinh nghiệm tích hợp RESTful API từ Backend. Sử dụng tốt Git."
+  },
+  {
+    "job_id": "JOB_0054",
+    "job_title": "Frontend Developer (ReactJS)",
+    "company": "KMS Technology",
+    "location": "Đà Nẵng",
+    "category": "Frontend Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Git",
+      "CSS3",
+      "Redux",
+      "Tailwind CSS",
+      "REST API",
+      "TypeScript",
+      "JavaScript",
+      "ReactJS",
+      "HTML5"
+    ],
+    "soft_skills": [
+      "Tỉ mỉ",
+      "Cảm quan UI/UX tốt"
+    ],
+    "requirements_text": "Thành thạo HTML5, CSS3, JavaScript (ES6+), TypeScript. Kinh nghiệm thực chiến với ReactJS (Hooks, Functional Components, Context API hoặc Redux). Thành thạo cắt giao diện responsive bằng Tailwind CSS hoặc Bootstrap. Có kinh nghiệm tích hợp RESTful API từ Backend. Sử dụng tốt Git."
+  },
+  {
+    "job_id": "JOB_0055",
+    "job_title": "Frontend Vue.js Developer",
+    "company": "VNPT Information Technology",
+    "location": "Hà Nội",
+    "category": "Frontend Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "10 - 16 triệu VNĐ",
+    "technical_skills": [
+      "HTML5",
+      "JavaScript",
+      "Tailwind CSS",
+      "REST API",
+      "Git",
+      "VueJS"
+    ],
+    "soft_skills": [
+      "Sáng tạo",
+      "Ham học hỏi"
+    ],
+    "requirements_text": "Thành thạo kiến thức cơ bản về Web: HTML, CSS, JavaScript. Kinh nghiệm làm việc với Vue.js 3 (Composition API), Vuex/Pinia. Hiểu biết về responsive design, giao tiếp API qua Axios/Fetch. Sử dụng Git trong làm việc nhóm."
+  },
+  {
+    "job_id": "JOB_0056",
+    "job_title": "Lập Trình Viên VueJS",
+    "company": "Shopee Vietnam",
+    "location": "Đà Nẵng",
+    "category": "Frontend Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "10 - 16 triệu VNĐ",
+    "technical_skills": [
+      "Git",
+      "CSS3",
+      "HTML5",
+      "VueJS",
+      "JavaScript",
+      "REST API"
+    ],
+    "soft_skills": [
+      "Sáng tạo",
+      "Ham học hỏi"
+    ],
+    "requirements_text": "Thành thạo kiến thức cơ bản về Web: HTML, CSS, JavaScript. Kinh nghiệm làm việc với Vue.js 3 (Composition API), Vuex/Pinia. Hiểu biết về responsive design, giao tiếp API qua Axios/Fetch. Sử dụng Git trong làm việc nhóm."
+  },
+  {
+    "job_id": "JOB_0057",
+    "job_title": "Junior Web Developer (Vue/Nuxt)",
+    "company": "DXC Technology",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Frontend Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "10 - 16 triệu VNĐ",
+    "technical_skills": [
+      "CSS3",
+      "Tailwind CSS",
+      "HTML5",
+      "VueJS",
+      "REST API",
+      "Git",
+      "JavaScript"
+    ],
+    "soft_skills": [
+      "Sáng tạo",
+      "Ham học hỏi"
+    ],
+    "requirements_text": "Thành thạo kiến thức cơ bản về Web: HTML, CSS, JavaScript. Kinh nghiệm làm việc với Vue.js 3 (Composition API), Vuex/Pinia. Hiểu biết về responsive design, giao tiếp API qua Axios/Fetch. Sử dụng Git trong làm việc nhóm."
+  },
+  {
+    "job_id": "JOB_0058",
+    "job_title": "Frontend Vue.js Developer",
+    "company": "TMA Solutions",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Frontend Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "10 - 16 triệu VNĐ",
+    "technical_skills": [
+      "HTML5",
+      "CSS3",
+      "REST API",
+      "VueJS",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    "soft_skills": [
+      "Sáng tạo",
+      "Ham học hỏi"
+    ],
+    "requirements_text": "Thành thạo kiến thức cơ bản về Web: HTML, CSS, JavaScript. Kinh nghiệm làm việc với Vue.js 3 (Composition API), Vuex/Pinia. Hiểu biết về responsive design, giao tiếp API qua Axios/Fetch. Sử dụng Git trong làm việc nhóm."
+  },
+  {
+    "job_id": "JOB_0059",
+    "job_title": "Lập Trình Viên VueJS",
+    "company": "MB Bank Digital Hub",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Frontend Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "10 - 16 triệu VNĐ",
+    "technical_skills": [
+      "Git",
+      "VueJS",
+      "CSS3",
+      "HTML5",
+      "REST API",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "soft_skills": [
+      "Sáng tạo",
+      "Ham học hỏi"
+    ],
+    "requirements_text": "Thành thạo kiến thức cơ bản về Web: HTML, CSS, JavaScript. Kinh nghiệm làm việc với Vue.js 3 (Composition API), Vuex/Pinia. Hiểu biết về responsive design, giao tiếp API qua Axios/Fetch. Sử dụng Git trong làm việc nhóm."
+  },
+  {
+    "job_id": "JOB_0060",
+    "job_title": "Junior Web Developer (Vue/Nuxt)",
+    "company": "VNG Corporation",
+    "location": "Hà Nội",
+    "category": "Frontend Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "10 - 16 triệu VNĐ",
+    "technical_skills": [
+      "JavaScript",
+      "VueJS",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Sáng tạo",
+      "Ham học hỏi"
+    ],
+    "requirements_text": "Thành thạo kiến thức cơ bản về Web: HTML, CSS, JavaScript. Kinh nghiệm làm việc với Vue.js 3 (Composition API), Vuex/Pinia. Hiểu biết về responsive design, giao tiếp API qua Axios/Fetch. Sử dụng Git trong làm việc nhóm."
+  },
+  {
+    "job_id": "JOB_0061",
+    "job_title": "Frontend Vue.js Developer",
+    "company": "MoMo (M-Service)",
+    "location": "Đà Nẵng",
+    "category": "Frontend Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "10 - 16 triệu VNĐ",
+    "technical_skills": [
+      "JavaScript",
+      "VueJS",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Sáng tạo",
+      "Ham học hỏi"
+    ],
+    "requirements_text": "Thành thạo kiến thức cơ bản về Web: HTML, CSS, JavaScript. Kinh nghiệm làm việc với Vue.js 3 (Composition API), Vuex/Pinia. Hiểu biết về responsive design, giao tiếp API qua Axios/Fetch. Sử dụng Git trong làm việc nhóm."
+  },
+  {
+    "job_id": "JOB_0062",
+    "job_title": "Lập Trình Viên VueJS",
+    "company": "KMS Technology",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Frontend Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "10 - 16 triệu VNĐ",
+    "technical_skills": [
+      "JavaScript",
+      "VueJS",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Sáng tạo",
+      "Ham học hỏi"
+    ],
+    "requirements_text": "Thành thạo kiến thức cơ bản về Web: HTML, CSS, JavaScript. Kinh nghiệm làm việc với Vue.js 3 (Composition API), Vuex/Pinia. Hiểu biết về responsive design, giao tiếp API qua Axios/Fetch. Sử dụng Git trong làm việc nhóm."
+  },
+  {
+    "job_id": "JOB_0063",
+    "job_title": "Junior Web Developer (Vue/Nuxt)",
+    "company": "NAB Innovation Centre Vietnam",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Frontend Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "10 - 16 triệu VNĐ",
+    "technical_skills": [
+      "JavaScript",
+      "VueJS",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "REST API",
+      "Git"
+    ],
+    "soft_skills": [
+      "Sáng tạo",
+      "Ham học hỏi"
+    ],
+    "requirements_text": "Thành thạo kiến thức cơ bản về Web: HTML, CSS, JavaScript. Kinh nghiệm làm việc với Vue.js 3 (Composition API), Vuex/Pinia. Hiểu biết về responsive design, giao tiếp API qua Axios/Fetch. Sử dụng Git trong làm việc nhóm."
+  },
+  {
+    "job_id": "JOB_0064",
+    "job_title": "Mobile App Developer (Flutter)",
+    "company": "Shopee Vietnam",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Mobile Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "REST API",
+      "Git",
+      "OOP",
+      "Flutter",
+      "Dart",
+      "Firebase"
+    ],
+    "soft_skills": [
+      "Đam mê ứng dụng di động",
+      "Tư duy sản phẩm"
+    ],
+    "requirements_text": "Nắm vững ngôn ngữ lập trình Dart và framework Flutter. Đã từng build app hoàn chỉnh trên Android và iOS. Hiểu biết về State Management (Bloc, Provider, hoặc GetX). Tích hợp RESTful API, Firebase Services (Authentication, Firestore, Push Notifications). Sử dụng thành thạo Git."
+  },
+  {
+    "job_id": "JOB_0065",
+    "job_title": "Lập Trình Viên Flutter Fresher",
+    "company": "DXC Technology",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Mobile Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Flutter",
+      "Firebase",
+      "REST API",
+      "OOP"
+    ],
+    "soft_skills": [
+      "Đam mê ứng dụng di động",
+      "Tư duy sản phẩm"
+    ],
+    "requirements_text": "Nắm vững ngôn ngữ lập trình Dart và framework Flutter. Đã từng build app hoàn chỉnh trên Android và iOS. Hiểu biết về State Management (Bloc, Provider, hoặc GetX). Tích hợp RESTful API, Firebase Services (Authentication, Firestore, Push Notifications). Sử dụng thành thạo Git."
+  },
+  {
+    "job_id": "JOB_0066",
+    "job_title": "Junior Flutter Engineer",
+    "company": "TMA Solutions",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Mobile Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Flutter",
+      "Firebase",
+      "Dart",
+      "REST API",
+      "Git",
+      "OOP"
+    ],
+    "soft_skills": [
+      "Đam mê ứng dụng di động",
+      "Tư duy sản phẩm"
+    ],
+    "requirements_text": "Nắm vững ngôn ngữ lập trình Dart và framework Flutter. Đã từng build app hoàn chỉnh trên Android và iOS. Hiểu biết về State Management (Bloc, Provider, hoặc GetX). Tích hợp RESTful API, Firebase Services (Authentication, Firestore, Push Notifications). Sử dụng thành thạo Git."
+  },
+  {
+    "job_id": "JOB_0067",
+    "job_title": "Mobile App Developer (Flutter)",
+    "company": "MB Bank Digital Hub",
+    "location": "Hà Nội",
+    "category": "Mobile Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "OOP",
+      "REST API",
+      "Git",
+      "Dart",
+      "Flutter"
+    ],
+    "soft_skills": [
+      "Đam mê ứng dụng di động",
+      "Tư duy sản phẩm"
+    ],
+    "requirements_text": "Nắm vững ngôn ngữ lập trình Dart và framework Flutter. Đã từng build app hoàn chỉnh trên Android và iOS. Hiểu biết về State Management (Bloc, Provider, hoặc GetX). Tích hợp RESTful API, Firebase Services (Authentication, Firestore, Push Notifications). Sử dụng thành thạo Git."
+  },
+  {
+    "job_id": "JOB_0068",
+    "job_title": "Lập Trình Viên Flutter Fresher",
+    "company": "VNG Corporation",
+    "location": "Đà Nẵng",
+    "category": "Mobile Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Dart",
+      "REST API",
+      "OOP",
+      "Firebase",
+      "Flutter"
+    ],
+    "soft_skills": [
+      "Đam mê ứng dụng di động",
+      "Tư duy sản phẩm"
+    ],
+    "requirements_text": "Nắm vững ngôn ngữ lập trình Dart và framework Flutter. Đã từng build app hoàn chỉnh trên Android và iOS. Hiểu biết về State Management (Bloc, Provider, hoặc GetX). Tích hợp RESTful API, Firebase Services (Authentication, Firestore, Push Notifications). Sử dụng thành thạo Git."
+  },
+  {
+    "job_id": "JOB_0069",
+    "job_title": "Junior Flutter Engineer",
+    "company": "MoMo (M-Service)",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Mobile Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Firebase",
+      "Flutter",
+      "Git",
+      "OOP",
+      "Dart"
+    ],
+    "soft_skills": [
+      "Đam mê ứng dụng di động",
+      "Tư duy sản phẩm"
+    ],
+    "requirements_text": "Nắm vững ngôn ngữ lập trình Dart và framework Flutter. Đã từng build app hoàn chỉnh trên Android và iOS. Hiểu biết về State Management (Bloc, Provider, hoặc GetX). Tích hợp RESTful API, Firebase Services (Authentication, Firestore, Push Notifications). Sử dụng thành thạo Git."
+  },
+  {
+    "job_id": "JOB_0070",
+    "job_title": "Mobile App Developer (Flutter)",
+    "company": "KMS Technology",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Mobile Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Dart",
+      "Flutter",
+      "REST API",
+      "Firebase",
+      "Git",
+      "OOP"
+    ],
+    "soft_skills": [
+      "Đam mê ứng dụng di động",
+      "Tư duy sản phẩm"
+    ],
+    "requirements_text": "Nắm vững ngôn ngữ lập trình Dart và framework Flutter. Đã từng build app hoàn chỉnh trên Android và iOS. Hiểu biết về State Management (Bloc, Provider, hoặc GetX). Tích hợp RESTful API, Firebase Services (Authentication, Firestore, Push Notifications). Sử dụng thành thạo Git."
+  },
+  {
+    "job_id": "JOB_0071",
+    "job_title": "Lập Trình Viên Flutter Fresher",
+    "company": "NAB Innovation Centre Vietnam",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Mobile Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Dart",
+      "Git",
+      "Firebase",
+      "Flutter",
+      "OOP"
+    ],
+    "soft_skills": [
+      "Đam mê ứng dụng di động",
+      "Tư duy sản phẩm"
+    ],
+    "requirements_text": "Nắm vững ngôn ngữ lập trình Dart và framework Flutter. Đã từng build app hoàn chỉnh trên Android và iOS. Hiểu biết về State Management (Bloc, Provider, hoặc GetX). Tích hợp RESTful API, Firebase Services (Authentication, Firestore, Push Notifications). Sử dụng thành thạo Git."
+  },
+  {
+    "job_id": "JOB_0072",
+    "job_title": "Junior Flutter Engineer",
+    "company": "RikkeiSoft",
+    "location": "Hà Nội",
+    "category": "Mobile Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "10 - 18 triệu VNĐ",
+    "technical_skills": [
+      "OOP",
+      "REST API",
+      "Git",
+      "Flutter"
+    ],
+    "soft_skills": [
+      "Đam mê ứng dụng di động",
+      "Tư duy sản phẩm"
+    ],
+    "requirements_text": "Nắm vững ngôn ngữ lập trình Dart và framework Flutter. Đã từng build app hoàn chỉnh trên Android và iOS. Hiểu biết về State Management (Bloc, Provider, hoặc GetX). Tích hợp RESTful API, Firebase Services (Authentication, Firestore, Push Notifications). Sử dụng thành thạo Git."
+  },
+  {
+    "job_id": "JOB_0073",
+    "job_title": "Android Developer (Kotlin)",
+    "company": "DXC Technology",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Mobile Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "11 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Android SDK",
+      "Git",
+      "SQLite",
+      "REST API",
+      "Java"
+    ],
+    "soft_skills": [
+      "Kiên nhẫn",
+      "Tập trung"
+    ],
+    "requirements_text": "Thành thạo ngôn ngữ Kotlin và Java. Hiểu rõ vòng đời Activity, Fragment trong Android SDK. Có kinh nghiệm làm việc với Retrofit, Room DB, Coroutines. Biết thiết kế giao diện bằng XML hoặc Jetpack Compose là lợi thế."
+  },
+  {
+    "job_id": "JOB_0074",
+    "job_title": "Lập Trình Viên Android Native",
+    "company": "TMA Solutions",
+    "location": "Hà Nội",
+    "category": "Mobile Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "11 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Kotlin",
+      "Java",
+      "Android SDK",
+      "REST API",
+      "SQLite",
+      "Git"
+    ],
+    "soft_skills": [
+      "Kiên nhẫn",
+      "Tập trung"
+    ],
+    "requirements_text": "Thành thạo ngôn ngữ Kotlin và Java. Hiểu rõ vòng đời Activity, Fragment trong Android SDK. Có kinh nghiệm làm việc với Retrofit, Room DB, Coroutines. Biết thiết kế giao diện bằng XML hoặc Jetpack Compose là lợi thế."
+  },
+  {
+    "job_id": "JOB_0075",
+    "job_title": "Junior Android Engineer",
+    "company": "MB Bank Digital Hub",
+    "location": "Đà Nẵng",
+    "category": "Mobile Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "11 - 18 triệu VNĐ",
+    "technical_skills": [
+      "SQLite",
+      "Java",
+      "Android SDK",
+      "REST API",
+      "Kotlin"
+    ],
+    "soft_skills": [
+      "Kiên nhẫn",
+      "Tập trung"
+    ],
+    "requirements_text": "Thành thạo ngôn ngữ Kotlin và Java. Hiểu rõ vòng đời Activity, Fragment trong Android SDK. Có kinh nghiệm làm việc với Retrofit, Room DB, Coroutines. Biết thiết kế giao diện bằng XML hoặc Jetpack Compose là lợi thế."
+  },
+  {
+    "job_id": "JOB_0076",
+    "job_title": "Android Developer (Kotlin)",
+    "company": "VNG Corporation",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Mobile Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "11 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Kotlin",
+      "Java",
+      "Android SDK",
+      "REST API",
+      "SQLite",
+      "Git"
+    ],
+    "soft_skills": [
+      "Kiên nhẫn",
+      "Tập trung"
+    ],
+    "requirements_text": "Thành thạo ngôn ngữ Kotlin và Java. Hiểu rõ vòng đời Activity, Fragment trong Android SDK. Có kinh nghiệm làm việc với Retrofit, Room DB, Coroutines. Biết thiết kế giao diện bằng XML hoặc Jetpack Compose là lợi thế."
+  },
+  {
+    "job_id": "JOB_0077",
+    "job_title": "Lập Trình Viên Android Native",
+    "company": "MoMo (M-Service)",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Mobile Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "11 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Android SDK",
+      "Git",
+      "REST API",
+      "Kotlin",
+      "Java"
+    ],
+    "soft_skills": [
+      "Kiên nhẫn",
+      "Tập trung"
+    ],
+    "requirements_text": "Thành thạo ngôn ngữ Kotlin và Java. Hiểu rõ vòng đời Activity, Fragment trong Android SDK. Có kinh nghiệm làm việc với Retrofit, Room DB, Coroutines. Biết thiết kế giao diện bằng XML hoặc Jetpack Compose là lợi thế."
+  },
+  {
+    "job_id": "JOB_0078",
+    "job_title": "Junior Android Engineer",
+    "company": "KMS Technology",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Mobile Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "11 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Kotlin",
+      "Java",
+      "Android SDK",
+      "REST API",
+      "SQLite",
+      "Git"
+    ],
+    "soft_skills": [
+      "Kiên nhẫn",
+      "Tập trung"
+    ],
+    "requirements_text": "Thành thạo ngôn ngữ Kotlin và Java. Hiểu rõ vòng đời Activity, Fragment trong Android SDK. Có kinh nghiệm làm việc với Retrofit, Room DB, Coroutines. Biết thiết kế giao diện bằng XML hoặc Jetpack Compose là lợi thế."
+  },
+  {
+    "job_id": "JOB_0079",
+    "job_title": "Android Developer (Kotlin)",
+    "company": "NAB Innovation Centre Vietnam",
+    "location": "Hà Nội",
+    "category": "Mobile Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "11 - 18 triệu VNĐ",
+    "technical_skills": [
+      "REST API",
+      "Java",
+      "Git",
+      "SQLite",
+      "Kotlin"
+    ],
+    "soft_skills": [
+      "Kiên nhẫn",
+      "Tập trung"
+    ],
+    "requirements_text": "Thành thạo ngôn ngữ Kotlin và Java. Hiểu rõ vòng đời Activity, Fragment trong Android SDK. Có kinh nghiệm làm việc với Retrofit, Room DB, Coroutines. Biết thiết kế giao diện bằng XML hoặc Jetpack Compose là lợi thế."
+  },
+  {
+    "job_id": "JOB_0080",
+    "job_title": "Lập Trình Viên Android Native",
+    "company": "RikkeiSoft",
+    "location": "Đà Nẵng",
+    "category": "Mobile Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "11 - 18 triệu VNĐ",
+    "technical_skills": [
+      "Git",
+      "REST API",
+      "Java",
+      "SQLite"
+    ],
+    "soft_skills": [
+      "Kiên nhẫn",
+      "Tập trung"
+    ],
+    "requirements_text": "Thành thạo ngôn ngữ Kotlin và Java. Hiểu rõ vòng đời Activity, Fragment trong Android SDK. Có kinh nghiệm làm việc với Retrofit, Room DB, Coroutines. Biết thiết kế giao diện bằng XML hoặc Jetpack Compose là lợi thế."
+  },
+  {
+    "job_id": "JOB_0081",
+    "job_title": "Junior Android Engineer",
+    "company": "VPBank Digital",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Mobile Development",
+    "experience_required": "Fresher / 1 năm",
+    "salary": "11 - 18 triệu VNĐ",
+    "technical_skills": [
+      "REST API",
+      "Java",
+      "Git",
+      "SQLite",
+      "Kotlin",
+      "Android SDK"
+    ],
+    "soft_skills": [
+      "Kiên nhẫn",
+      "Tập trung"
+    ],
+    "requirements_text": "Thành thạo ngôn ngữ Kotlin và Java. Hiểu rõ vòng đời Activity, Fragment trong Android SDK. Có kinh nghiệm làm việc với Retrofit, Room DB, Coroutines. Biết thiết kế giao diện bằng XML hoặc Jetpack Compose là lợi thế."
+  },
+  {
+    "job_id": "JOB_0082",
+    "job_title": "iOS Developer (Swift)",
+    "company": "TMA Solutions",
+    "location": "Đà Nẵng",
+    "category": "Mobile Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Swift",
+      "iOS SDK",
+      "REST API",
+      "Git",
+      "OOP"
+    ],
+    "soft_skills": [
+      "Cẩn thận",
+      "Thích trải nghiệm người dùng Apple"
+    ],
+    "requirements_text": "Thành thạo ngôn ngữ Swift và nền tảng iOS SDK. Sử dụng tốt UIKit hoặc SwiftUI. Có kiến thức về kiến trúc MVC, MVVM, tích hợp Web API qua URLSession/Alamofire. Hiểu biết về quản lý bộ nhớ ARC."
+  },
+  {
+    "job_id": "JOB_0083",
+    "job_title": "Lập Trình Viên iOS Fresher",
+    "company": "MB Bank Digital Hub",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Mobile Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "OOP",
+      "REST API",
+      "Git",
+      "Swift"
+    ],
+    "soft_skills": [
+      "Cẩn thận",
+      "Thích trải nghiệm người dùng Apple"
+    ],
+    "requirements_text": "Thành thạo ngôn ngữ Swift và nền tảng iOS SDK. Sử dụng tốt UIKit hoặc SwiftUI. Có kiến thức về kiến trúc MVC, MVVM, tích hợp Web API qua URLSession/Alamofire. Hiểu biết về quản lý bộ nhớ ARC."
+  },
+  {
+    "job_id": "JOB_0084",
+    "job_title": "Junior iOS Engineer",
+    "company": "VNG Corporation",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Mobile Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Swift",
+      "iOS SDK",
+      "REST API",
+      "Git",
+      "OOP"
+    ],
+    "soft_skills": [
+      "Cẩn thận",
+      "Thích trải nghiệm người dùng Apple"
+    ],
+    "requirements_text": "Thành thạo ngôn ngữ Swift và nền tảng iOS SDK. Sử dụng tốt UIKit hoặc SwiftUI. Có kiến thức về kiến trúc MVC, MVVM, tích hợp Web API qua URLSession/Alamofire. Hiểu biết về quản lý bộ nhớ ARC."
+  },
+  {
+    "job_id": "JOB_0085",
+    "job_title": "iOS Developer (Swift)",
+    "company": "MoMo (M-Service)",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Mobile Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Swift",
+      "OOP",
+      "Git",
+      "iOS SDK",
+      "REST API"
+    ],
+    "soft_skills": [
+      "Cẩn thận",
+      "Thích trải nghiệm người dùng Apple"
+    ],
+    "requirements_text": "Thành thạo ngôn ngữ Swift và nền tảng iOS SDK. Sử dụng tốt UIKit hoặc SwiftUI. Có kiến thức về kiến trúc MVC, MVVM, tích hợp Web API qua URLSession/Alamofire. Hiểu biết về quản lý bộ nhớ ARC."
+  },
+  {
+    "job_id": "JOB_0086",
+    "job_title": "Lập Trình Viên iOS Fresher",
+    "company": "KMS Technology",
+    "location": "Hà Nội",
+    "category": "Mobile Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Swift",
+      "iOS SDK",
+      "REST API",
+      "Git",
+      "OOP"
+    ],
+    "soft_skills": [
+      "Cẩn thận",
+      "Thích trải nghiệm người dùng Apple"
+    ],
+    "requirements_text": "Thành thạo ngôn ngữ Swift và nền tảng iOS SDK. Sử dụng tốt UIKit hoặc SwiftUI. Có kiến thức về kiến trúc MVC, MVVM, tích hợp Web API qua URLSession/Alamofire. Hiểu biết về quản lý bộ nhớ ARC."
+  },
+  {
+    "job_id": "JOB_0087",
+    "job_title": "Junior iOS Engineer",
+    "company": "NAB Innovation Centre Vietnam",
+    "location": "Đà Nẵng",
+    "category": "Mobile Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Swift",
+      "iOS SDK",
+      "REST API",
+      "Git",
+      "OOP"
+    ],
+    "soft_skills": [
+      "Cẩn thận",
+      "Thích trải nghiệm người dùng Apple"
+    ],
+    "requirements_text": "Thành thạo ngôn ngữ Swift và nền tảng iOS SDK. Sử dụng tốt UIKit hoặc SwiftUI. Có kiến thức về kiến trúc MVC, MVVM, tích hợp Web API qua URLSession/Alamofire. Hiểu biết về quản lý bộ nhớ ARC."
+  },
+  {
+    "job_id": "JOB_0088",
+    "job_title": "iOS Developer (Swift)",
+    "company": "RikkeiSoft",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Mobile Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Swift",
+      "iOS SDK",
+      "REST API",
+      "Git",
+      "OOP"
+    ],
+    "soft_skills": [
+      "Cẩn thận",
+      "Thích trải nghiệm người dùng Apple"
+    ],
+    "requirements_text": "Thành thạo ngôn ngữ Swift và nền tảng iOS SDK. Sử dụng tốt UIKit hoặc SwiftUI. Có kiến thức về kiến trúc MVC, MVVM, tích hợp Web API qua URLSession/Alamofire. Hiểu biết về quản lý bộ nhớ ARC."
+  },
+  {
+    "job_id": "JOB_0089",
+    "job_title": "Lập Trình Viên iOS Fresher",
+    "company": "VPBank Digital",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Mobile Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Swift",
+      "iOS SDK",
+      "REST API",
+      "Git",
+      "OOP"
+    ],
+    "soft_skills": [
+      "Cẩn thận",
+      "Thích trải nghiệm người dùng Apple"
+    ],
+    "requirements_text": "Thành thạo ngôn ngữ Swift và nền tảng iOS SDK. Sử dụng tốt UIKit hoặc SwiftUI. Có kiến thức về kiến trúc MVC, MVVM, tích hợp Web API qua URLSession/Alamofire. Hiểu biết về quản lý bộ nhớ ARC."
+  },
+  {
+    "job_id": "JOB_0090",
+    "job_title": "Junior iOS Engineer",
+    "company": "Viettel Solutions",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Mobile Development",
+    "experience_required": "0 - 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Swift",
+      "iOS SDK",
+      "REST API",
+      "Git",
+      "OOP"
+    ],
+    "soft_skills": [
+      "Cẩn thận",
+      "Thích trải nghiệm người dùng Apple"
+    ],
+    "requirements_text": "Thành thạo ngôn ngữ Swift và nền tảng iOS SDK. Sử dụng tốt UIKit hoặc SwiftUI. Có kiến thức về kiến trúc MVC, MVVM, tích hợp Web API qua URLSession/Alamofire. Hiểu biết về quản lý bộ nhớ ARC."
+  },
+  {
+    "job_id": "JOB_0091",
+    "job_title": "Fullstack Web Developer (NodeJS + React)",
+    "company": "MB Bank Digital Hub",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Fullstack Development",
+    "experience_required": "1 - 2 năm",
+    "salary": "14 - 24 triệu VNĐ",
+    "technical_skills": [
+      "NodeJS",
+      "ReactJS",
+      "TypeScript",
+      "Docker",
+      "JavaScript",
+      "Git",
+      "PostgreSQL"
+    ],
+    "soft_skills": [
+      "Bao quát công việc",
+      "Giao tiếp linh hoạt"
+    ],
+    "requirements_text": "Khả năng làm việc đồng thời cả Frontend và Backend. Frontend thành thạo ReactJS, HTML5, CSS3. Backend làm việc tốt với Node.js hoặc Java Spring Boot. Quản lý cơ sở dữ liệu quan hệ và NoSQL. Biết container hóa ứng dụng với Docker."
+  },
+  {
+    "job_id": "JOB_0092",
+    "job_title": "Lập Trình Viên Fullstack (Java + React)",
+    "company": "VNG Corporation",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Fullstack Development",
+    "experience_required": "1 - 2 năm",
+    "salary": "14 - 24 triệu VNĐ",
+    "technical_skills": [
+      "PostgreSQL",
+      "NodeJS",
+      "JavaScript",
+      "ExpressJS",
+      "Docker",
+      "TypeScript"
+    ],
+    "soft_skills": [
+      "Bao quát công việc",
+      "Giao tiếp linh hoạt"
+    ],
+    "requirements_text": "Khả năng làm việc đồng thời cả Frontend và Backend. Frontend thành thạo ReactJS, HTML5, CSS3. Backend làm việc tốt với Node.js hoặc Java Spring Boot. Quản lý cơ sở dữ liệu quan hệ và NoSQL. Biết container hóa ứng dụng với Docker."
+  },
+  {
+    "job_id": "JOB_0093",
+    "job_title": "Junior Fullstack Engineer",
+    "company": "MoMo (M-Service)",
+    "location": "Hà Nội",
+    "category": "Fullstack Development",
+    "experience_required": "1 - 2 năm",
+    "salary": "14 - 24 triệu VNĐ",
+    "technical_skills": [
+      "JavaScript",
+      "TypeScript",
+      "ReactJS",
+      "NodeJS",
+      "ExpressJS",
+      "PostgreSQL",
+      "Docker",
+      "Git"
+    ],
+    "soft_skills": [
+      "Bao quát công việc",
+      "Giao tiếp linh hoạt"
+    ],
+    "requirements_text": "Khả năng làm việc đồng thời cả Frontend và Backend. Frontend thành thạo ReactJS, HTML5, CSS3. Backend làm việc tốt với Node.js hoặc Java Spring Boot. Quản lý cơ sở dữ liệu quan hệ và NoSQL. Biết container hóa ứng dụng với Docker."
+  },
+  {
+    "job_id": "JOB_0094",
+    "job_title": "Fullstack Web Developer (NodeJS + React)",
+    "company": "KMS Technology",
+    "location": "Đà Nẵng",
+    "category": "Fullstack Development",
+    "experience_required": "1 - 2 năm",
+    "salary": "14 - 24 triệu VNĐ",
+    "technical_skills": [
+      "Docker",
+      "ReactJS",
+      "JavaScript",
+      "PostgreSQL",
+      "Git",
+      "TypeScript",
+      "ExpressJS",
+      "NodeJS"
+    ],
+    "soft_skills": [
+      "Bao quát công việc",
+      "Giao tiếp linh hoạt"
+    ],
+    "requirements_text": "Khả năng làm việc đồng thời cả Frontend và Backend. Frontend thành thạo ReactJS, HTML5, CSS3. Backend làm việc tốt với Node.js hoặc Java Spring Boot. Quản lý cơ sở dữ liệu quan hệ và NoSQL. Biết container hóa ứng dụng với Docker."
+  },
+  {
+    "job_id": "JOB_0095",
+    "job_title": "Lập Trình Viên Fullstack (Java + React)",
+    "company": "NAB Innovation Centre Vietnam",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Fullstack Development",
+    "experience_required": "1 - 2 năm",
+    "salary": "14 - 24 triệu VNĐ",
+    "technical_skills": [
+      "ExpressJS",
+      "ReactJS",
+      "PostgreSQL",
+      "Git",
+      "TypeScript",
+      "JavaScript",
+      "Docker",
+      "NodeJS"
+    ],
+    "soft_skills": [
+      "Bao quát công việc",
+      "Giao tiếp linh hoạt"
+    ],
+    "requirements_text": "Khả năng làm việc đồng thời cả Frontend và Backend. Frontend thành thạo ReactJS, HTML5, CSS3. Backend làm việc tốt với Node.js hoặc Java Spring Boot. Quản lý cơ sở dữ liệu quan hệ và NoSQL. Biết container hóa ứng dụng với Docker."
+  },
+  {
+    "job_id": "JOB_0096",
+    "job_title": "Junior Fullstack Engineer",
+    "company": "RikkeiSoft",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Fullstack Development",
+    "experience_required": "1 - 2 năm",
+    "salary": "14 - 24 triệu VNĐ",
+    "technical_skills": [
+      "JavaScript",
+      "TypeScript",
+      "ReactJS",
+      "NodeJS",
+      "ExpressJS",
+      "PostgreSQL",
+      "Docker",
+      "Git"
+    ],
+    "soft_skills": [
+      "Bao quát công việc",
+      "Giao tiếp linh hoạt"
+    ],
+    "requirements_text": "Khả năng làm việc đồng thời cả Frontend và Backend. Frontend thành thạo ReactJS, HTML5, CSS3. Backend làm việc tốt với Node.js hoặc Java Spring Boot. Quản lý cơ sở dữ liệu quan hệ và NoSQL. Biết container hóa ứng dụng với Docker."
+  },
+  {
+    "job_id": "JOB_0097",
+    "job_title": "Fullstack Web Developer (NodeJS + React)",
+    "company": "VPBank Digital",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Fullstack Development",
+    "experience_required": "1 - 2 năm",
+    "salary": "14 - 24 triệu VNĐ",
+    "technical_skills": [
+      "ExpressJS",
+      "ReactJS",
+      "Docker",
+      "PostgreSQL",
+      "TypeScript",
+      "NodeJS",
+      "Git"
+    ],
+    "soft_skills": [
+      "Bao quát công việc",
+      "Giao tiếp linh hoạt"
+    ],
+    "requirements_text": "Khả năng làm việc đồng thời cả Frontend và Backend. Frontend thành thạo ReactJS, HTML5, CSS3. Backend làm việc tốt với Node.js hoặc Java Spring Boot. Quản lý cơ sở dữ liệu quan hệ và NoSQL. Biết container hóa ứng dụng với Docker."
+  },
+  {
+    "job_id": "JOB_0098",
+    "job_title": "Lập Trình Viên Fullstack (Java + React)",
+    "company": "Viettel Solutions",
+    "location": "Hà Nội",
+    "category": "Fullstack Development",
+    "experience_required": "1 - 2 năm",
+    "salary": "14 - 24 triệu VNĐ",
+    "technical_skills": [
+      "JavaScript",
+      "TypeScript",
+      "ReactJS",
+      "NodeJS",
+      "ExpressJS",
+      "PostgreSQL",
+      "Docker",
+      "Git"
+    ],
+    "soft_skills": [
+      "Bao quát công việc",
+      "Giao tiếp linh hoạt"
+    ],
+    "requirements_text": "Khả năng làm việc đồng thời cả Frontend và Backend. Frontend thành thạo ReactJS, HTML5, CSS3. Backend làm việc tốt với Node.js hoặc Java Spring Boot. Quản lý cơ sở dữ liệu quan hệ và NoSQL. Biết container hóa ứng dụng với Docker."
+  },
+  {
+    "job_id": "JOB_0099",
+    "job_title": "Junior Fullstack Engineer",
+    "company": "Zalo (VNG)",
+    "location": "Đà Nẵng",
+    "category": "Fullstack Development",
+    "experience_required": "1 - 2 năm",
+    "salary": "14 - 24 triệu VNĐ",
+    "technical_skills": [
+      "Git",
+      "TypeScript",
+      "ExpressJS",
+      "Docker",
+      "JavaScript",
+      "PostgreSQL",
+      "NodeJS"
+    ],
+    "soft_skills": [
+      "Bao quát công việc",
+      "Giao tiếp linh hoạt"
+    ],
+    "requirements_text": "Khả năng làm việc đồng thời cả Frontend và Backend. Frontend thành thạo ReactJS, HTML5, CSS3. Backend làm việc tốt với Node.js hoặc Java Spring Boot. Quản lý cơ sở dữ liệu quan hệ và NoSQL. Biết container hóa ứng dụng với Docker."
+  },
+  {
+    "job_id": "JOB_0100",
+    "job_title": "AI Engineer (NLP & RAG)",
+    "company": "VNG Corporation",
+    "location": "Hà Nội",
+    "category": "AI / Data Science",
+    "experience_required": "Fresher / 1 năm kinh nghiệm",
+    "salary": "15 - 28 triệu VNĐ",
+    "technical_skills": [
+      "PyTorch",
+      "Python",
+      "FAISS",
+      "LLM",
+      "LangChain",
+      "Git",
+      "Machine Learning"
+    ],
+    "soft_skills": [
+      "Nghiên cứu tài liệu khoa học",
+      "Tư duy toán học"
+    ],
+    "requirements_text": "Nắm vững lý thuyết Machine Learning, Deep Learning và NLP. Kinh nghiệm sử dụng framework PyTorch hoặc TensorFlow. Đã từng thực hiện các bài toán về Transformer, Sentence Embeddings, RAG (Retrieval-Augmented Generation) với FAISS hoặc Vector Database. Thành thạo lập trình Python và thư viện Hugging Face."
+  },
+  {
+    "job_id": "JOB_0101",
+    "job_title": "Kỹ Sư Trí Tuệ Nhân Tạo (Generative AI)",
+    "company": "MoMo (M-Service)",
+    "location": "Đà Nẵng",
+    "category": "AI / Data Science",
+    "experience_required": "Fresher / 1 năm kinh nghiệm",
+    "salary": "15 - 28 triệu VNĐ",
+    "technical_skills": [
+      "Python",
+      "PyTorch",
+      "NLP",
+      "Machine Learning",
+      "Deep Learning",
+      "RAG",
+      "LLM",
+      "FAISS",
+      "LangChain",
+      "Git"
+    ],
+    "soft_skills": [
+      "Nghiên cứu tài liệu khoa học",
+      "Tư duy toán học"
+    ],
+    "requirements_text": "Nắm vững lý thuyết Machine Learning, Deep Learning và NLP. Kinh nghiệm sử dụng framework PyTorch hoặc TensorFlow. Đã từng thực hiện các bài toán về Transformer, Sentence Embeddings, RAG (Retrieval-Augmented Generation) với FAISS hoặc Vector Database. Thành thạo lập trình Python và thư viện Hugging Face."
+  },
+  {
+    "job_id": "JOB_0102",
+    "job_title": "Junior Machine Learning Engineer",
+    "company": "KMS Technology",
+    "location": "Hybrid (TP. HCM)",
+    "category": "AI / Data Science",
+    "experience_required": "Fresher / 1 năm kinh nghiệm",
+    "salary": "15 - 28 triệu VNĐ",
+    "technical_skills": [
+      "LangChain",
+      "Python",
+      "Machine Learning",
+      "Git",
+      "Deep Learning",
+      "LLM",
+      "RAG",
+      "FAISS",
+      "PyTorch",
+      "NLP"
+    ],
+    "soft_skills": [
+      "Nghiên cứu tài liệu khoa học",
+      "Tư duy toán học"
+    ],
+    "requirements_text": "Nắm vững lý thuyết Machine Learning, Deep Learning và NLP. Kinh nghiệm sử dụng framework PyTorch hoặc TensorFlow. Đã từng thực hiện các bài toán về Transformer, Sentence Embeddings, RAG (Retrieval-Augmented Generation) với FAISS hoặc Vector Database. Thành thạo lập trình Python và thư viện Hugging Face."
+  },
+  {
+    "job_id": "JOB_0103",
+    "job_title": "NLP / AI Research Engineer",
+    "company": "NAB Innovation Centre Vietnam",
+    "location": "TP. Hồ Chí Minh",
+    "category": "AI / Data Science",
+    "experience_required": "Fresher / 1 năm kinh nghiệm",
+    "salary": "15 - 28 triệu VNĐ",
+    "technical_skills": [
+      "LLM",
+      "Deep Learning",
+      "Python",
+      "LangChain",
+      "Git",
+      "RAG",
+      "NLP",
+      "Machine Learning",
+      "FAISS",
+      "PyTorch"
+    ],
+    "soft_skills": [
+      "Nghiên cứu tài liệu khoa học",
+      "Tư duy toán học"
+    ],
+    "requirements_text": "Nắm vững lý thuyết Machine Learning, Deep Learning và NLP. Kinh nghiệm sử dụng framework PyTorch hoặc TensorFlow. Đã từng thực hiện các bài toán về Transformer, Sentence Embeddings, RAG (Retrieval-Augmented Generation) với FAISS hoặc Vector Database. Thành thạo lập trình Python và thư viện Hugging Face."
+  },
+  {
+    "job_id": "JOB_0104",
+    "job_title": "AI Engineer (NLP & RAG)",
+    "company": "RikkeiSoft",
+    "location": "Hybrid (Hà Nội)",
+    "category": "AI / Data Science",
+    "experience_required": "Fresher / 1 năm kinh nghiệm",
+    "salary": "15 - 28 triệu VNĐ",
+    "technical_skills": [
+      "Python",
+      "PyTorch",
+      "NLP",
+      "Machine Learning",
+      "Deep Learning",
+      "RAG",
+      "LLM",
+      "FAISS",
+      "LangChain",
+      "Git"
+    ],
+    "soft_skills": [
+      "Nghiên cứu tài liệu khoa học",
+      "Tư duy toán học"
+    ],
+    "requirements_text": "Nắm vững lý thuyết Machine Learning, Deep Learning và NLP. Kinh nghiệm sử dụng framework PyTorch hoặc TensorFlow. Đã từng thực hiện các bài toán về Transformer, Sentence Embeddings, RAG (Retrieval-Augmented Generation) với FAISS hoặc Vector Database. Thành thạo lập trình Python và thư viện Hugging Face."
+  },
+  {
+    "job_id": "JOB_0105",
+    "job_title": "Kỹ Sư Trí Tuệ Nhân Tạo (Generative AI)",
+    "company": "VPBank Digital",
+    "location": "Hà Nội",
+    "category": "AI / Data Science",
+    "experience_required": "Fresher / 1 năm kinh nghiệm",
+    "salary": "15 - 28 triệu VNĐ",
+    "technical_skills": [
+      "NLP",
+      "Python",
+      "FAISS",
+      "Deep Learning",
+      "LangChain",
+      "Machine Learning",
+      "Git"
+    ],
+    "soft_skills": [
+      "Nghiên cứu tài liệu khoa học",
+      "Tư duy toán học"
+    ],
+    "requirements_text": "Nắm vững lý thuyết Machine Learning, Deep Learning và NLP. Kinh nghiệm sử dụng framework PyTorch hoặc TensorFlow. Đã từng thực hiện các bài toán về Transformer, Sentence Embeddings, RAG (Retrieval-Augmented Generation) với FAISS hoặc Vector Database. Thành thạo lập trình Python và thư viện Hugging Face."
+  },
+  {
+    "job_id": "JOB_0106",
+    "job_title": "Junior Machine Learning Engineer",
+    "company": "Viettel Solutions",
+    "location": "Đà Nẵng",
+    "category": "AI / Data Science",
+    "experience_required": "Fresher / 1 năm kinh nghiệm",
+    "salary": "15 - 28 triệu VNĐ",
+    "technical_skills": [
+      "Deep Learning",
+      "PyTorch",
+      "LLM",
+      "NLP"
+    ],
+    "soft_skills": [
+      "Nghiên cứu tài liệu khoa học",
+      "Tư duy toán học"
+    ],
+    "requirements_text": "Nắm vững lý thuyết Machine Learning, Deep Learning và NLP. Kinh nghiệm sử dụng framework PyTorch hoặc TensorFlow. Đã từng thực hiện các bài toán về Transformer, Sentence Embeddings, RAG (Retrieval-Augmented Generation) với FAISS hoặc Vector Database. Thành thạo lập trình Python và thư viện Hugging Face."
+  },
+  {
+    "job_id": "JOB_0107",
+    "job_title": "NLP / AI Research Engineer",
+    "company": "Zalo (VNG)",
+    "location": "Hybrid (TP. HCM)",
+    "category": "AI / Data Science",
+    "experience_required": "Fresher / 1 năm kinh nghiệm",
+    "salary": "15 - 28 triệu VNĐ",
+    "technical_skills": [
+      "NLP",
+      "FAISS",
+      "LangChain",
+      "LLM",
+      "Deep Learning",
+      "PyTorch",
+      "RAG"
+    ],
+    "soft_skills": [
+      "Nghiên cứu tài liệu khoa học",
+      "Tư duy toán học"
+    ],
+    "requirements_text": "Nắm vững lý thuyết Machine Learning, Deep Learning và NLP. Kinh nghiệm sử dụng framework PyTorch hoặc TensorFlow. Đã từng thực hiện các bài toán về Transformer, Sentence Embeddings, RAG (Retrieval-Augmented Generation) với FAISS hoặc Vector Database. Thành thạo lập trình Python và thư viện Hugging Face."
+  },
+  {
+    "job_id": "JOB_0108",
+    "job_title": "AI Engineer (NLP & RAG)",
+    "company": "NashTech Vietnam",
+    "location": "TP. Hồ Chí Minh",
+    "category": "AI / Data Science",
+    "experience_required": "Fresher / 1 năm kinh nghiệm",
+    "salary": "15 - 28 triệu VNĐ",
+    "technical_skills": [
+      "Deep Learning",
+      "Git",
+      "Python",
+      "FAISS",
+      "LLM",
+      "RAG",
+      "NLP",
+      "Machine Learning",
+      "PyTorch",
+      "LangChain"
+    ],
+    "soft_skills": [
+      "Nghiên cứu tài liệu khoa học",
+      "Tư duy toán học"
+    ],
+    "requirements_text": "Nắm vững lý thuyết Machine Learning, Deep Learning và NLP. Kinh nghiệm sử dụng framework PyTorch hoặc TensorFlow. Đã từng thực hiện các bài toán về Transformer, Sentence Embeddings, RAG (Retrieval-Augmented Generation) với FAISS hoặc Vector Database. Thành thạo lập trình Python và thư viện Hugging Face."
+  },
+  {
+    "job_id": "JOB_0109",
+    "job_title": "Data Engineer Fresher",
+    "company": "MoMo (M-Service)",
+    "location": "Hybrid (TP. HCM)",
+    "category": "AI / Data Science",
+    "experience_required": "0 - 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "PostgreSQL",
+      "Spark",
+      "Kafka",
+      "Power BI",
+      "Git"
+    ],
+    "soft_skills": [
+      "Phân tích số liệu",
+      "Trực quan hóa thông tin"
+    ],
+    "requirements_text": "Thành thạo viết câu lệnh SQL phức tạp trên các hệ quản trị cơ sở dữ liệu (PostgreSQL, MySQL, SQL Server). Sử dụng tốt Python cho xử lý và làm sạch dữ liệu (Pandas, NumPy). Có kiến thức về Data Warehouse, ETL pipeline. Biết sử dụng Power BI hoặc Tableau."
+  },
+  {
+    "job_id": "JOB_0110",
+    "job_title": "Kỹ Sư Dữ Liệu (Data Engineer)",
+    "company": "KMS Technology",
+    "location": "TP. Hồ Chí Minh",
+    "category": "AI / Data Science",
+    "experience_required": "0 - 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Python",
+      "Spark",
+      "PostgreSQL",
+      "Pandas"
+    ],
+    "soft_skills": [
+      "Phân tích số liệu",
+      "Trực quan hóa thông tin"
+    ],
+    "requirements_text": "Thành thạo viết câu lệnh SQL phức tạp trên các hệ quản trị cơ sở dữ liệu (PostgreSQL, MySQL, SQL Server). Sử dụng tốt Python cho xử lý và làm sạch dữ liệu (Pandas, NumPy). Có kiến thức về Data Warehouse, ETL pipeline. Biết sử dụng Power BI hoặc Tableau."
+  },
+  {
+    "job_id": "JOB_0111",
+    "job_title": "Data Analyst (SQL / Power BI)",
+    "company": "NAB Innovation Centre Vietnam",
+    "location": "Hybrid (Hà Nội)",
+    "category": "AI / Data Science",
+    "experience_required": "0 - 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Power BI",
+      "Git",
+      "Spark",
+      "Kafka",
+      "SQL"
+    ],
+    "soft_skills": [
+      "Phân tích số liệu",
+      "Trực quan hóa thông tin"
+    ],
+    "requirements_text": "Thành thạo viết câu lệnh SQL phức tạp trên các hệ quản trị cơ sở dữ liệu (PostgreSQL, MySQL, SQL Server). Sử dụng tốt Python cho xử lý và làm sạch dữ liệu (Pandas, NumPy). Có kiến thức về Data Warehouse, ETL pipeline. Biết sử dụng Power BI hoặc Tableau."
+  },
+  {
+    "job_id": "JOB_0112",
+    "job_title": "Junior BI / Data Specialist",
+    "company": "RikkeiSoft",
+    "location": "Hà Nội",
+    "category": "AI / Data Science",
+    "experience_required": "0 - 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Git",
+      "Kafka",
+      "Power BI",
+      "Pandas"
+    ],
+    "soft_skills": [
+      "Phân tích số liệu",
+      "Trực quan hóa thông tin"
+    ],
+    "requirements_text": "Thành thạo viết câu lệnh SQL phức tạp trên các hệ quản trị cơ sở dữ liệu (PostgreSQL, MySQL, SQL Server). Sử dụng tốt Python cho xử lý và làm sạch dữ liệu (Pandas, NumPy). Có kiến thức về Data Warehouse, ETL pipeline. Biết sử dụng Power BI hoặc Tableau."
+  },
+  {
+    "job_id": "JOB_0113",
+    "job_title": "Data Engineer Fresher",
+    "company": "VPBank Digital",
+    "location": "Đà Nẵng",
+    "category": "AI / Data Science",
+    "experience_required": "0 - 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "PostgreSQL",
+      "Spark",
+      "Kafka",
+      "Power BI",
+      "Git"
+    ],
+    "soft_skills": [
+      "Phân tích số liệu",
+      "Trực quan hóa thông tin"
+    ],
+    "requirements_text": "Thành thạo viết câu lệnh SQL phức tạp trên các hệ quản trị cơ sở dữ liệu (PostgreSQL, MySQL, SQL Server). Sử dụng tốt Python cho xử lý và làm sạch dữ liệu (Pandas, NumPy). Có kiến thức về Data Warehouse, ETL pipeline. Biết sử dụng Power BI hoặc Tableau."
+  },
+  {
+    "job_id": "JOB_0114",
+    "job_title": "Kỹ Sư Dữ Liệu (Data Engineer)",
+    "company": "Viettel Solutions",
+    "location": "Hybrid (TP. HCM)",
+    "category": "AI / Data Science",
+    "experience_required": "0 - 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "PostgreSQL",
+      "Spark",
+      "Kafka",
+      "Power BI",
+      "Git"
+    ],
+    "soft_skills": [
+      "Phân tích số liệu",
+      "Trực quan hóa thông tin"
+    ],
+    "requirements_text": "Thành thạo viết câu lệnh SQL phức tạp trên các hệ quản trị cơ sở dữ liệu (PostgreSQL, MySQL, SQL Server). Sử dụng tốt Python cho xử lý và làm sạch dữ liệu (Pandas, NumPy). Có kiến thức về Data Warehouse, ETL pipeline. Biết sử dụng Power BI hoặc Tableau."
+  },
+  {
+    "job_id": "JOB_0115",
+    "job_title": "Data Analyst (SQL / Power BI)",
+    "company": "Zalo (VNG)",
+    "location": "TP. Hồ Chí Minh",
+    "category": "AI / Data Science",
+    "experience_required": "0 - 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Python",
+      "PostgreSQL",
+      "Git",
+      "Spark"
+    ],
+    "soft_skills": [
+      "Phân tích số liệu",
+      "Trực quan hóa thông tin"
+    ],
+    "requirements_text": "Thành thạo viết câu lệnh SQL phức tạp trên các hệ quản trị cơ sở dữ liệu (PostgreSQL, MySQL, SQL Server). Sử dụng tốt Python cho xử lý và làm sạch dữ liệu (Pandas, NumPy). Có kiến thức về Data Warehouse, ETL pipeline. Biết sử dụng Power BI hoặc Tableau."
+  },
+  {
+    "job_id": "JOB_0116",
+    "job_title": "Junior BI / Data Specialist",
+    "company": "NashTech Vietnam",
+    "location": "Hybrid (Hà Nội)",
+    "category": "AI / Data Science",
+    "experience_required": "0 - 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Kafka",
+      "PostgreSQL",
+      "Power BI",
+      "Git",
+      "Pandas"
+    ],
+    "soft_skills": [
+      "Phân tích số liệu",
+      "Trực quan hóa thông tin"
+    ],
+    "requirements_text": "Thành thạo viết câu lệnh SQL phức tạp trên các hệ quản trị cơ sở dữ liệu (PostgreSQL, MySQL, SQL Server). Sử dụng tốt Python cho xử lý và làm sạch dữ liệu (Pandas, NumPy). Có kiến thức về Data Warehouse, ETL pipeline. Biết sử dụng Power BI hoặc Tableau."
+  },
+  {
+    "job_id": "JOB_0117",
+    "job_title": "Data Engineer Fresher",
+    "company": "LG Electronics R&D Vietnam",
+    "location": "Hà Nội",
+    "category": "AI / Data Science",
+    "experience_required": "0 - 1 năm",
+    "salary": "12 - 20 triệu VNĐ",
+    "technical_skills": [
+      "Power BI",
+      "SQL",
+      "PostgreSQL",
+      "Git"
+    ],
+    "soft_skills": [
+      "Phân tích số liệu",
+      "Trực quan hóa thông tin"
+    ],
+    "requirements_text": "Thành thạo viết câu lệnh SQL phức tạp trên các hệ quản trị cơ sở dữ liệu (PostgreSQL, MySQL, SQL Server). Sử dụng tốt Python cho xử lý và làm sạch dữ liệu (Pandas, NumPy). Có kiến thức về Data Warehouse, ETL pipeline. Biết sử dụng Power BI hoặc Tableau."
+  },
+  {
+    "job_id": "JOB_0118",
+    "job_title": "DevOps Engineer Fresher",
+    "company": "KMS Technology",
+    "location": "Hybrid (Hà Nội)",
+    "category": "DevOps & Cloud",
+    "experience_required": "0 - 2 năm",
+    "salary": "13 - 22 triệu VNĐ",
+    "technical_skills": [
+      "Linux",
+      "CI/CD",
+      "Python",
+      "Nginx",
+      "Docker"
+    ],
+    "soft_skills": [
+      "Cẩn trọng",
+      "Xử lý sự cố nhanh"
+    ],
+    "requirements_text": "Thành thạo hệ điều hành Linux (Ubuntu/CentOS). Nắm vững công nghệ Container với Docker và điều phối Kubernetes (K8s). Có kinh nghiệm xây dựng pipeline CI/CD với Jenkins, GitLab CI hoặc GitHub Actions. Hiểu biết về dịch vụ đám mây AWS hoặc GCP."
+  },
+  {
+    "job_id": "JOB_0119",
+    "job_title": "Kỹ Sư Cloud & DevOps",
+    "company": "NAB Innovation Centre Vietnam",
+    "location": "Hà Nội",
+    "category": "DevOps & Cloud",
+    "experience_required": "0 - 2 năm",
+    "salary": "13 - 22 triệu VNĐ",
+    "technical_skills": [
+      "Python",
+      "Linux",
+      "Git",
+      "Docker",
+      "Nginx",
+      "Kubernetes",
+      "CI/CD"
+    ],
+    "soft_skills": [
+      "Cẩn trọng",
+      "Xử lý sự cố nhanh"
+    ],
+    "requirements_text": "Thành thạo hệ điều hành Linux (Ubuntu/CentOS). Nắm vững công nghệ Container với Docker và điều phối Kubernetes (K8s). Có kinh nghiệm xây dựng pipeline CI/CD với Jenkins, GitLab CI hoặc GitHub Actions. Hiểu biết về dịch vụ đám mây AWS hoặc GCP."
+  },
+  {
+    "job_id": "JOB_0120",
+    "job_title": "Junior DevOps Specialist",
+    "company": "RikkeiSoft",
+    "location": "Đà Nẵng",
+    "category": "DevOps & Cloud",
+    "experience_required": "0 - 2 năm",
+    "salary": "13 - 22 triệu VNĐ",
+    "technical_skills": [
+      "Linux",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "AWS",
+      "Git",
+      "Python",
+      "Nginx"
+    ],
+    "soft_skills": [
+      "Cẩn trọng",
+      "Xử lý sự cố nhanh"
+    ],
+    "requirements_text": "Thành thạo hệ điều hành Linux (Ubuntu/CentOS). Nắm vững công nghệ Container với Docker và điều phối Kubernetes (K8s). Có kinh nghiệm xây dựng pipeline CI/CD với Jenkins, GitLab CI hoặc GitHub Actions. Hiểu biết về dịch vụ đám mây AWS hoặc GCP."
+  },
+  {
+    "job_id": "JOB_0121",
+    "job_title": "Cloud Infrastructure Engineer (AWS)",
+    "company": "VPBank Digital",
+    "location": "Hybrid (TP. HCM)",
+    "category": "DevOps & Cloud",
+    "experience_required": "0 - 2 năm",
+    "salary": "13 - 22 triệu VNĐ",
+    "technical_skills": [
+      "Linux",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "AWS",
+      "Git",
+      "Python",
+      "Nginx"
+    ],
+    "soft_skills": [
+      "Cẩn trọng",
+      "Xử lý sự cố nhanh"
+    ],
+    "requirements_text": "Thành thạo hệ điều hành Linux (Ubuntu/CentOS). Nắm vững công nghệ Container với Docker và điều phối Kubernetes (K8s). Có kinh nghiệm xây dựng pipeline CI/CD với Jenkins, GitLab CI hoặc GitHub Actions. Hiểu biết về dịch vụ đám mây AWS hoặc GCP."
+  },
+  {
+    "job_id": "JOB_0122",
+    "job_title": "DevOps Engineer Fresher",
+    "company": "Viettel Solutions",
+    "location": "TP. Hồ Chí Minh",
+    "category": "DevOps & Cloud",
+    "experience_required": "0 - 2 năm",
+    "salary": "13 - 22 triệu VNĐ",
+    "technical_skills": [
+      "Linux",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "AWS",
+      "Git",
+      "Python",
+      "Nginx"
+    ],
+    "soft_skills": [
+      "Cẩn trọng",
+      "Xử lý sự cố nhanh"
+    ],
+    "requirements_text": "Thành thạo hệ điều hành Linux (Ubuntu/CentOS). Nắm vững công nghệ Container với Docker và điều phối Kubernetes (K8s). Có kinh nghiệm xây dựng pipeline CI/CD với Jenkins, GitLab CI hoặc GitHub Actions. Hiểu biết về dịch vụ đám mây AWS hoặc GCP."
+  },
+  {
+    "job_id": "JOB_0123",
+    "job_title": "Kỹ Sư Cloud & DevOps",
+    "company": "Zalo (VNG)",
+    "location": "Hybrid (Hà Nội)",
+    "category": "DevOps & Cloud",
+    "experience_required": "0 - 2 năm",
+    "salary": "13 - 22 triệu VNĐ",
+    "technical_skills": [
+      "Linux",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "AWS",
+      "Git",
+      "Python",
+      "Nginx"
+    ],
+    "soft_skills": [
+      "Cẩn trọng",
+      "Xử lý sự cố nhanh"
+    ],
+    "requirements_text": "Thành thạo hệ điều hành Linux (Ubuntu/CentOS). Nắm vững công nghệ Container với Docker và điều phối Kubernetes (K8s). Có kinh nghiệm xây dựng pipeline CI/CD với Jenkins, GitLab CI hoặc GitHub Actions. Hiểu biết về dịch vụ đám mây AWS hoặc GCP."
+  },
+  {
+    "job_id": "JOB_0124",
+    "job_title": "Junior DevOps Specialist",
+    "company": "NashTech Vietnam",
+    "location": "Hà Nội",
+    "category": "DevOps & Cloud",
+    "experience_required": "0 - 2 năm",
+    "salary": "13 - 22 triệu VNĐ",
+    "technical_skills": [
+      "Kubernetes",
+      "Git",
+      "Nginx",
+      "CI/CD",
+      "Docker"
+    ],
+    "soft_skills": [
+      "Cẩn trọng",
+      "Xử lý sự cố nhanh"
+    ],
+    "requirements_text": "Thành thạo hệ điều hành Linux (Ubuntu/CentOS). Nắm vững công nghệ Container với Docker và điều phối Kubernetes (K8s). Có kinh nghiệm xây dựng pipeline CI/CD với Jenkins, GitLab CI hoặc GitHub Actions. Hiểu biết về dịch vụ đám mây AWS hoặc GCP."
+  },
+  {
+    "job_id": "JOB_0125",
+    "job_title": "Cloud Infrastructure Engineer (AWS)",
+    "company": "LG Electronics R&D Vietnam",
+    "location": "Đà Nẵng",
+    "category": "DevOps & Cloud",
+    "experience_required": "0 - 2 năm",
+    "salary": "13 - 22 triệu VNĐ",
+    "technical_skills": [
+      "Linux",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "AWS",
+      "Git",
+      "Python",
+      "Nginx"
+    ],
+    "soft_skills": [
+      "Cẩn trọng",
+      "Xử lý sự cố nhanh"
+    ],
+    "requirements_text": "Thành thạo hệ điều hành Linux (Ubuntu/CentOS). Nắm vững công nghệ Container với Docker và điều phối Kubernetes (K8s). Có kinh nghiệm xây dựng pipeline CI/CD với Jenkins, GitLab CI hoặc GitHub Actions. Hiểu biết về dịch vụ đám mây AWS hoặc GCP."
+  },
+  {
+    "job_id": "JOB_0126",
+    "job_title": "DevOps Engineer Fresher",
+    "company": "Suntech Vietnam",
+    "location": "Hybrid (TP. HCM)",
+    "category": "DevOps & Cloud",
+    "experience_required": "0 - 2 năm",
+    "salary": "13 - 22 triệu VNĐ",
+    "technical_skills": [
+      "Linux",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "AWS",
+      "Git",
+      "Python",
+      "Nginx"
+    ],
+    "soft_skills": [
+      "Cẩn trọng",
+      "Xử lý sự cố nhanh"
+    ],
+    "requirements_text": "Thành thạo hệ điều hành Linux (Ubuntu/CentOS). Nắm vững công nghệ Container với Docker và điều phối Kubernetes (K8s). Có kinh nghiệm xây dựng pipeline CI/CD với Jenkins, GitLab CI hoặc GitHub Actions. Hiểu biết về dịch vụ đám mây AWS hoặc GCP."
+  },
+  {
+    "job_id": "JOB_0127",
+    "job_title": "QA / Tester Fresher",
+    "company": "NAB Innovation Centre Vietnam",
+    "location": "Đà Nẵng",
+    "category": "Software Testing / QA",
+    "experience_required": "0 - 1 năm",
+    "salary": "9 - 16 triệu VNĐ",
+    "technical_skills": [
+      "Git",
+      "Postman",
+      "Automation Testing",
+      "Selenium"
+    ],
+    "soft_skills": [
+      "Tỉ mỉ",
+      "Kỹ năng tìm lỗi và báo cáo"
+    ],
+    "requirements_text": "Nắm vững quy trình kiểm thử phần mềm (STLC), viết Test Case, Test Scenario và Test Plan. Có khả năng test API bằng Postman. Viết truy vấn SQL cơ bản để kiểm tra dữ liệu. Có kiến thức về kiểm thử tự động với Selenium hoặc Cypress là lợi thế lớn."
+  },
+  {
+    "job_id": "JOB_0128",
+    "job_title": "Kỹ Sư Kiểm Thử Phần Mềm (Automation Tester)",
+    "company": "RikkeiSoft",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Software Testing / QA",
+    "experience_required": "0 - 1 năm",
+    "salary": "9 - 16 triệu VNĐ",
+    "technical_skills": [
+      "Manual Testing",
+      "Automation Testing",
+      "Selenium",
+      "Postman",
+      "SQL",
+      "Git",
+      "Jira"
+    ],
+    "soft_skills": [
+      "Tỉ mỉ",
+      "Kỹ năng tìm lỗi và báo cáo"
+    ],
+    "requirements_text": "Nắm vững quy trình kiểm thử phần mềm (STLC), viết Test Case, Test Scenario và Test Plan. Có khả năng test API bằng Postman. Viết truy vấn SQL cơ bản để kiểm tra dữ liệu. Có kiến thức về kiểm thử tự động với Selenium hoặc Cypress là lợi thế lớn."
+  },
+  {
+    "job_id": "JOB_0129",
+    "job_title": "Junior QA Engineer (Manual & Auto)",
+    "company": "VPBank Digital",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Software Testing / QA",
+    "experience_required": "0 - 1 năm",
+    "salary": "9 - 16 triệu VNĐ",
+    "technical_skills": [
+      "Manual Testing",
+      "Selenium",
+      "SQL",
+      "Git"
+    ],
+    "soft_skills": [
+      "Tỉ mỉ",
+      "Kỹ năng tìm lỗi và báo cáo"
+    ],
+    "requirements_text": "Nắm vững quy trình kiểm thử phần mềm (STLC), viết Test Case, Test Scenario và Test Plan. Có khả năng test API bằng Postman. Viết truy vấn SQL cơ bản để kiểm tra dữ liệu. Có kiến thức về kiểm thử tự động với Selenium hoặc Cypress là lợi thế lớn."
+  },
+  {
+    "job_id": "JOB_0130",
+    "job_title": "QA / Tester Fresher",
+    "company": "Viettel Solutions",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Software Testing / QA",
+    "experience_required": "0 - 1 năm",
+    "salary": "9 - 16 triệu VNĐ",
+    "technical_skills": [
+      "Git",
+      "SQL",
+      "Manual Testing",
+      "Jira",
+      "Automation Testing",
+      "Postman",
+      "Selenium"
+    ],
+    "soft_skills": [
+      "Tỉ mỉ",
+      "Kỹ năng tìm lỗi và báo cáo"
+    ],
+    "requirements_text": "Nắm vững quy trình kiểm thử phần mềm (STLC), viết Test Case, Test Scenario và Test Plan. Có khả năng test API bằng Postman. Viết truy vấn SQL cơ bản để kiểm tra dữ liệu. Có kiến thức về kiểm thử tự động với Selenium hoặc Cypress là lợi thế lớn."
+  },
+  {
+    "job_id": "JOB_0131",
+    "job_title": "Kỹ Sư Kiểm Thử Phần Mềm (Automation Tester)",
+    "company": "Zalo (VNG)",
+    "location": "Hà Nội",
+    "category": "Software Testing / QA",
+    "experience_required": "0 - 1 năm",
+    "salary": "9 - 16 triệu VNĐ",
+    "technical_skills": [
+      "Git",
+      "Postman",
+      "Manual Testing",
+      "Jira",
+      "SQL",
+      "Selenium",
+      "Automation Testing"
+    ],
+    "soft_skills": [
+      "Tỉ mỉ",
+      "Kỹ năng tìm lỗi và báo cáo"
+    ],
+    "requirements_text": "Nắm vững quy trình kiểm thử phần mềm (STLC), viết Test Case, Test Scenario và Test Plan. Có khả năng test API bằng Postman. Viết truy vấn SQL cơ bản để kiểm tra dữ liệu. Có kiến thức về kiểm thử tự động với Selenium hoặc Cypress là lợi thế lớn."
+  },
+  {
+    "job_id": "JOB_0132",
+    "job_title": "Junior QA Engineer (Manual & Auto)",
+    "company": "NashTech Vietnam",
+    "location": "Đà Nẵng",
+    "category": "Software Testing / QA",
+    "experience_required": "0 - 1 năm",
+    "salary": "9 - 16 triệu VNĐ",
+    "technical_skills": [
+      "Manual Testing",
+      "Automation Testing",
+      "Selenium",
+      "Postman",
+      "SQL",
+      "Git",
+      "Jira"
+    ],
+    "soft_skills": [
+      "Tỉ mỉ",
+      "Kỹ năng tìm lỗi và báo cáo"
+    ],
+    "requirements_text": "Nắm vững quy trình kiểm thử phần mềm (STLC), viết Test Case, Test Scenario và Test Plan. Có khả năng test API bằng Postman. Viết truy vấn SQL cơ bản để kiểm tra dữ liệu. Có kiến thức về kiểm thử tự động với Selenium hoặc Cypress là lợi thế lớn."
+  },
+  {
+    "job_id": "JOB_0133",
+    "job_title": "QA / Tester Fresher",
+    "company": "LG Electronics R&D Vietnam",
+    "location": "Hybrid (TP. HCM)",
+    "category": "Software Testing / QA",
+    "experience_required": "0 - 1 năm",
+    "salary": "9 - 16 triệu VNĐ",
+    "technical_skills": [
+      "Manual Testing",
+      "Git",
+      "Postman",
+      "Jira",
+      "Automation Testing"
+    ],
+    "soft_skills": [
+      "Tỉ mỉ",
+      "Kỹ năng tìm lỗi và báo cáo"
+    ],
+    "requirements_text": "Nắm vững quy trình kiểm thử phần mềm (STLC), viết Test Case, Test Scenario và Test Plan. Có khả năng test API bằng Postman. Viết truy vấn SQL cơ bản để kiểm tra dữ liệu. Có kiến thức về kiểm thử tự động với Selenium hoặc Cypress là lợi thế lớn."
+  },
+  {
+    "job_id": "JOB_0134",
+    "job_title": "Kỹ Sư Kiểm Thử Phần Mềm (Automation Tester)",
+    "company": "Suntech Vietnam",
+    "location": "TP. Hồ Chí Minh",
+    "category": "Software Testing / QA",
+    "experience_required": "0 - 1 năm",
+    "salary": "9 - 16 triệu VNĐ",
+    "technical_skills": [
+      "Manual Testing",
+      "Automation Testing",
+      "Selenium",
+      "Postman",
+      "SQL",
+      "Git",
+      "Jira"
+    ],
+    "soft_skills": [
+      "Tỉ mỉ",
+      "Kỹ năng tìm lỗi và báo cáo"
+    ],
+    "requirements_text": "Nắm vững quy trình kiểm thử phần mềm (STLC), viết Test Case, Test Scenario và Test Plan. Có khả năng test API bằng Postman. Viết truy vấn SQL cơ bản để kiểm tra dữ liệu. Có kiến thức về kiểm thử tự động với Selenium hoặc Cypress là lợi thế lớn."
+  },
+  {
+    "job_id": "JOB_0135",
+    "job_title": "Junior QA Engineer (Manual & Auto)",
+    "company": "MISA JSC",
+    "location": "Hybrid (Hà Nội)",
+    "category": "Software Testing / QA",
+    "experience_required": "0 - 1 năm",
+    "salary": "9 - 16 triệu VNĐ",
+    "technical_skills": [
+      "Postman",
+      "Git",
+      "SQL",
+      "Manual Testing",
+      "Jira",
+      "Selenium",
+      "Automation Testing"
+    ],
+    "soft_skills": [
+      "Tỉ mỉ",
+      "Kỹ năng tìm lỗi và báo cáo"
+    ],
+    "requirements_text": "Nắm vững quy trình kiểm thử phần mềm (STLC), viết Test Case, Test Scenario và Test Plan. Có khả năng test API bằng Postman. Viết truy vấn SQL cơ bản để kiểm tra dữ liệu. Có kiến thức về kiểm thử tự động với Selenium hoặc Cypress là lợi thế lớn."
+  }
+]

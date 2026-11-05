@@ -36,7 +36,7 @@ TRẢ LỜI:
     * it_skills.csv            : d24f266a0cb51e2d32f4c6c8028527077c3d80f24270c7cc2ce973f3e03c2732
     * sample_jobs.json          : 08aff83840c6d74aa5a49d3d5b5ba831ff49b7e3973d292975bd0cc5249bda27
     * concept_taxonomy.json     : bf307a0edcf8991e2720251874561947306a116d17a512eb0760f7a35c73c1cc
-    * paraphrase_benchmark.json : 841f503ab76805c9f99b73c01c6a83a77ee411c5e594ac9ad2569953cb5c6e8d
+    * paraphrase_benchmark.json : 9aa6fa6e656157cbb886604953892ee1a8d42d0d4d87cbd1c76c04959414ba25
   + Mỗi lần khởi động, hệ thống tự động tính mã băm SHA-256 và in ra console hoặc trả về qua API /api/stats. Bất kỳ ai cũng có thể dùng lệnh Get-FileHash của Windows để kiểm chứng tính toàn vẹn của dữ liệu này.
 
 5. CÂU HỎI: "Hit@3 khác gì Precision@3 trong bài toán đối sánh việc làm? Tại sao lại dùng Hit@3?"

@@ -99,7 +99,7 @@ Mã băm SHA-256 của các tệp dữ liệu được công bố minh bạch nh
 | **Từ điển kỹ năng** | `dataset/it_skills.csv` | `d24f266a0cb51e2d32f4c6c8028527077c3d80f24270c7cc2ce973f3e03c2732` |
 | **Tập tin tuyển dụng VietJobs** | `dataset/sample_jobs.json` | `08aff83840c6d74aa5a49d3d5b5ba831ff49b7e3973d292975bd0cc5249bda27` |
 | **Phả hệ tri thức (Taxonomy)** | `dataset/concept_taxonomy.json` | `bf307a0edcf8991e2720251874561947306a116d17a512eb0760f7a35c73c1cc` |
-| **Bộ kiểm thử diễn giải** | `dataset/paraphrase_benchmark.json` | `841f503ab76805c9f99b73c01c6a83a77ee411c5e594ac9ad2569953cb5c6e8d` |
+| **Bộ kiểm thử diễn giải** | `dataset/paraphrase_benchmark.json` | `9aa6fa6e656157cbb886604953892ee1a8d42d0d4d87cbd1c76c04959414ba25` |
 
 ---
 

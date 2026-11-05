@@ -147,8 +147,6 @@ pip install -r requirements.txt
 ```
 CareerLens-AI/
 ├── 65CNTT_NguyenThiTuyetNhung_CDCNTT_LaBanKyNang.docx  # Báo cáo chính thức (Chữ đen 100% chuẩn Thủy Lợi)
-├── 02_BAO_CAO_LA_BAN_KY_NANG.docx                     # Bản sao lưu báo cáo theo thứ tự thư mục
-├── 00_BI_KIP_VAN_DAP_HOI_DONG.txt                    # Bộ câu hỏi & câu trả lời vấn đáp Hội đồng
 ├── 01_CHAY_DEMO_LA_BAN_KY_NANG.bat                   # Script khởi động giao diện & server API
 ├── 03_CHAY_THUC_NGHIEM_DANH_GIA.bat                  # Script chạy thực nghiệm đối soát khoa học
 ├── evaluate.py                                        # Script thực nghiệm đối soát Bảng 2, 3, 4

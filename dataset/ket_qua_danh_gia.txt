@@ -8,7 +8,7 @@ Module AI Core được nạp chính xác từ: D:\ChuyenDeCNTT\ai_service\core\
    -> D:\ChuyenDeCNTT\ai_service\dataset\concept_taxonomy.json (SHA-256: bf307a0edcf8991e2720251874561947306a116d17a512eb0760f7a35c73c1cc)
 Tổng số tin tuyển dụng thực tế (VietJobs): 135
 Tổng số kỹ năng trong từ điển: 114
-Môi trường thực nghiệm: Python 3.12.3 on Windows (Intel64 Family 6 Model 141 Stepping 1, GenuineIntel)
+Môi trường thực nghiệm: CPU: 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz, 16 GB RAM, Windows 11 64-bit, Python 3.12.3
 
 --- ĐỐI SOÁT TÍNH TOÀN VẸN DỮ LIỆU THỰC NGHIỆM (DATASET SHA-256) ---
  • it_skills.csv             : KHỚP [OK] | SHA-256: d24f266a0cb51e2d...e03c2732
@@ -70,7 +70,6 @@ Ghi chú: TF-IDF nhận trực tiếp toàn văn CV gốc, độc lập hoàn to
  • [Chế độ Tolerant (Dung thứ Fullstack)]:
    - Agent-RAG : Precision@1 = 100.0% | Precision@3 = 100.0% | Precision@5 = 100.0%
    - TF-IDF    : Precision@1 = 100.0% | Precision@3 = 100.0% | Precision@5 = 100.0%
- • Nhận xét: Do cả 4 CV đều có từ khóa công nghệ rõ ràng, cả hai hệ thống đều đạt độ chính xác 100% ở cả 2 chế độ.
 
 =====================================================================================
 THỰC NGHIỆM 3 (BẢNG 4 TRONG BÁO CÁO):
@@ -114,20 +113,18 @@ Phương pháp: Đối chiếu song song cả 2 cách chấm: Bản 1 (Nghiêm n
    • Thứ hạng phát hiện đầu tiên của TF-IDF    : [4, None, 1, 1, None, 1]
    • Hệ Thống Agent-RAG : Hit@1 = 83.3% (5/6) | Hit@3 = 100.0% (6/6) | MRR = 0.889
    • Baseline (TF-IDF)  : Hit@1 = 50.0% (3/6) | Hit@3 = 50.0% (3/6) | MRR = 0.542
-   • Chênh lệch (Agent-RAG vs TF-IDF) : Hit@1 (+33.3%), Hit@3 (+50.0%), MRR (+0.347)
+   • Chênh lệch (Agent-RAG - TF-IDF) : Hit@1 (+33.3 điểm phần trăm), Hit@3 (+50.0 điểm phần trăm), MRR (+0.347)
 
 2. BẢN 2: ĐÁNH GIÁ DUNG THỨ LIÊN NGÀNH (TOLERANT MULTI-CATEGORY MATCHING):
    • Thứ hạng phát hiện đầu tiên của Agent-RAG : [3, 1, 1, 1, 1, 1]
    • Thứ hạng phát hiện đầu tiên của TF-IDF    : [1, None, 1, 1, None, 1]
    • Hệ Thống Agent-RAG : Hit@1 = 83.3% (5/6) | Hit@3 = 100.0% (6/6) | MRR = 0.889
    • Baseline (TF-IDF)  : Hit@1 = 66.7% (4/6) | Hit@3 = 66.7% (4/6) | MRR = 0.667
-   • Chênh lệch (Agent-RAG vs TF-IDF) : Hit@1 (+16.7%), Hit@3 (+33.3%), MRR (+0.222)
+   • Chênh lệch (Agent-RAG - TF-IDF) : Hit@1 (+16.7 điểm phần trăm), Hit@3 (+33.3 điểm phần trăm), MRR (+0.222)
 
-• Phân tích khoa học về cơ chế đánh giá:
-  - Dưới chế độ nghiêm ngặt (Bản 1), TF-IDF trả về việc làm Fullstack cho CV 1 ở vị trí #1, nhưng do nhãn chỉ chấp nhận Backend nên bị tính trượt và chỉ chạm Backend ở #4 -> TF-IDF tụt xuống Hit@1 = 50.0% và Hit@3 = 50.0%.
-  - Khi bổ sung danh mục dung thứ Fullstack (Bản 2), TF-IDF được công nhận trúng đích CV 1 ngay tại #1 -> Tăng lên Hit@1 = 66.7% và Hit@3 = 66.7%.
-  - Trong khi đó, Agent-RAG duy trì ổn định Hit@1 = 83.3%, Hit@3 = 100.0%, MRR = 0.889 ở CẢ HAI BẢN.
-  => Điều này chứng minh minh bạch: Cơ chế dung thứ thực chất đem lại lợi thế cho Baseline TF-IDF chứ hoàn toàn không nhằm 'nới lỏng' để tạo ưu thế nhân tạo cho Agent-RAG.
+• Đối chiếu kết quả giữa 2 kịch bản đánh giá:
+  - Nghiêm ngặt: TF-IDF Hit@1=50.0% Hit@3=50.0% MRR=0.542 | Agent-RAG Hit@1=83.3% Hit@3=100.0% MRR=0.889
+  - Dung thứ   : TF-IDF Hit@1=66.7% Hit@3=66.7% MRR=0.667 | Agent-RAG Hit@1=83.3% Hit@3=100.0% MRR=0.889
 
 =====================================================================================
 THỰC NGHIỆM 4: ĐO LƯỜNG ĐỘ TRỄ THỰC THI (PROFILING TRÊN CPU TIÊU CHUẨN)
@@ -137,17 +134,17 @@ Quy trình: 5 lần warm-up khởi động đồ thị mô hình + 50 lần đo 
 Đang đo đạc 50 lần chạy độc lập toàn chuỗi (End-to-End Pipeline)...
 
 --- THỜI GIAN THỰC THI CHI TIẾT TỪNG TÁC TỬ (50 LẦN LẶP) ---
- 1. Agent 1: CV Profiler (Regex & Domain Scoring)    : 1.85 ± 0.46 ms
- 2. Agent 2: Dense Encode (Transformer 384D)        : 48.64 ± 12.35 ms
- 3. Agent 2: FAISS Index Search (135 vectors)       : 0.107 ± 0.040 ms
- 4. Agent 3: Skill Gap Analysis (1 job)             : 2.942 ± 0.528 ms
- 5. Agent 4: Fact-Grounded Synthesis (Rule-Based)   : 0.179 ± 0.068 ms
+ 1. Agent 1: CV Profiler (Regex & Domain Scoring)    : 1.86 ± 0.39 ms
+ 2. Agent 2: Dense Encode (Transformer 384D)        : 48.17 ± 4.97 ms
+ 3. Agent 2: FAISS Index Search (135 vectors)       : 0.119 ± 0.045 ms
+ 4. Agent 3: Skill Gap Analysis (20 jobs)           : ≈ 59.9 ms (2.99 ms/job × 20 jobs)
+ 5. Agent 4: Fact-Grounded Synthesis (Rule-Based)   : 0.183 ± 0.063 ms
 
 --- ĐỘ TRỄ TOÀN CHUỖI THỰC TẾ (END-TO-END PIPELINE LATENCY) ---
- • Cấu hình đo đạc              : CPU Intel64 Family 6 Model 141 Stepping 1, GenuineIntel, Python 3.12.3 on Windows
- • Thời gian trung bình (Mean)   : 106.8 ± 9.5 ms
- • Trung vị (Median / p50)        : 106.5 ms
- • Phân vị 95 (p95)               : 121.8 ms
- • Khoảng biến thiên (Min — Max)  : [88.1 ms — 127.2 ms]
- • Nhận xét hiệu năng             : Thời gian xử lý toàn chuỗi 4 tác tử dao động trung bình 106.8 ms, trong đó bước mã hóa vector ngữ nghĩa (Agent 2 Dense Encode) chiếm phần lớn thời gian (48.6 ms).
+ • Cấu hình đo đạc              : CPU: 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz, 16 GB RAM, Windows 11 64-bit, Python 3.12.3
+ • Thời gian trung bình (Mean)   : 104.4 ± 11.0 ms
+ • Trung vị (Median / p50)        : 102.5 ms
+ • Phân vị 95 (p95)               : 118.6 ms
+ • Khoảng biến thiên (Min — Max)  : [83.8 ms — 141.7 ms]
+ • Cơ cấu thời gian ước tính      : Dense Encode: 48.2 ms | Skill-Gap (20 jobs): ≈ 59.9 ms | Khác: ≈ 0.0 ms
 =====================================================================================

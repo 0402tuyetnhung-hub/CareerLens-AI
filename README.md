@@ -73,27 +73,28 @@ Khi ứng viên mô tả năng lực bằng tiếng Việt tự nhiên mà **kh�
 
 | Kịch bản đối soát | Baseline Từ khóa (TF-IDF) | Hệ Thống La Bàn Kỹ Năng (Agent-RAG) | Nhận xét đối soát khoa học |
 | :--- | :---: | :---: | :--- |
-| **Bản 1: Đơn nhãn nghiêm ngặt (Strict)** | Hit@1 = 50.0% (3/6)<br>Hit@3 = 50.0% (3/6)<br>MRR = 0.542 | **Hit@1 = 83.3% (5/6)**<br>**Hit@3 = 100.0% (6/6)**<br>**MRR = 0.889** | Agent-RAG vượt trội (+33.3% Hit@1, +50.0% Hit@3, +0.347 MRR); TF-IDF trượt 3 CV (CV 1 xuống #4, CV 2 và 5 trượt khỏi Top 5) |
+| **Bản 1: Đơn nhãn nghiêm ngặt (Strict)** | Hit@1 = 50.0% (3/6)<br>Hit@3 = 50.0% (3/6)<br>MRR = 0.542 | **Hit@1 = 83.3% (5/6)**<br>**Hit@3 = 100.0% (6/6)**<br>**MRR = 0.889** | Agent-RAG cao hơn (+33.3 điểm phần trăm Hit@1, +50.0 điểm phần trăm Hit@3, +0.347 MRR); TF-IDF trượt 3 CV (CV 1 xuống #4, CV 2 và 5 trượt khỏi Top 5) |
 | **Bản 2: Dung thứ liên ngành (Tolerant)** | Hit@1 = 66.7% (4/6)<br>Hit@3 = 66.7% (4/6)<br>MRR = 0.667 | **Hit@1 = 83.3% (5/6)**<br>**Hit@3 = 100.0% (6/6)**<br>**MRR = 0.889** | Dung thứ Fullstack cho CV 1 giúp TF-IDF tăng từ 50% lên 66.7%; Agent-RAG giữ vững 83.3% Hit@1 và 100% Hit@3 |
 
-* **Minh bạch cơ chế đánh giá:** Việc bổ sung dung thứ liên ngành thực chất giúp tăng điểm cho Baseline TF-IDF chứ hoàn toàn không nhằm tạo lợi thế nhân tạo cho Agent-RAG (Agent-RAG giữ nguyên 83.3% Hit@1 và 100% Hit@3 ở cả hai bản).
+* **Đối chiếu hai kịch bản:** Khi áp dụng cơ chế dung thứ liên ngành (Bản 2), chỉ số của Baseline TF-IDF tăng từ 50.0% lên Hit@1 = 66.7% và Hit@3 = 66.7% (MRR tăng từ 0.542 lên 0.667), trong khi kết quả của Agent-RAG không thay đổi (Hit@1 = 83.3%, Hit@3 = 100.0%, MRR = 0.889).
 * **Phân tích lỗi chi tiết:**
   * TF-IDF trượt hoàn toàn CV 2 (Giao diện web -> Data Engineer) và CV 5 (Đường ống dữ liệu -> Junior Fullstack) khỏi Top 5 ở cả hai bản.
   * Agent-RAG trượt Top 1 tại CV 1 (Dịch vụ máy chủ -> Cloud Infrastructure Engineer do khoảng cách ngữ nghĩa gần giữa ảo hóa hạ tầng và Cloud), nhưng xuất hiện chính xác ở vị trí thứ 3 (Hit@3 = 100.0%).
 
 ### 4. Đo lường hiệu năng thực thi (Profiling trên CPU tiêu chuẩn)
-* **Cấu hình phần cứng:** CPU Intel64 Family 6 Model 141 (x86_64), Python 3.12 trên Windows.
+* **Cấu hình phần cứng:** CPU 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz, 16 GB RAM, Windows 11 (64-bit), Python 3.12.
 * **Độ trễ toàn chuỗi (End-to-End Pipeline - 50 lần lặp độc lập sau 5 lần warm-up):**
-  * Thời gian trung bình (Mean): **106.8 ± 9.5 ms**
-  * Trung vị (Median / p50): **106.5 ms**
-  * Phân vị 95 (p95): **121.8 ms**
-  * Khoảng biến thiên (Min — Max): **[88.1 ms — 127.2 ms]**
+  * Thời gian trung bình (Mean): **104.4 ± 11.0 ms**
+  * Trung vị (Median / p50): **102.5 ms**
+  * Phân vị 95 (p95): **118.6 ms**
+  * Khoảng biến thiên (Min — Max): **[83.8 ms — 141.7 ms]**
 * **Chi tiết từng tác tử AI chuyên trách:**
-  * Agent 1 (CV Profiler - Regex & Domain Scoring): **1.85 ± 0.46 ms**
-  * Agent 2 (Job Matcher - Dense Transformer 384D): **48.64 ± 12.35 ms** (bước tốn thời gian nhất)
-  * Agent 2 (FAISS IndexFlatIP Search trên 135 vector): **0.107 ± 0.040 ms**
-  * Agent 3 (Skill Gap Assessor & Re-ranking Top 5): **2.942 ± 0.528 ms**
-  * Agent 4 (Fact-Grounded Rule-Based Synthesis): **0.179 ± 0.068 ms** (< 1ms)
+  * Agent 1 (CV Profiler - Regex & Domain Scoring): **1.86 ± 0.39 ms**
+  * Agent 2 (Job Matcher - Dense Transformer 384D): **48.17 ± 4.97 ms**
+  * Agent 2 (FAISS IndexFlatIP Search trên 135 vector): **0.119 ± 0.045 ms**
+  * Agent 3 (Skill Gap Assessor): **2.99 ms/job**, tổng thời gian đánh giá 20 việc làm tiềm năng là **≈ 59.9 ms**
+  * Agent 4 (Fact-Grounded Rule-Based Synthesis): **0.183 ± 0.063 ms** (< 1ms)
+* **Cơ cấu thời gian:** Dense Encode (~48.2 ms) + Skill-Gap ma trận 20 jobs (~59.9 ms) chiếm tỷ trọng chính toàn chuỗi.
 
 ---
 
